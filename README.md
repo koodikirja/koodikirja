@@ -1,3 +1,7 @@
+## TODO
+
+- Tsekkaa syntax highlight http://clarkdave.net/2013/03/syntax-highlighting-in-nanoc/
+
 ## Start the file server
 
     nanoc view

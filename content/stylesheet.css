@@ -42,9 +42,9 @@ pre {
 }
 
 #share {
-  top: 46px;
-  float: left;
-  margin-top: 44px;
+  top: 274px;
+  left: 9px;
+  position: fixed;
   width: 80px;
 }
 

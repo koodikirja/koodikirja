@@ -1,0 +1,222 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Koodikirja - Luku 1</title>
+    <link rel="stylesheet" href="/style.css">
+    <meta name="generator" content="nanoc 3.6.7">
+  </head>
+
+
+  <body class="clearfix">
+    <div id="backdrop"></div>
+    <div id="topshadow"></div>
+    <div id="sidebar">
+      <h2>Koodikirja</h2>
+      <ul>
+        <li><a href=".">1. Luku</a></li>
+        <li><a href=".">2. Luku</a></li>
+      </ul>
+      <h2>Linkkejä</h2>
+      <ul>
+        <li><a href="http://koodikoulu.fi">Koodikoulu</a></li>
+        <li><a href="http://turtle-roy.herokuapp.com">Turtle Roy</a></li>
+      </ul>
+    </div>
+    <div id="main">
+      <h1 id="koodikirja">Koodikirja</h1>
+
+<h2 id="johdanto">Johdanto</h2>
+
+<p>Koodausta oppii vain koodaamalla. Joka luvussa koodataan.</p>
+
+<h2 id="luku-1---tietokone-ja-kilpikonna">Luku 1 - Tietokone ja kilpikonna</h2>
+
+<p>Mikä on tietokone? Mitä se tekee?</p>
+
+<p>Tietokone ei ole pelkkä viihteen kuluttamiseen suunniteltu laite. TODO</p>
+
+<p>Pohjimmiltaan tietokone on nöyrä palvelija, joka suorittaa sille annetut käskyt järjestyksessä ja uskomattoman nopeasti. Esimerkiksi selaimesi osaa laskea miljoonaan alle sekunnissa.</p>
+
+<p>Mutta tärkeintä on, että se tottelee käskyjä.</p>
+
+<h3 id="konna-liikkeelle">1.1 Konna liikkeelle</h3>
+
+<p>Kokeillaanko? Tässä luvussa leikimme Turtle Roy -ohjelmalla. TODO linkki kuvaus kursorin esittely..</p>
+
+<pre><code>fd 100
+</code></pre>
+
+<p>Kun painat Enter-nappia, kilpikonna Roy suorittaa antamasi käskyn. Uskallatko painaa?  Paina vaan!</p>
+
+<p>Hyvä! Liikkuiko konna? Muistithan välilyönnin! Jos meni mönkään, niin ei hätää! Tietokone ilmoittaa virheestä punaisella tekstillä. Yritä uudelleen.</p>
+
+<p>Joko onnistuit?</p>
+
+<p>Onneksi olkoon! Siinä oli ensimmäinen tietokoneohjelmasi, joka teki yhden asian. Kilpikonna liikkui 100 askelta eteenpäin ja piirsi viivan mennessään. Kilpikonnan askeleet ovat hyvin lyhyitä ja niitä sanotaan myös pikseleiksi. Mitä muuta kilpikonna Roy osaa tehdä? Kokeilepa tätä.</p>
+
+<pre><code>lt 90
+</code></pre>
+
+<p>Ja kas, kilpikonna kääntyi vasemmalle. Vai kääntyikö? Muistithan painaa taas Enteriä.  Ja vielä</p>
+
+<pre><code>rt 90
+</code></pre>
+
+<p>Nyt konna kääntyi oikealle. Näillä kolmella käskyllä pääset jo pitkälle. Lisäksi on hyvä osata palauttaa konna keskelle paperia ja tyhjentää paperi. Se käy näin.</p>
+
+<pre><code>clear
+</code></pre>
+
+<p>TODO: kaavio suunnista
+TODO: taulukko lyhenteistä ja englanninkielisistä sanoista</p>
+
+<p>Nyt voit kokeilla ohjailla konnaa ympäriinsä. Karkasiko konna ruudun ulkopuolelle? Ei hätää - <code>clear</code>-komennolla pääset alkuun. Jos haluat palauttaa konnan keskelle pyyhkimättä paperia tyhjäksi, voit kokeilla myös <code>home</code> -komentoa</p>
+
+<p>Harjoitus: saatko käännettyä konnan niin, että se osoittaa alaspäin?
+Harjoitus: osaatko piirtää neliön?
+Harjoitus: osaatko liikuttaa kilpikonnaa lyhemmän matkan, vaikkapa 50 pikseliä?</p>
+
+<p>INFOBOKSI: jos haluat suorittaa edellisen komennon uudelleen, paina nuoli ylös <code>↑</code> -nappia. Nyt voit suorittaa komennon uudelleen painamalla Enter. Voit myös muokata komentoa. Voit poistaa merkkejä backspace-näppäimellä (kuva) ja liikuttaa kursoria sivunuolilla.</p>
+
+<h3 id="lis-konnankoukkuja">1.2 Lisää konnankoukkuja</h3>
+
+<p>Jäitkö miettimään miksi käytimme lukua 90 käännöksissä? No, sehän tarkoittaa tietenkin 90:n asteen käännöstä. Käyttämällä eri lukua, saat konnan kääntymään eri asentoon. Esimerkiksi jos teet <code>rt 180</code> niin konna kääntyy 180 astetta eli täyskäännöksen. Kokeile!</p>
+
+<p>MItä tapahtuu jos teet <code>lt 360</code>? Konna pyörähtää ympäri täydet 360 astetta palaten alkuperäiseen asentoonsa.</p>
+
+<p>TODO: kuva eri asteisista käännöksistä. (45-asteiset mukaan)</p>
+
+<p>Tehdäänpä M-kirjain!</p>
+
+<p>TODO: kuva M-kirjaimesta ja kulmista</p>
+
+<p>TODO: penup, pendown</p>
+
+<p>Harjoitus: piirrä oman nimesi alkukirjain
+Harjoitus: voit myös yrittää kirjoittaa koko nimesi (tarvitset <code>penup</code>, <code>pendown</code> -komentoja kirjainten välillä!)</p>
+
+<h3 id="neli">1.3 Neliö</h3>
+
+<p>Piirsitkö neliön jo? No, nyt piirretään neliö yhdessä!</p>
+
+<ol>
+  <li>Aloitetaan <code>fd 100</code>:</li>
+</ol>
+
+<p><img src="images/nelio_1.png" alt="Neliö - 1" /></p>
+
+<ol>
+  <li>Sitten käännytään oikealle <code>rt 90</code>:</li>
+</ol>
+
+<p><img src="images/nelio_2.png" alt="Neliö - 2" /></p>
+
+<ol>
+  <li>Taas eteenpäin <code>fd 100</code></li>
+</ol>
+
+<p><img src="images/nelio_3.png" alt="Neliö - 3" /></p>
+
+<ol>
+  <li>Ja käännös oikealle…</li>
+</ol>
+
+<p><img src="images/nelio_4.png" alt="Neliö - 4" /></p>
+
+<p>Ja toistetaan samaa kaavaa kunnes neliö on valmis. Mutta eikö olekin tylsää jankuttaa tietokoneelle samoja käskyjä monta kertaa? Mitäs jos voisitkin sanoa sille että</p>
+
+<pre><code> *Mene eteenpäin ja käänny oikealle. Toista tämä 4 kertaa.*
+</code></pre>
+
+<p>Tietokone ei valitettavasti ymmärrä tätä, mutta saman asian pystyy kertomaan sille myös ohjelmointikielellä. Mutta miten? </p>
+
+<p>Nyt on aika soveltaa “hajoita ja hallitse” -lähestymistapaa. Tämä tarkoittaa sitä, että jos meillä on kaksi asiaa joita emme osaa, opetellaa ensin yksi ja sitten toinen. Lopuksi osaamme molemmat. Aloitetaan siitä, että opetellaan kertomaan ohjelmointikielellä</p>
+
+<pre><code>*Mene eteenpäin ja käänny oikealle*
+</code></pre>
+
+<p>Tai siis</p>
+
+<pre><code>*Tee lista asioita peräkkäin: mene eteenpäin, käänny oikealle*
+</code></pre>
+
+<p>Ja se käy näin.</p>
+
+<pre><code>s [fd 100, rt 90]
+</code></pre>
+
+<p>Huh! Aika kummallinen kieli, vai mitä? Tässä <code>s</code> (tulee englanninkielisestä sanasta <em>sequence</em>) tarkoittaa sitä, että tehdään useampi asia peräkkäin. Lista tehtävistä asioista laitetaan hakasulkujen [ ] sisään ja erotellaan toisistaan pilkuilla.</p>
+
+<p>Kokeile! Muistithan välilyönnit, hakasulut ja pilkut. Kaikki pitää olla oikeilla paikoillaan tai tietokone ei ymmärrä. Se ei ole kovin älykäs, vaan ottaa kaiken kirjaimellisesti. Sinun on opetettava sitä kärsivällisesti!</p>
+
+<p>Opettamisesta puheen olleen TODO blahblah, kokeilepa tätä:</p>
+
+<pre><code>let juttu = s [fd 100, rt 90]
+</code></pre>
+
+<p>Nyt tietokone osaa yhden jutun enemmän kuin äsken. Teepä seuraavaksi näin:</p>
+
+<pre><code>juttu
+</code></pre>
+
+<p>Ja uudestaan. Ehkä vielä pari kertaa? Muistathan, että edellisen komennon voi helposti toistaa painamalla <code>↑</code> ja Enter. Mitä syntyi? Neliöhän siitä tuli, eikö?</p>
+
+<p>Nyt siis neliön voi tehdä kirjoittamalla neljä kertaa <em>juttu</em>. Ei hullumpaa! Mutta sen voi tehdä vielä hieman nopeammin. Tyhjennetäänpä ruutu</p>
+
+<pre><code>clear
+</code></pre>
+
+<p>Ja nyt toistetaan <em>juttu</em> neljä kertaa yhdellä käskyllä.</p>
+
+<pre><code>r 4 juttu
+</code></pre>
+
+<p>Tuliko neliö? Jes!</p>
+
+<p>TODO: kertaus, mitä opittiin.</p>
+
+<p>INFOBOKSI: miten hakasulut tehdään eri koneilla
+INFOBOKSI: kielen nimi muuten on Roy. Joka on muuten ohjelmointikielen tekijän tyttöystävän koiran nimi.</p>
+
+<p>Harjoitus: Jos jaksat kirjoittaa, voit kokeilla vielä jotain pidempää listaa. Vaikkapa
+    s [fd 100, rt 90, fd 100, rt 90, fd 100, rt 90, fd 100] 
+Harjoituksia TODO</p>
+
+<h3 id="mutteri">1.4 Mutteri</h3>
+
+<p>Piirretäänpä seuraavaksi mutteri. Tai oikeastaan kuusikulmio. Kuusikulmiossa on kuusi sivua ja kuusi samanlaista kulmaa. Sen piirtämiseksi siis pitää mennä kuusi kertaa eteenpäin ja joka välissä kääntyä hieman. Kuinka paljon pitää kääntyä?</p>
+
+<p>Sen voimme laskea, kun tiedämme ympyrässä olevan 360 astetta, jolloin käännöksen asteluku on 360 jaettuna kuudella, eli 360 / 6. Kokeileppa syöttää komento</p>
+
+<pre><code>360 / 6
+</code></pre>
+
+<p>Jos kaikki meni hyvin, niin Turtle Roy laski laskun puolestasi ja sait vastaukseksi 60. Se osaa siis laskea! Kokeile muitakin laskutoimituksia, esimerkiksi</p>
+
+<pre><code>1 + 1
+2 * 3
+360 / 4
+1 - 0
+</code></pre>
+
+<p>Tietokone siis toimii näppäränä laskukoneena. Se on tietysti hauskaa, mutta palataanpa taas piirtämään. Nyt kun tiedämme kuusikulmion kulman asteluvun, voimme piirtää kuusikulmion.</p>
+
+<p>TODO: konstruoidaan 6-kulmio-ohjelma samoin kuin neliö</p>
+
+<p>TODO: tehdään 100-kulmio, huomataan, että lähtee lapasesta.</p>
+
+<p>Harjoitus: tee pienempi 100-kulmio (vinkki, lyhennä kerralla liikuttavaa matkaa!)
+Harjoitus: laske 8-kulmion kulman asteluku (kuinka monen asteen kulma)
+Harjoitus: piirrä 8-kulmio
+Harjoitus: piirrä kuusikulmio paperille</p>
+
+    </div>
+    <div id="share">
+      <div id="twitter">
+        <a href="https://twitter.com/share" class="twitter-share-button" data-via="raimohanska">Tweet</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+      </div>
+    </div>
+  </body>
+</html>

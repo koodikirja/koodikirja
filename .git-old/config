@@ -1,0 +1,12 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = false
+[branch "master"]
+	rebase = true
+[remote "heroku"]
+	url = git@heroku.com:koodikirja.git
+	fetch = +refs/heads/*:refs/remotes/heroku/*

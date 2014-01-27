@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Koodikirja - <%= @item[:title] %></title>
+    <link rel="stylesheet" href="/style.css">
+    <meta name="generator" content="nanoc <%= Nanoc::VERSION %>">
+  </head>
+
+
+  <body class="clearfix">
+    <div id="backdrop"></div>
+    <div id="topshadow"></div>
+    <div id="sidebar">
+      <h2>Koodikirja</h2>
+      <ul>
+        <li><a href=".">1. Luku</a></li>
+        <li><a href=".">2. Luku</a></li>
+      </ul>
+      <h2>Linkkejä</h2>
+      <ul>
+        <li><a href="http://koodikoulu.fi">Koodikoulu</a></li>
+        <li><a href="http://turtle-roy.herokuapp.com">Turtle Roy</a></li>
+      </ul>
+    </div>
+    <div id="main">
+      <%= yield %>
+    </div>
+    <div id="share">
+      <div id="twitter">
+        <a href="https://twitter.com/share" class="twitter-share-button" data-via="raimohanska">Tweet</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+      </div>
+    </div>
+  </body>
+</html>

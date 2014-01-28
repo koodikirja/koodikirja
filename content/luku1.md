@@ -76,19 +76,19 @@ Piirsitkö neliön jo? No, nyt piirretään neliö yhdessä!
 
 1. Aloitetaan `fd 100`:
 
-![Neliö - 1](images/nelio_1.png)
+![Neliö - 1](/images/nelio_1.png)
  
 2. Sitten käännytään oikealle `rt 90`:
 
-![Neliö - 2](images/nelio_2.png)
+![Neliö - 2](/images/nelio_2.png)
 
 3. Taas eteenpäin `fd 100`
 
-![Neliö - 3](images/nelio_3.png)
+![Neliö - 3](/images/nelio_3.png)
 
 4. Ja käännös oikealle...
 
-![Neliö - 4](images/nelio_4.png)
+![Neliö - 4](/images/nelio_4.png)
 
 Ja toistetaan samaa kaavaa kunnes neliö on valmis. Mutta eikö olekin tylsää jankuttaa tietokoneelle samoja käskyjä monta kertaa? Mitäs jos voisitkin sanoa sille että
 

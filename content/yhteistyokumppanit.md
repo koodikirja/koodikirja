@@ -2,9 +2,9 @@
 
 Pääyhteistyökumppanit hankkeessa ovat
 
-- Reaktor
-- Futurice
-- Blah blah
+- R
+- F
+- B
 
 Lisäksi hanketta ovat tukeneet
 

@@ -53,8 +53,5 @@ Koodauskirja tarvitsee rahoitusta. Jos yrityksesi haluaa edistää hanketta, voi
 meitä sponsoroimalla. Käyttämällänne rahalla saatte varmistettua, että Koodauskirja toteutuu.
 Lisäksi saatte nimenne ikuistettua suomalaisen koodauksen historiaan.
 
-- 1000€ = Yrityksen nimi sponsorit - osiossa
-- 5000€ = Sponsoroitu luku Koodikirjassa. Yrityksen nimi ja logo luvun ensimmäisellä sivulla.
-
 Voit auttaa myös omalla työpanoksellasi. Koodauskirja on avointa lähdekoodia, joten jos haluat
 parantaa sitä, olet tervetullut niin tekemään! Koodi on Githubissa. Tässä ohjeet. TODO

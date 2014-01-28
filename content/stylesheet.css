@@ -52,8 +52,27 @@ pre {
   position: fixed;
 }
 
+#main .note {
+  background: #ee9900;
+  padding: 2px 30px 2px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: -12px;
+}
+
+#main .note input {
+  padding: 2px;
+  font-size: 15px;
+  outline: none;
+}
+
+#main .note .remove {
+  position: absolute;
+  right: 5px;
+}
 
 #main {
+  position:relative;
   float: left;
   max-width: 800px;
   margin-top: 40px;

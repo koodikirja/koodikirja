@@ -1,0 +1,10 @@
+{
+  "name": "koodikoulu",
+  "dependencies": {
+    "jquery": "https://github.com/jquery/jquery.git",
+    "requirejs": "https://github.com/jrburke/requirejs.git",
+    "bacon": "https://github.com/baconjs/bacon.js.git",
+    "bacon.jquery": "https://github.com/baconjs/bacon.jquery.git",
+    "lodash": "https://github.com/lodash/lodash.git"
+  }
+}

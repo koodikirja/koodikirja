@@ -2,5 +2,6 @@
 .rvmrc
 .sass-cache
 *.log
-
+output
 tmp
+static/components

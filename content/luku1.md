@@ -18,9 +18,13 @@ Pohjimmiltaan tietokone on nöyrä palvelija, joka suorittaa sille annetut käsk
 
 Mutta tärkeintä on, että se tottelee käskyjä.
 
+***
+
 ### 1.1 Konna liikkeelle
 
-Kokeillaanko? Tässä luvussa leikimme Turtle Roy -ohjelmalla. TODO linkki kuvaus kursorin esittely..
+Kokeillaanko? Tässä luvussa leikimme [Turtle Roy](http://turtle-roy.herokuapp.com) -ohjelmalla. 
+
+TODO linkki kuvaus kursorin esittely..
 
     fd 100
 
@@ -44,7 +48,14 @@ Nyt konna kääntyi oikealle. Näillä kolmella käskyllä pääset jo pitkälle
 
 ![Suunnat](/images/suunnat1.png)
 
-TODO: taulukko lyhenteistä ja englanninkielisistä sanoista
+> Englanninkieliset sanat
+>
+> - FD = forward = eteenpäin
+>
+> - LT = left turn = käännös vasempaan
+>
+> - RT = right turn = käännös oikeaan
+>
 
 Nyt voit kokeilla ohjailla konnaa ympäriinsä. Karkasiko konna ruudun ulkopuolelle? Ei hätää - `clear`-komennolla pääset alkuun. Jos haluat palauttaa konnan keskelle pyyhkimättä paperia tyhjäksi, voit kokeilla myös `home` -komentoa
 
@@ -52,7 +63,9 @@ Harjoitus: saatko käännettyä konnan niin, että se osoittaa alaspäin?
 Harjoitus: osaatko piirtää neliön?
 Harjoitus: osaatko liikuttaa kilpikonnaa lyhemmän matkan, vaikkapa 50 pikseliä?
 
-INFOBOKSI: jos haluat suorittaa edellisen komennon uudelleen, paina nuoli ylös `↑` -nappia. Nyt voit suorittaa komennon uudelleen painamalla Enter. Voit myös muokata komentoa. Voit poistaa merkkejä backspace-näppäimellä (kuva) ja liikuttaa kursoria sivunuolilla.
+> jos haluat suorittaa edellisen komennon uudelleen, paina nuoli ylös `↑` -nappia. Nyt voit suorittaa komennon uudelleen painamalla Enter. Voit myös muokata komentoa. Voit poistaa merkkejä backspace-näppäimellä (kuva) ja liikuttaa kursoria sivunuolilla.
+
+***
 
 ### 1.2 Lisää konnankoukkuja
 
@@ -70,6 +83,8 @@ TODO: penup, pendown
 
 Harjoitus: piirrä oman nimesi alkukirjain
 Harjoitus: voit myös yrittää kirjoittaa koko nimesi (tarvitset `penup`, `pendown` -komentoja kirjainten välillä!)
+
+***
 
 ### 1.3 Neliö
 
@@ -131,14 +146,15 @@ Tuliko neliö? Jes!
 TODO: kertaus, mitä opittiin.
 
 
-INFOBOKSI: miten hakasulut tehdään eri koneilla
-INFOBOKSI: kielen nimi muuten on Roy. Joka on muuten ohjelmointikielen tekijän tyttöystävän koiran nimi.
+> miten hakasulut tehdään eri koneilla
+> kielen nimi muuten on Roy. Joka on muuten ohjelmointikielen tekijän tyttöystävän koiran nimi.
 
 
 Harjoitus: Jos jaksat kirjoittaa, voit kokeilla vielä jotain pidempää listaa. Vaikkapa
     s [fd 100, rt 90, fd 100, rt 90, fd 100, rt 90, fd 100] 
 Harjoituksia TODO
 
+***
 
 ### 1.4 Mutteri
 

@@ -1,3 +1,5 @@
+# Tietoa koodikirjasta
+
 Koodikirja-projektin tavoitteena on tuottaa kirja, joka tukee koodauksen opettelua.
 Haluan jakaa sitä tietoa ja kokemusta, jota olen saanut omien kokemusten ja kokeilujen kautta.
 Tämän kirjan avulla koodauksen opettelu kotona yksin tai vanhemman kanssa on 

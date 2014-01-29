@@ -1,5 +1,7 @@
 ## TODO
 
+- coffee
+- less
 - Tsekkaa syntax highlight http://clarkdave.net/2013/03/syntax-highlighting-in-nanoc/
 
 ## Install
@@ -9,9 +11,11 @@
 
 ## Start the file server
 
-    nanoc view
+    ./server
 
-Now visit `http://127.0.0.1:3000/` and there you go. This should display your website.
+Now visit `http://127.0.0.1:3000/` and there you go.
+
+Login as koodikoulu/rehtori
 
 ## Auto-compiling when you update files (BORKEN)
 

@@ -90,6 +90,11 @@ pre {
   margin-bottom: 40px;
 }
 
+#main img {
+  border: 3px solid #202020;
+  max-width: 100%;
+}
+
 #main p {
   margin: 20px 0;
 

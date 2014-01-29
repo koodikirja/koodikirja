@@ -42,7 +42,8 @@ Nyt konna kääntyi oikealle. Näillä kolmella käskyllä pääset jo pitkälle
 
     clear
 
-TODO: kaavio suunnista
+![Suunnat](/images/suunnat1.png)
+
 TODO: taulukko lyhenteistä ja englanninkielisistä sanoista
 
 Nyt voit kokeilla ohjailla konnaa ympäriinsä. Karkasiko konna ruudun ulkopuolelle? Ei hätää - `clear`-komennolla pääset alkuun. Jos haluat palauttaa konnan keskelle pyyhkimättä paperia tyhjäksi, voit kokeilla myös `home` -komentoa
@@ -59,11 +60,11 @@ Jäitkö miettimään miksi käytimme lukua 90 käännöksissä? No, sehän tark
 
 MItä tapahtuu jos teet `lt 360`? Konna pyörähtää ympäri täydet 360 astetta palaten alkuperäiseen asentoonsa.
 
-TODO: kuva eri asteisista käännöksistä. (45-asteiset mukaan)
+![Suunnat 2](/images/suunnat2.png)
 
 Tehdäänpä M-kirjain!
 
-TODO: kuva M-kirjaimesta ja kulmista
+![M-Kirjain](/images/mkirjain.png)
 
 TODO: penup, pendown
 
@@ -74,21 +75,12 @@ Harjoitus: voit myös yrittää kirjoittaa koko nimesi (tarvitset `penup`, `pend
 
 Piirsitkö neliön jo? No, nyt piirretään neliö yhdessä!
 
+![Neliö - vaiheet](/images/nelio.png)
+
 1. Aloitetaan `fd 100`:
-
-![Neliö - 1](/images/nelio_1.png)
- 
 2. Sitten käännytään oikealle `rt 90`:
-
-![Neliö - 2](/images/nelio_2.png)
-
 3. Taas eteenpäin `fd 100`
-
-![Neliö - 3](/images/nelio_3.png)
-
 4. Ja käännös oikealle...
-
-![Neliö - 4](/images/nelio_4.png)
 
 Ja toistetaan samaa kaavaa kunnes neliö on valmis. Mutta eikö olekin tylsää jankuttaa tietokoneelle samoja käskyjä monta kertaa? Mitäs jos voisitkin sanoa sille että
 

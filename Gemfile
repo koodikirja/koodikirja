@@ -25,4 +25,7 @@ group :development do
   # YUI Compressor to compress JS and CSS
   gem 'yui-compressor'
 
+  # Guard and Guard::Nanoc to auto-compile + notifications
+  gem 'guard'
+  gem 'guard-shell'
 end

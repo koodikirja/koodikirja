@@ -17,13 +17,9 @@ Now visit `http://127.0.0.1:3000/` and there you go.
 
 Login as koodikoulu/rehtori
 
-## Auto-compiling when you update files (BORKEN)
+## Auto-compiling when you update files
 
-    guard start
-
-## Crazy busyloop compile
-
-    ./compile-forever
+    guard
 
 ## Heroku Deployment
 

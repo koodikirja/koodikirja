@@ -1,7 +1,6 @@
 $(function() {
   var main = $("#main")
   var click = main.clickE()
-
   var addedNote = click.flatMapFirst(function(e) {
     var x = e.pageX - main.offset().left
     var y = e.pageY - main.offset().top

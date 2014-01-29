@@ -4,6 +4,10 @@
 require 'bundler'
 Bundler.require
 
+use Rack::Auth::Basic, "Restricted Area" do |username, password|
+      [username, password] == ['koodikoulu', 'rehtori']  
+end
+
 use Rack::ETag
 module ::Rack
   class TryStatic < Static

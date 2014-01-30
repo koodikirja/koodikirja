@@ -100,7 +100,7 @@ pre {
   margin-top: 40px;
   margin-left: 235px;
   margin-right: 20px;
-  background: #f6f6f4;
+  background: white;
   display: inline-block;
   padding: 40px;
   opacity: 0.96;
@@ -124,7 +124,6 @@ pre {
 }
 
 #main img {
-  border: 3px solid #202020;
   max-width: 85%;
   margin: 40px;
 }

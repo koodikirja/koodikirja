@@ -2,11 +2,17 @@
 title: Luku 1
 ---
 
-# Koodikirja
+# Koodikirja - Luku 1
 
-## Johdanto
+## Alkusanat
 
-Koodausta oppii vain koodaamalla. Joka luvussa koodataan.
+Koodikirjaa lukemalla ei opi koodaamaan. Koodausta oppii vain koodaamalla. Alkuun kuitenkin
+pääsee helpommin, jos joku auttaa hieman. Koodikirjan tarkoitus on auttaa sinut alkuun.
+
+Lue eteenpäin ja toimi ohjeiden mukaan niin opit kyllä varmasti vähän koodausta.
+
+Jos sinua kiinnostaa tietää enemmän Koodikirjasta, niin klikkaa [tästä](/tietoja/). Jos
+taas haluat päästä koodaamaan, niin jatka lukemista.
 
 ## Luku 1 - Tietokone ja kilpikonna
 

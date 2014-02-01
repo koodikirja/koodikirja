@@ -21,6 +21,7 @@ body {
   height: 140px;
   background-image: -webkit-gradient( linear, left top, left bottom, from(rgba(50,50,50,0.3)), to(rgba(80,80,80,0.0)) );
   z-index: 2;
+  pointer-events:none;
 }
 
 #bottomshadow {
@@ -30,6 +31,7 @@ body {
   height: 140px;
   background-image: -webkit-gradient( linear, left bottom, left top, from(rgba(50,50,50,0.3)), to(rgba(80,80,80,0.0)) );
   z-index: 2;
+  pointer-events:none;
 }
 
 a {
@@ -123,12 +125,12 @@ pre {
   margin-bottom: 40px;
 }
 
-#main img {
+#main >img {
   max-width: 85%;
   margin: 40px;
 }
 
-#main p {
+#main >p {
   margin: 20px 0;
 
   font-size: 16px;
@@ -184,6 +186,14 @@ h1, h2, h3 {
   margin: 20px 0;
 }
 
+.author {
+float: right;
+background: #BADDE2;
+border-radius: 5px;
+padding: 8px;
+font-size: 13px;
+}
+
 .clearfix:after {
     content: ".";
     display: block;
@@ -194,5 +204,4 @@ h1, h2, h3 {
 }
  
 .clearfix {
-    display: inline-block;
 }

@@ -12,7 +12,7 @@ Aika hyvälle suomenkieliselle koodauskirjalle on kypsä.
 
 Koodikirja-projektin tavoitteena on tuottaa Koodikoululle oppikirja.
 
-Suositut Koodikoulu-tapahtumat saivat alkunsa minun ja tyttäreni kahdenkeskisistä
+Suositut [Koodikoulu](http://koodikoulu.fi)-tapahtumat saivat alkunsa minun ja tyttäreni kahdenkeskisistä
 koodaustunneista. Niissä olen saanut jakaa sitä tietoa ja iloa, jota olen itse saanut 
 koodauksesta ja koodauksen opettamisesta omalle tyttärelleni. Koodikirjan avulla voin toivottavasti
 jakaa samaa iloa ja tietoa kaikille halukkaille.
@@ -21,7 +21,7 @@ jakaa samaa iloa ja tietoa kaikille halukkaille.
 
 ## Miksi Koodikirja on tärkeä
 
-Koodikoulu tarvitsee tuekseen hyvän kirjan.
+[Koodikoulu](http://koodikoulu.fi) tarvitsee tuekseen hyvän kirjan.
 
 Koodausta oppii parhaiten koodaamalla taitavan ja opetushaluisen ja -kykyisen koodarin kanssa.
 Useimmilla ei tällaista henkilöä kuitenkaan perhepiiristä löydy.

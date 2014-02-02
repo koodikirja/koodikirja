@@ -33,8 +33,6 @@ selaimessasi (TODO: check compatibility), joten sinun ei tarvitse asentaa koneel
 tästä kuitenkin vielä lyhyt esittely, ennen kuin aloitat. Alla olevassa kuvassa näet, miltä Turtle Roy
 näyttää.
 
-TODO: kuva
-
 {::nomarkdown}
 <iframe width=640 height=400 src="http://turtle-roy.herokuapp.com"></iframe>
 {:/nomarkdown}

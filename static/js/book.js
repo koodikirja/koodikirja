@@ -56,6 +56,7 @@ function whenInView(elem, f) {
 
   Bacon.later(3000)
       .flatMap(isInView)
+      .delay(500)
       .onValue(function(visible) { f.call(elem, visible) })
 
   function isScrolledIntoView(elem)

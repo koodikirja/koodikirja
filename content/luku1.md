@@ -28,9 +28,27 @@ Mutta tärkeintä on, että se tottelee käskyjä.
 
 ### 1.1 Konna liikkeelle
 
-Kokeillaanko? Tässä luvussa leikimme [Turtle Roy](http://turtle-roy.herokuapp.com) -ohjelmalla. 
+Kokeillaanko? Tässä luvussa leikimme Turtle Roy -ohjelmalla, jonka saat avata ihan kohta. Turtle Roy toimii
+selaimessasi (TODO: check compatibility), joten sinun ei tarvitse asentaa koneellesi mitään uutta. Lue
+tästä kuitenkin vielä lyhyt esittely, ennen kuin aloitat. Alla olevassa kuvassa näet, miltä Turtle Roy
+näyttää.
 
-TODO linkki kuvaus kursorin esittely..
+TODO: kuva
+
+Ylempi, vaalea alue on "piirtopaperi", jolle voit piirtää kuvioita sen keskellä sijaitsevan kolmiomaisen
+"kilpikonnan" avulla. Kilpikonnaa ohjataan antamalla sille käskyjä, jotka syötetään alemmalla, tummalla
+alueella sijaitsevan *kursorin* avulla. Kursori on se keltainen vilkkuva neliö.
+
+Nyt on aika avata Turtle Roy -ohjelma [tästä](http://turtle-roy.herokuapp.com), jolloin se aukeaa uuteen ikkunaan
+tai täbiin. 
+
+> Nyt kannattaa opetella vaihtelemaan Turtle Royn ja Koodikirjan välillä näppärästi. Jos Turtle
+> Roy aukeaa erillisellä täbillä, voit vaihdella täbien välillä pitämällä pohjassa näppäimiä Cmd
+> ja Alt (Mac) tai Ctrl ja Alt (Linux, Windows) ja painamalla nuolinäppäimiä. Jos Turtle Roy aukeaa
+> erillisessä ikkunassa, voit vaihdella ikkunoiden välillä painamalla yhtä aikaa Ctrl ja Tab -näppäimiä
+> (Linux, Windows).
+
+Kokeileppa kirjoittaa näin.
 
     fd 100
 

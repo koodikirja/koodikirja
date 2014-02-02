@@ -81,9 +81,11 @@ pre {
   right: 5px;
 }
 
+#main a {
+  color: rgb(21, 21, 134);
+}
+
 #main blockquote {
-  display: inline-block;
-  float: right;
   background: #88ddFF;
   border: 4px solid blue;
   padding: 10px;
@@ -125,8 +127,8 @@ pre {
   margin-bottom: 40px;
 }
 
-#main >img {
-  max-width: 85%;
+#main img {
+  max-width: 100%;
   margin: 40px;
 }
 
@@ -152,7 +154,7 @@ pre {
   list-style-type: square;
 }
 
-h1, h2, h3 {
+h1, h3 {
   text-transform: uppercase;
 }
 

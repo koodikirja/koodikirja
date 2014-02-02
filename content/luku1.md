@@ -2,7 +2,7 @@
 title: Luku 1
 ---
 
-# Koodikirja - Luku 1
+# Koodikirja
 
 ## Alkusanat
 
@@ -14,28 +14,21 @@ Lue eteenpäin ja toimi ohjeiden mukaan niin opit kyllä varmasti vähän koodau
 Jos sinua kiinnostaa tietää enemmän Koodikirjasta, niin klikkaa [tästä](/tietoja/). Jos
 taas haluat päästä koodaamaan, niin jatka lukemista.
 
-## Luku 1 - Tietokone ja kilpikonna
+## Luku 1 - Konnankoukkuja Kahdelle
 
-Mikä on tietokone? Mitä se tekee?
-
-Tietokone ei ole pelkkä viihteen kuluttamiseen suunniteltu laite. TODO
-
-Pohjimmiltaan tietokone on nöyrä palvelija, joka suorittaa sille annetut käskyt järjestyksessä ja uskomattoman nopeasti. Esimerkiksi selaimesi osaa laskea miljoonaan alle sekunnissa.
-
-Mutta tärkeintä on, että se tottelee käskyjä.
-
-***
+Koodikirjan ensimmäisessä luvussa saatte tutustua ystäviini TBD ja Kilpikonna Roy,
+jotka opettavat sinulle koodauksen alkeita.
 
 ### 1.1 Konna liikkeelle
 
+<div id="turtle-1-1" class="turtle-svg"></div>
+
 Kokeillaanko? Tässä luvussa leikimme Turtle Roy -ohjelmalla, jonka saat avata ihan kohta. Turtle Roy toimii
-selaimessasi (TODO: check compatibility), joten sinun ei tarvitse asentaa koneellesi mitään uutta. Lue
+selaimessasi, joten sinun ei tarvitse asentaa koneellesi mitään uutta. Lue
 tästä kuitenkin vielä lyhyt esittely, ennen kuin aloitat. Alla olevassa kuvassa näet, miltä Turtle Roy
 näyttää.
 
-{::nomarkdown}
-<iframe width=640 height=400 src="http://turtle-roy.herokuapp.com"></iframe>
-{:/nomarkdown}
+<div class="turtle-embed" id="turtle-embed-1.1"></div>
 
 Ylempi, vaalea alue on "piirtopaperi", jolle voit piirtää kuvioita sen keskellä sijaitsevan kolmiomaisen
 "kilpikonnan" avulla. Kilpikonnaa ohjataan antamalla sille käskyjä, jotka syötetään alemmalla, tummalla

@@ -1,6 +1,12 @@
 $(function() {
   $("#main a").attr("target", "_blank")
   embedTurtleRoy($(".turtle-embed"), { glass: true }) 
+  $("blockquote").each(function() {
+    whenInView($(this), function(visible) {
+      console.log("bq", visible)
+      this.toggleClass("grayscale", !visible)
+    })
+  })
 })
 
 function embedTurtleRoy(elem, options) {

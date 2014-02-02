@@ -35,6 +35,10 @@ näyttää.
 
 TODO: kuva
 
+{::nomarkdown}
+<iframe width=640 height=400 src="http://turtle-roy.herokuapp.com"></iframe>
+{:/nomarkdown}
+
 Ylempi, vaalea alue on "piirtopaperi", jolle voit piirtää kuvioita sen keskellä sijaitsevan kolmiomaisen
 "kilpikonnan" avulla. Kilpikonnaa ohjataan antamalla sille käskyjä, jotka syötetään alemmalla, tummalla
 alueella sijaitsevan *kursorin* avulla. Kursori on se keltainen vilkkuva neliö.

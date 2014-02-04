@@ -127,52 +127,68 @@ M-kirjain itse Turtle Roylla!
 
 Joitain kuvioita piirrettäessä on tarpeellista nostaa välillä kynä ylös paperista.
 Turtle Royssa kynä voidaan nostaa ylös komennolla `penup`. Kynän voi laskea uudelleen
-alas komennolla `pendown`.
+alas komennolla `pendown`. Jos haluaisit piirtää kaksi viivaa vierekkäin, se kävisi näin.
 
 ![Kaksi viivaa](/images/kaksiviivaa.png)
 
 **Harjoitus**: Etsi suoria kulmia kotoasi. Onko pöydän kulma suora kulma?
+
 **Harjoitus**: Piirrä oman nimesi alkukirjain
+
 **Harjoitus**: Voit myös yrittää kirjoittaa koko nimesi (tarvitset `penup`, `pendown` -komentoja kirjainten välillä!)
 
 ***
 
 ### 1.3 Neliö
 
-Piirsitkö neliön jo? No, nyt piirretään neliö yhdessä!
+Piirsitkö neliön jo? No, nyt piirretään neliö yhdessä! Mietitään aluksi,
+millaisia vaiheita neliön piirtämisessä on... suoria viivoja ja käännöksiä, eikö niin?
+Jos neliö piirtämisestä tehtäisiin sarjakuva, se näyttäisi suurin piirtein tältä:
 
 ![Neliö - vaiheet](/images/nelio.png)
 
-1. Aloitetaan `fd 100`:
-2. Sitten käännytään oikealle `rt 90`:
-3. Taas eteenpäin `fd 100`
-4. Ja käännös oikealle...
+Ja toistetaan samaa kaavaa kunnes neliö on valmis...
+Mutta eikö olekin tylsää jankuttaa tietokoneelle samoja käskyjä monta kertaa? 
+Mitä jos voisitkin sanoa sille että
 
-Ja toistetaan samaa kaavaa kunnes neliö on valmis. Mutta eikö olekin tylsää jankuttaa tietokoneelle samoja käskyjä monta kertaa? Mitäs jos voisitkin sanoa sille että
+   *"Mene eteenpäin ja käänny oikealle. Toista tämä 4 kertaa."*
 
+Tietokone ei valitettavasti ymmärrä tätä, 
+mutta saman asian pystyy kertomaan sille myös ohjelmointikielellä. 
+Miten?
 
-     *Mene eteenpäin ja käänny oikealle. Toista tämä 4 kertaa.*
+### 1.4 Hajoita ja Hallitse
 
+Nyt on aika soveltaa "hajoita ja hallitse" -lähestymistapaa!
 
-Tietokone ei valitettavasti ymmärrä tätä, mutta saman asian pystyy kertomaan sille myös ohjelmointikielellä. Mutta miten? 
+Tämä ei tarkoita sitä, että hajoittamalla esineitä voimme hallita maailmaa.
+Vaan se tarkoittaa sitä, että jaetaan ongelma pienempiin osiin, jotka osaamme
+ratkaista.
 
+Mieti miten rakentaisit Lego-palikoista valtavan robotin! Ehkä rakentaisit
+ensin vartalon ja jalat ja yhdistäisit ne. Sitten rakentaisit vielä pään ja
+kädet ja pian robotti olisi valmis. Juuri tällä tavalla koodari ajattele!
 
-Nyt on aika soveltaa "hajoita ja hallitse" -lähestymistapaa. Tämä tarkoittaa sitä, että jos meillä on kaksi asiaa joita emme osaa, opetellaa ensin yksi ja sitten toinen. Lopuksi osaamme molemmat. Aloitetaan siitä, että opetellaan kertomaan ohjelmointikielellä
+TODO: sarjis robotin rakentamisesta!
 
+Vaikka robottien rakennus onkin hyvin mielenkiintoista, palataan vielä hetkeksi
+neliöön. Aloitetaan siitä, että opetellaan kertomaan ohjelmointikielellä
 
     *Mene eteenpäin ja käänny oikealle*
-
-Tai siis
-
-    *Tee lista asioita peräkkäin: mene eteenpäin, käänny oikealle*
 
 Ja se käy näin.
 
     s [fd 100, rt 90]
 
-Huh! Aika kummallinen kieli, vai mitä? Tässä `s` (tulee englanninkielisestä sanasta *sequence*) tarkoittaa sitä, että tehdään useampi asia peräkkäin. Lista tehtävistä asioista laitetaan hakasulkujen [ ] sisään ja erotellaan toisistaan pilkuilla.
+Huh! Aika kummallinen kieli, vai mitä? 
+Tässä `s` (tulee englanninkielisestä sanasta *sequence*) tarkoittaa sitä, 
+että tehdään useampi asia peräkkäin. 
+Lista tehtävistä asioista laitetaan hakasulkujen [ ] sisään ja erotellaan toisistaan pilkuilla.
 
-Kokeile! Muistithan välilyönnit, hakasulut ja pilkut. Kaikki pitää olla oikeilla paikoillaan tai tietokone ei ymmärrä. Se ei ole kovin älykäs, vaan ottaa kaiken kirjaimellisesti. Sinun on opetettava sitä kärsivällisesti!
+Kokeile! Muistithan välilyönnit, hakasulut ja pilkut. 
+Kaikki pitää olla oikeilla paikoillaan tai tietokone ei ymmärrä. 
+Se ei ole kovin älykäs, vaan ottaa kaiken kirjaimellisesti. 
+Sinun on opetettava sitä kärsivällisesti!
 
 Opettamisesta puheen olleen TODO blahblah, kokeilepa tätä:
 
@@ -182,9 +198,12 @@ Nyt tietokone osaa yhden jutun enemmän kuin äsken. Teepä seuraavaksi näin:
 
     juttu
 
-Ja uudestaan. Ehkä vielä pari kertaa? Muistathan, että edellisen komennon voi helposti toistaa painamalla `↑` ja Enter. Mitä syntyi? Neliöhän siitä tuli, eikö?
+Ja uudestaan. Ehkä vielä pari kertaa? 
+Muistathan, että edellisen komennon voi helposti toistaa painamalla `↑` ja Enter. 
+Mitä syntyi? Neliöhän siitä tuli, eikö?
 
-Nyt siis neliön voi tehdä kirjoittamalla neljä kertaa *juttu*. Ei hullumpaa! Mutta sen voi tehdä vielä hieman nopeammin. Tyhjennetäänpä ruutu
+Nyt siis neliön voi tehdä kirjoittamalla neljä kertaa *juttu*. 
+Ei hullumpaa! Mutta sen voi tehdä vielä hieman nopeammin. Tyhjennetäänpä ruutu
 
     clear
 
@@ -196,7 +215,6 @@ Tuliko neliö? Jes!
 
 TODO: kertaus, mitä opittiin.
 
-
 > miten hakasulut tehdään eri koneilla
 > kielen nimi muuten on Roy. Joka on muuten ohjelmointikielen tekijän tyttöystävän koiran nimi.
 
@@ -207,7 +225,7 @@ Harjoituksia TODO
 
 ***
 
-### 1.4 Mutteri
+### 1.5 Mutteri
 
 Piirretäänpä seuraavaksi mutteri. Tai oikeastaan kuusikulmio. Kuusikulmiossa on kuusi sivua ja kuusi samanlaista kulmaa. Sen piirtämiseksi siis pitää mennä kuusi kertaa eteenpäin ja joka välissä kääntyä hieman. Kuinka paljon pitää kääntyä?
 

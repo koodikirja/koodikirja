@@ -35,15 +35,15 @@ Ylempi, vaalea alue on "piirtopaperi", jolle voit piirtää kuvioita sen keskell
 alueella sijaitsevan *kursorin* avulla. Kursori on se keltainen vilkkuva neliö.
 
 Nyt on aika avata Turtle Roy -ohjelma [tästä](http://turtle-roy.herokuapp.com), jolloin se aukeaa uuteen ikkunaan
-tai täbiin. 
+tai täbiin.
 
-> Nyt kannattaa opetella vaihtelemaan Turtle Royn ja Koodikirjan välillä näppärästi. Jos Turtle
+> Kannattaa opetella vaihtelemaan Turtle Royn ja Koodikirjan välillä näppärästi. Jos Turtle
 > Roy aukeaa erillisellä täbillä, voit vaihdella täbien välillä pitämällä pohjassa näppäimiä Cmd
 > ja Alt (Mac) tai Ctrl ja Alt (Linux, Windows) ja painamalla nuolinäppäimiä. Jos Turtle Roy aukeaa
 > erillisessä ikkunassa, voit vaihdella ikkunoiden välillä painamalla yhtä aikaa Ctrl ja Tab -näppäimiä
 > (Linux, Windows).
 
-Kokeileppa kirjoittaa näin.
+Kokeilepa kirjoittaa näin.
 
     fd 100
 

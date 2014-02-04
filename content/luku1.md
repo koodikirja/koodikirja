@@ -37,7 +37,7 @@ alueella sijaitsevan *kursorin* avulla. Kursori on se keltainen vilkkuva neliö.
 Nyt on aika avata Turtle Roy -ohjelma [tästä](http://turtle-roy.herokuapp.com), jolloin se aukeaa uuteen ikkunaan
 tai täbiin.
 
-> Kannattaa opetella vaihtelemaan Turtle Royn ja Koodikirjan välillä näppärästi. Jos Turtle
+> **Vinkki**: Kannattaa opetella vaihtelemaan Turtle Royn ja Koodikirjan välillä näppärästi. Jos Turtle
 > Roy aukeaa erillisellä täbillä, voit vaihdella täbien välillä pitämällä pohjassa näppäimiä Cmd
 > ja Alt (Mac) tai Ctrl ja Alt (Linux, Windows) ja painamalla nuolinäppäimiä. Jos Turtle Roy aukeaa
 > erillisessä ikkunassa, voit vaihdella ikkunoiden välillä painamalla yhtä aikaa Ctrl ja Tab -näppäimiä
@@ -53,7 +53,11 @@ Hyvä! Liikkuiko konna? Muistithan välilyönnin! Jos meni mönkään, niin ei h
 
 Joko onnistuit?
 
-Onneksi olkoon! Siinä oli ensimmäinen tietokoneohjelmasi, joka teki yhden asian. Kilpikonna liikkui 100 askelta eteenpäin ja piirsi viivan mennessään. Kilpikonnan askeleet ovat hyvin lyhyitä ja niitä sanotaan myös pikseleiksi. Mitä muuta kilpikonna Roy osaa tehdä? Kokeilepa tätä.
+Onneksi olkoon! 
+Siinä oli ensimmäinen tietokoneohjelmasi, joka teki yhden asian. 
+Kilpikonna liikkui 100 askelta eteenpäin ja piirsi viivan mennessään.
+Kilpikonnan askeleet ovat hyvin lyhyitä ja niitä sanotaan myös pikseleiksi. 
+Mitä muuta Kilpikonna Roy osaa tehdä? Kokeilepa tätä.
 
     lt 90
 
@@ -61,47 +65,75 @@ Ja kas, kilpikonna kääntyi vasemmalle. Vai kääntyikö? Muistithan painaa taa
 
     rt 90
 
-Nyt konna kääntyi oikealle. Näillä kolmella käskyllä pääset jo pitkälle. Lisäksi on hyvä osata palauttaa konna keskelle paperia ja tyhjentää paperi. Se käy näin.
+Nyt konna kääntyi oikealle. Näillä kolmella käskyllä pääset jo pitkälle. 
+Lisäksi on hyvä osata palauttaa konna keskelle paperia ja tyhjentää paperi. Se käy näin.
 
     clear
 
+Tässä vielä piirros käännöksistä eri suuntiin.
+
 ![Suunnat](/images/suunnat1.png)
 
-> Englanninkieliset sanat
->
-> - FD = forward = eteenpäin
->
-> - LT = left turn = käännös vasempaan
->
-> - RT = right turn = käännös oikeaan
->
+Onko on vaikeaa muistaa, kumpi oikea ja kumpi on vasen? Minua ainakin auttaa se, että kirjoitan aina
+oikealla kädellä. Kun otan kynän käteen, tiedän, kumpi on oikea. Myös englanninkielinen lause "You
+write with your right" auttaa muistamaan sen, että oikea (right) on kirjoituskäsi.
 
-Nyt voit kokeilla ohjailla konnaa ympäriinsä. Karkasiko konna ruudun ulkopuolelle? Ei hätää - `clear`-komennolla pääset alkuun. Jos haluat palauttaa konnan keskelle pyyhkimättä paperia tyhjäksi, voit kokeilla myös `home` -komentoa
+    |  Komento  |  Englanniksi   |  Suomeksi           |
+    ----------------------------------------------------
+    |  fd       |  forward       |  eteenpäin          |
+    |  lt       |  left turn     |  käännös vasemmalle |
+    |  rt       |  right turn    |  käännös oikealle   |
+    
+    Komennot
 
-Harjoitus: saatko käännettyä konnan niin, että se osoittaa alaspäin?
-Harjoitus: osaatko piirtää neliön?
-Harjoitus: osaatko liikuttaa kilpikonnaa lyhemmän matkan, vaikkapa 50 pikseliä?
+Nyt voit kokeilla ohjailla konnaa ympäriinsä. Karkasiko konna ruudun ulkopuolelle? Ei hätää - `clear`-komennolla pääset alkuun. 
+Jos haluat palauttaa konnan keskelle pyyhkimättä paperia tyhjäksi, voit kokeilla myös `home` -komentoa
 
-> jos haluat suorittaa edellisen komennon uudelleen, paina nuoli ylös `↑` -nappia. Nyt voit suorittaa komennon uudelleen painamalla Enter. Voit myös muokata komentoa. Voit poistaa merkkejä backspace-näppäimellä (kuva) ja liikuttaa kursoria sivunuolilla.
+**Harjoitus**: saatko käännettyä konnan niin, että se osoittaa alaspäin?
+
+**Harjoitus**: osaatko piirtää neliön?
+
+**Harjoitus**: osaatko liikuttaa kilpikonnaa lyhemmän matkan, vaikkapa 50 pikseliä?
+
+> **Vinkki**: Jos haluat suorittaa edellisen komennon uudelleen, paina nuoli ylös `↑` -nappia. 
+> Nyt voit suorittaa komennon uudelleen painamalla Enter. Voit myös muokata komentoa. 
+> Voit poistaa merkkejä backspace-näppäimellä (kuva) ja liikuttaa kursoria sivunuolilla.
+
+> **Vinkki**: Jos on vaikea päätellä, pitäisikö konnaa kääntää oikealle (`rt`) vai vasemmalle (`lt`), voit
+> askarrella pahvista oman pienen kilpikonnan. Laita kilpikonna näytölle samaan asentoon kuin
+> Kilpikonna Roy ja käännä haluttuun suuntaan. Jos käänsit myötäpäivään (suuntaan johon kello
+> pöyrii), on kyseessä käännös oikeaan eli `rt`.
 
 ***
 
 ### 1.2 Lisää konnankoukkuja
 
-Jäitkö miettimään miksi käytimme lukua 90 käännöksissä? No, sehän tarkoittaa tietenkin 90:n asteen käännöstä. Käyttämällä eri lukua, saat konnan kääntymään eri asentoon. Esimerkiksi jos teet `rt 180` niin konna kääntyy 180 astetta eli täyskäännöksen. Kokeile!
+Jäitkö miettimään miksi käytimme lukua 90 käännöksissä? 
+No, sehän tarkoittaa tietenkin 90:n asteen käännöstä eli *suoraa kulmaa*.
+Käyttämällä eri lukua, saat konnan kääntymään eri asentoon. 
+Esimerkiksi jos teet `rt 180` niin konna kääntyy 180 astetta eli täyskäännöksen. Kokeile!
 
-MItä tapahtuu jos teet `lt 360`? Konna pyörähtää ympäri täydet 360 astetta palaten alkuperäiseen asentoonsa.
+MItä tapahtuu jos teet `lt 360`? Konna pyörähtää ympäri täydet 360 astetta 
+palaten alkuperäiseen asentoonsa. Alla olevassa kuvassa vielä hieman lisää eri
+asteisia käännöksiä.
 
-![Suunnat 2](/images/suunnat2.png)
+![Suunnat](/images/suunnat2.png)
 
-Tehdäänpä M-kirjain!
+Eri asteisia käännöksiä tarvitset, kun koetat piirtää hieman monimutkaisempia kuvioita.
+Alla näet M-kirjaimen eri nurkissa tarvittavat kulmat. Kokeile piirtää
+M-kirjain itse Turtle Roylla!
 
 ![M-Kirjain](/images/mkirjain.png)
 
-TODO: penup, pendown
+Joitain kuvioita piirrettäessä on tarpeellista nostaa välillä kynä ylös paperista.
+Turtle Royssa kynä voidaan nostaa ylös komennolla `penup`. Kynän voi laskea uudelleen
+alas komennolla `pendown`.
 
-Harjoitus: piirrä oman nimesi alkukirjain
-Harjoitus: voit myös yrittää kirjoittaa koko nimesi (tarvitset `penup`, `pendown` -komentoja kirjainten välillä!)
+![Kaksi viivaa](/images/kaksiviivaa.png)
+
+**Harjoitus**: Etsi suoria kulmia kotoasi. Onko pöydän kulma suora kulma?
+**Harjoitus**: Piirrä oman nimesi alkukirjain
+**Harjoitus**: Voit myös yrittää kirjoittaa koko nimesi (tarvitset `penup`, `pendown` -komentoja kirjainten välillä!)
 
 ***
 

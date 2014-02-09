@@ -6,10 +6,21 @@ title: Luku 1
 
 ## Alkusanat
 
-Koodikirjaa lukemalla ei opi koodaamaan. Koodausta oppii vain koodaamalla. Alkuun kuitenkin
-pääsee helpommin, jos joku auttaa hieman. Koodikirjan tarkoitus on auttaa sinut alkuun.
+Tervetuloa Koodikirjaan! 
 
-Lue eteenpäin ja toimi ohjeiden mukaan niin opit kyllä varmasti vähän koodausta.
+Koodaus on hauskaa ja siinä oppii paljon. Koodaamalla
+voit rakentaa omia pelejä ja maailmoja, joiden säännöt määräät sinä. Olet varmasti
+tutustunut moniin hienoihin peleihin tietokoneella, puhelimella tai pelikonsolilla, ja haluaisit ehkä itse tehdä
+jotain yhtä hienoa. Se on mahdollista! Ensin täytyy kuitenkin opetella hieman perusasioita.
+
+Juuri sitä varten Koodikirja on olemassa.
+
+Vain lukemalla Koodikirjaa et kuitenkaan voi oppia koodaamaan, sillä koodausta oppii vain koodaamalla.
+Koodikirjassa koodausta opetellaankin tekemällä pieniä harjoituksia lukemisen ohessa. Lisäksi
+kirjassa on kappaleiden lopussa hieman haastavampia harjoituksia, joita tekemällä pääset koodaamaan
+ihan itse.
+
+Lue eteenpäin ja toimi ohjeiden mukaan niin opit kyllä varmasti vähän koodausta!
 
 Jos sinua kiinnostaa tietää enemmän Koodikirjasta, niin klikkaa [tästä](/tietoja/). Jos
 taas haluat päästä koodaamaan, niin jatka lukemista.

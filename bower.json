@@ -1,10 +1,11 @@
 {
   "name": "koodikoulu",
   "dependencies": {
-    "jquery": "https://github.com/jquery/jquery.git",
-    "requirejs": "https://github.com/jrburke/requirejs.git",
-    "bacon": "https://github.com/baconjs/bacon.js.git",
-    "bacon.jquery": "https://github.com/baconjs/bacon.jquery.git",
-    "lodash": "https://github.com/lodash/lodash.git"
+    "jquery": "2.1.0",
+    "requirejs": "2.1.10",
+    "bacon": "0.7.2",
+    "bacon.jquery": "0.4.1",
+    "lodash": "2.4.1",
+    "raphael": "2.1.2"
   }
 }

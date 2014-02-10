@@ -1,12 +1,18 @@
 $(function() {
   $("#main a").attr("target", "_blank")
-  embedTurtleRoy($(".turtle-embed"), { glass: true }) 
   $("blockquote").each(function() {
     whenInView($(this), function(visible) {
-      console.log("bq", visible)
       this.toggleClass("grayscale", !visible)
     })
   })
+  $(".turtle-fake").each(function() {
+    whenInView($(this), function(visible) {
+      this.toggleClass("frozen", !visible)
+    })
+  })
+  setInterval(function() {
+    $(".turtle-fake").toggleClass("blink")
+  }, 500)
 })
 
 function embedTurtleRoy(elem, options) {
@@ -57,6 +63,7 @@ function whenInView(elem, f) {
   Bacon.later(3000)
       .flatMap(isInView)
       .debounce(500)
+      .startWith(false)
       .onValue(function(visible) { f.call(elem, visible) })
 
   function isScrolledIntoView(elem)

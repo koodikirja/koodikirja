@@ -39,7 +39,7 @@ selaimessasi, joten sinun ei tarvitse asentaa koneellesi mitään uutta. Lue
 tästä kuitenkin vielä lyhyt esittely, ennen kuin aloitat. Alla olevassa kuvassa näet, miltä Turtle Roy
 näyttää.
 
-<div class="turtle-embed" id="turtle-embed-1.1"></div>
+<div class="turtle-fake" id="turtle-embed-1.1"></div>
 
 Ylempi, vaalea alue on "piirtopaperi", jolle voit piirtää kuvioita sen keskellä sijaitsevan kolmiomaisen
 "kilpikonnan" avulla. Kilpikonnaa ohjataan antamalla sille käskyjä, jotka syötetään alemmalla, tummalla
@@ -83,7 +83,7 @@ Lisäksi on hyvä osata palauttaa konna keskelle paperia ja tyhjentää paperi. 
 
 Tässä vielä piirros käännöksistä eri suuntiin.
 
-![Suunnat](/images/suunnat1.png)
+<div class="turtle-diagram" id="suunnat1-diagram" data-id="suunnat1"></div>
 
 Onko on vaikeaa muistaa, kumpi oikea ja kumpi on vasen? Minua ainakin auttaa se, että kirjoitan aina
 oikealla kädellä. Kun otan kynän käteen, tiedän, kumpi on oikea. Myös englanninkielinen lause "You
@@ -128,7 +128,7 @@ MItä tapahtuu jos teet `lt 360`? Konna pyörähtää ympäri täydet 360 astett
 palaten alkuperäiseen asentoonsa. Alla olevassa kuvassa vielä hieman lisää eri
 asteisia käännöksiä.
 
-![Suunnat](/images/suunnat2.png)
+<div class="turtle-diagram" id="suunnat2-diagram" data-id="suunnat2"></div>
 
 Eri asteisia käännöksiä tarvitset, kun koetat piirtää hieman monimutkaisempia kuvioita.
 Alla näet M-kirjaimen eri nurkissa tarvittavat kulmat. Kokeile piirtää

@@ -17,16 +17,22 @@ $(function() {
     var id = elem.attr("data-id")
     var diagram = turtleDiagrams[id]
     var turtle = Turtle(elem, diagram.width || 640, diagram.height || 500)
-    if (diagram.offsetY) {
-      turtle.penup()
-      turtle.rt(180)
-      turtle.fd(diagram.offsetY)
-      turtle.rt(180)
-      turtle.pendown()
-    }
-    var calls = diagram.commands
-    calls.forEach(function(call) {
-      turtle[call.key].apply(turtle, call.args)
+    var drawn = false
+    whenInView(elem, function(inView) {
+      if (inView && !drawn) {
+        drawn = true
+        if (diagram.offsetY) {
+          turtle.penup()
+          turtle.rt(180)
+          turtle.fd(diagram.offsetY)
+          turtle.rt(180)
+          turtle.pendown()
+        }
+        var calls = diagram.commands
+        calls.forEach(function(call) {
+          turtle[call.key].apply(turtle, call.args)
+        })
+      }
     })
   })
 })

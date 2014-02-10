@@ -45,6 +45,7 @@ end
 def compile!
   puts "Compiling website.."
   puts %x[rm -rf output]
+  puts %x[bower install]
   puts %x[nanoc compile]
 end
 

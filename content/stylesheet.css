@@ -133,6 +133,15 @@ pre {
   border: 1px solid black;
 }
 
+#main table {
+  text-align: left;
+  border: 1px solid black;
+}
+
+#main table td, #main table th {
+  padding-right: 40px;
+}
+
 .grayscale {
     filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
     filter: gray; /* IE6-9 */

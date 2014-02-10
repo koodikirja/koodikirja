@@ -89,13 +89,16 @@ Onko on vaikeaa muistaa, kumpi oikea ja kumpi on vasen? Minua ainakin auttaa se,
 oikealla kädellä. Kun otan kynän käteen, tiedän, kumpi on oikea. Myös englanninkielinen lause "You
 write with your right" auttaa muistamaan sen, että oikea (right) on kirjoituskäsi.
 
-    |  Komento  |  Englanniksi   |  Suomeksi           |
-    ----------------------------------------------------
-    |  fd       |  forward       |  eteenpäin          |
-    |  lt       |  left turn     |  käännös vasemmalle |
-    |  rt       |  right turn    |  käännös oikealle   |
-    
-    Komennot
+{::nomarkdown}
+<table>
+  <thead><tr><th>Komento</th><th>Englanniksi</th><th>Suomeksi</th></thead>
+  <tbody>
+    <tr><td>fd<td>forward<td>eteenpäin</tr>
+    <tr><td>lt<td>left turn<td>käännös vasemmalle</tr>
+    <tr><td>rt<td>right turn<td>käännös oikealle</tr>
+  </tbody>
+</table>
+{:/nomarkdown}
 
 Nyt voit kokeilla ohjailla konnaa ympäriinsä. Karkasiko konna ruudun ulkopuolelle? Ei hätää - `clear`-komennolla pääset alkuun. 
 Jos haluat palauttaa konnan keskelle pyyhkimättä paperia tyhjäksi, voit kokeilla myös `home` -komentoa

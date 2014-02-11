@@ -143,7 +143,7 @@ Joitain kuvioita piirrettäessä on tarpeellista nostaa välillä kynä ylös pa
 Turtle Royssa kynä voidaan nostaa ylös komennolla `penup`. Kynän voi laskea uudelleen
 alas komennolla `pendown`. Jos haluaisit piirtää kaksi viivaa vierekkäin, se kävisi näin.
 
-![Kaksi viivaa](/images/kaksiviivaa.png)
+<div class="turtle-diagram" id="kaksiviivaa-diagram" data-id="kaksiviivaa"></div>
 
 **Harjoitus**: Etsi suoria kulmia kotoasi. Onko pöydän kulma suora kulma?
 

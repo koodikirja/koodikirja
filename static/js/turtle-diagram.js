@@ -13,7 +13,13 @@ $(function() {
     mkirjain: {
       height: 300,
       width: 400,
-      commands: [{"key":"spin","args":[360,10]},{"key":"clear","args":[]},{"key":"penup","args":[]},{"key":"lt","args":[135]},{"key":"fd","args":[120]},{"key":"rt","args":[135]},{"key":"pendown","args":[]},{"key":"fd","args":[200]},{"key":"penup","args":[]},{"key":"rt","args":[0]},{"key":"fd","args":[10]},{"key":"lt","args":[0]},{"key":"pendown","args":[]},{"key":"text","args":["RT 135"]},{"key":"penup","args":[]},{"key":"rt","args":[180]},{"key":"fd","args":[10]},{"key":"lt","args":[180]},{"key":"pendown","args":[]},{"key":"rt","args":[135]},{"key":"fd","args":[120]},{"key":"lt","args":[135]},{"key":"penup","args":[]},{"key":"rt","args":[180]},{"key":"fd","args":[20]},{"key":"lt","args":[180]},{"key":"pendown","args":[]},{"key":"text","args":["LT 90"]},{"key":"penup","args":[]},{"key":"rt","args":[0]},{"key":"fd","args":[20]},{"key":"lt","args":[0]},{"key":"pendown","args":[]},{"key":"rt","args":[45]},{"key":"fd","args":[120]},{"key":"lt","args":[45]},{"key":"penup","args":[]},{"key":"rt","args":[0]},{"key":"fd","args":[10]},{"key":"lt","args":[0]},{"key":"pendown","args":[]},{"key":"text","args":["RT 135"]},{"key":"penup","args":[]},{"key":"rt","args":[180]},{"key":"fd","args":[10]},{"key":"lt","args":[180]},{"key":"pendown","args":[]},{"key":"rt","args":[180]},{"key":"fd","args":[200]}]
+      commands: [{"key":"spin","args":[360,10]},{"key":"penup","args":[]},{"key":"lt","args":[135]},{"key":"fd","args":[120]},{"key":"rt","args":[135]},{"key":"pendown","args":[]},{"key":"fd","args":[200]},{"key":"penup","args":[]},{"key":"rt","args":[0]},{"key":"fd","args":[10]},{"key":"lt","args":[0]},{"key":"pendown","args":[]},{"key":"text","args":["RT 135"]},{"key":"penup","args":[]},{"key":"rt","args":[180]},{"key":"fd","args":[10]},{"key":"lt","args":[180]},{"key":"pendown","args":[]},{"key":"rt","args":[135]},{"key":"fd","args":[120]},{"key":"lt","args":[135]},{"key":"penup","args":[]},{"key":"rt","args":[180]},{"key":"fd","args":[20]},{"key":"lt","args":[180]},{"key":"pendown","args":[]},{"key":"text","args":["LT 90"]},{"key":"penup","args":[]},{"key":"rt","args":[0]},{"key":"fd","args":[20]},{"key":"lt","args":[0]},{"key":"pendown","args":[]},{"key":"rt","args":[45]},{"key":"fd","args":[120]},{"key":"lt","args":[45]},{"key":"penup","args":[]},{"key":"rt","args":[0]},{"key":"fd","args":[10]},{"key":"lt","args":[0]},{"key":"pendown","args":[]},{"key":"text","args":["RT 135"]},{"key":"penup","args":[]},{"key":"rt","args":[180]},{"key":"fd","args":[10]},{"key":"lt","args":[180]},{"key":"pendown","args":[]},{"key":"rt","args":[180]},{"key":"fd","args":[200]}]
+    },
+    kaksiviivaa: {
+      height: 300,
+      width: 400,
+      offsetX: 50,
+      commands: [{"key":"spin","args":[360,10]},{"key":"penup","args":[]},{"key":"lt","args":[135]},{"key":"fd","args":[120]},{"key":"rt","args":[135]},{"key":"pendown","args":[]},{"key":"fd","args":[200]},{"key":"penup","args":[]},{"key":"rt","args":[90]},{"key":"fd","args":[200]},{"key":"pendown","args":[]},{"key":"rt","args":[90]},{"key":"fd","args":[200]},{"key":"penup","args":[]},{"key":"rt","args":[180]},{"key":"fd","args":[180]},{"key":"rt","args":[90]},{"key":"fd","args":[20]},{"key":"lt","args":[90]},{"key":"text","args":["fd 100"]},{"key":"penup","args":[]},{"key":"rt","args":[180]},{"key":"fd","args":[25]},{"key":"lt","args":[180]},{"key":"pendown","args":[]},{"key":"text","args":["penup"]},{"key":"penup","args":[]},{"key":"rt","args":[180]},{"key":"fd","args":[25]},{"key":"lt","args":[180]},{"key":"pendown","args":[]},{"key":"text","args":["rt 90"]},{"key":"penup","args":[]},{"key":"rt","args":[180]},{"key":"fd","args":[25]},{"key":"lt","args":[180]},{"key":"pendown","args":[]},{"key":"text","args":["fd 100"]},{"key":"penup","args":[]},{"key":"rt","args":[180]},{"key":"fd","args":[25]},{"key":"lt","args":[180]},{"key":"pendown","args":[]},{"key":"text","args":["rt 90"]},{"key":"penup","args":[]},{"key":"rt","args":[180]},{"key":"fd","args":[25]},{"key":"lt","args":[180]},{"key":"pendown","args":[]},{"key":"text","args":["pendown"]},{"key":"penup","args":[]},{"key":"rt","args":[180]},{"key":"fd","args":[25]},{"key":"lt","args":[180]},{"key":"pendown","args":[]},{"key":"text","args":["fd 100"]},{"key":"penup","args":[]},{"key":"rt","args":[180]},{"key":"fd","args":[25]},{"key":"lt","args":[180]},{"key":"pendown","args":[]}]
     }
   }
 
@@ -31,6 +37,13 @@ $(function() {
           turtle.rt(180)
           turtle.fd(diagram.offsetY)
           turtle.rt(180)
+          turtle.pendown()
+        }
+        if (diagram.offsetX) {
+          turtle.penup()
+          turtle.lt(90)
+          turtle.fd(diagram.offsetX)
+          turtle.rt(90)
           turtle.pendown()
         }
         var calls = diagram.commands

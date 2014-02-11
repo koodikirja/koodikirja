@@ -137,7 +137,7 @@ Eri asteisia käännöksiä tarvitset, kun koetat piirtää hieman monimutkaisem
 Alla näet M-kirjaimen eri nurkissa tarvittavat kulmat. Kokeile piirtää
 M-kirjain itse Turtle Roylla!
 
-![M-Kirjain](/images/mkirjain.png)
+<div class="turtle-diagram" id="mkirjain-diagram" data-id="mkirjain"></div>
 
 Joitain kuvioita piirrettäessä on tarpeellista nostaa välillä kynä ylös paperista.
 Turtle Royssa kynä voidaan nostaa ylös komennolla `penup`. Kynän voi laskea uudelleen

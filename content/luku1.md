@@ -159,7 +159,7 @@ Piirsitkö neliön jo? No, nyt piirretään neliö yhdessä! Mietitään aluksi,
 millaisia vaiheita neliön piirtämisessä on... suoria viivoja ja käännöksiä, eikö niin?
 Jos neliö piirtämisestä tehtäisiin sarjakuva, se näyttäisi suurin piirtein tältä:
 
-![Neliö - vaiheet](/images/nelio.png)
+<div class="turtle-diagram" id="neliovaiheet-diagram" data-id="neliovaiheet"></div>
 
 Ja toistetaan samaa kaavaa kunnes neliö on valmis...
 Mutta eikö olekin tylsää jankuttaa tietokoneelle samoja käskyjä monta kertaa? 

@@ -56,14 +56,9 @@ function embedTurtleRoy(elem, options) {
 
 function whenInView(elem, f) {
   var isInView = $(window).asEventStream("scroll").doAction(".preventDefault")
+      .toProperty(0)
       .map(function() { return isScrolledIntoView(elem) })
       .skipDuplicates()
-      .toProperty()
-
-  Bacon.later(3000)
-      .flatMap(isInView)
-      .debounce(500)
-      .startWith(false)
       .onValue(function(visible) { f.call(elem, visible) })
 
   function isScrolledIntoView(elem)

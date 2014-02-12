@@ -117,16 +117,26 @@ pre {
 }
 
 #main .turtle-fake {
+  position: relative;
   margin-left: 30px;
   width: 640px;
   height: 400px;
   display: inline-block;
   border: 1px solid black;
-  background: url('/images/turtle-roy-cursor.png') 0 0 no-repeat;
+  background: url('/images/turtle-roy.png') 0 0 no-repeat;
 }
 
-#main .turtle-fake.blink:not(.frozen) {
-  background: url('/images/turtle-roy.png') 0 0 no-repeat;
+#main .turtle-fake .cursor {
+  background: #CFCF20;
+  width: 8px;
+  height: 16px;
+  position: absolute;
+  top: 262px;
+  left: 26px;
+}
+
+#main .turtle-fake.blink .cursor {
+  visibility: hidden;
 }
 
 #main .turtle-diagram {

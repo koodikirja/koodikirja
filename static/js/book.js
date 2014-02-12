@@ -6,13 +6,19 @@ $(function() {
     })
   })
   $(".turtle-fake").each(function() {
+    var cursor = $("<div>").addClass("cursor")
+    $(this).append(cursor)
+    var interval
     whenInView($(this), function(visible) {
-      this.toggleClass("frozen", !visible)
+      if (visible) {
+        interval = setInterval(function() {
+          $(".turtle-fake").toggleClass("blink")
+        }, 500)
+      } else if(interval) {
+        clearInterval(interval)
+      }
     })
   })
-  setInterval(function() {
-    $(".turtle-fake").toggleClass("blink")
-  }, 500)
 })
 
 function embedTurtleRoy(elem, options) {

@@ -163,7 +163,8 @@ Jos neliö piirtämisestä tehtäisiin sarjakuva, se näyttäisi suurin piirtein
 
 <div class="turtle-diagram" id="neliovaiheet-diagram" data-id="neliovaiheet"></div>
 
-Ja toistetaan samaa kaavaa kunnes neliö on valmis...
+Ja toistetaan samaa kaavaa kunnes neliö on valmis... Kokeile!
+
 Mutta eikö olekin tylsää jankuttaa tietokoneelle samoja käskyjä monta kertaa? 
 Mitä jos voisitkin sanoa sille että
 
@@ -173,7 +174,12 @@ Tietokone ei valitettavasti ymmärrä tätä,
 mutta saman asian pystyy kertomaan sille myös ohjelmointikielellä. 
 Miten?
 
-### 1.4 Hajoita ja Hallitse
+Seuraavissa kappaleissa teemme neliön, niin kuin koodari sen tekisi.
+Samalla opit, mitä ovat sekvenssit, funktiot ja toisto.
+
+***
+
+### 1.4 Sekvenssit
 
 Nyt on aika soveltaa "hajoita ja hallitse" -lähestymistapaa!
 
@@ -183,12 +189,15 @@ ratkaista.
 
 Mieti miten rakentaisit Lego-palikoista valtavan robotin! Ehkä rakentaisit
 ensin vartalon ja jalat ja yhdistäisit ne. Sitten rakentaisit vielä pään ja
-kädet ja pian robotti olisi valmis. Juuri tällä tavalla koodari ajattele!
+kädet ja pian robotti olisi valmis. 
 
 TODO: sarjis robotin rakentamisesta!
 
+Juuri tällä tavalla koodari ajattelee! Hän keksii, mistä osista koodi koostuu,
+sitten rakentaa osat, ja lopuksi kytkee ne yhteen.
+
 Vaikka robottien rakennus onkin hyvin mielenkiintoista, palataan vielä hetkeksi
-neliöön. Aloitetaan siitä, että opetellaan kertomaan ohjelmointikielellä
+neliön piirtämiseen. Aloitetaan siitä, että opetellaan kertomaan ohjelmointikielellä
 
     *Mene eteenpäin ja käänny oikealle*
 
@@ -198,71 +207,65 @@ Ja se käy näin.
 
 Huh! Aika kummallinen kieli, vai mitä? 
 Tässä `s` (tulee englanninkielisestä sanasta *sequence*) tarkoittaa sitä, 
-että tehdään useampi asia peräkkäin. 
-Lista tehtävistä asioista laitetaan hakasulkujen [ ] sisään ja erotellaan toisistaan pilkuilla.
+että tehdään temppuja peräkkäin. Sitä kutsutaan myös *sekvenkssiksi*.
+Lista tehtävistä tempuista laitetaan hakasulkujen [ ] sisään ja erotellaan toisistaan pilkuilla.
 
-Kokeile! Muistithan välilyönnit, hakasulut ja pilkut. 
-Kaikki pitää olla oikeilla paikoillaan tai tietokone ei ymmärrä. 
-Se ei ole kovin älykäs, vaan ottaa kaiken kirjaimellisesti. 
+TODO: kuinka tehdään hakasulut
+
+Kokeile! Muistithan välilyönnit, hakasulut ja pilkut.
+Kaikki pitää olla oikeilla paikoillaan tai tietokone ei ymmärrä.
+Se ei ole kovin älykäs, vaan ottaa kaiken kirjaimellisesti.
 Sinun on opetettava sitä kärsivällisesti!
 
-Opettamisesta puheen olleen TODO blahblah, kokeilepa tätä:
-
-    let juttu = s [fd 100, rt 90]
-
-Nyt tietokone osaa yhden jutun enemmän kuin äsken. Teepä seuraavaksi näin:
-
-    juttu
-
-Ja uudestaan. Ehkä vielä pari kertaa? 
+Kun onnistuit, niin teepä samaa vielä muutaman kerran uudestaan.
 Muistathan, että edellisen komennon voi helposti toistaa painamalla `↑` ja Enter. 
 Mitä syntyi? Neliöhän siitä tuli, eikö?
 
-Nyt siis neliön voi tehdä kirjoittamalla neljä kertaa *juttu*. 
-Ei hullumpaa! Mutta sen voi tehdä vielä hieman nopeammin. Tyhjennetäänpä ruutu
-
-    clear
-
-Ja nyt toistetaan *juttu* neljä kertaa yhdellä käskyllä.
-
-    r 4 juttu
-
-Tuliko neliö? Jes!
-
-TODO: kertaus, mitä opittiin.
-
-> miten hakasulut tehdään eri koneilla
-> kielen nimi muuten on Roy. Joka on muuten ohjelmointikielen tekijän tyttöystävän koiran nimi.
-
-
-Harjoitus: Jos jaksat kirjoittaa, voit kokeilla vielä jotain pidempää listaa. Vaikkapa
-    s [fd 100, rt 90, fd 100, rt 90, fd 100, rt 90, fd 100] 
-Harjoituksia TODO
+Neliön piirtämiseen siis riittää tehdä neljä kertaa peräkkäin sama sekvenssi.
 
 ***
 
-### 1.5 Mutteri
+### 1.5 Funktiot
 
-Piirretäänpä seuraavaksi mutteri. Tai oikeastaan kuusikulmio. Kuusikulmiossa on kuusi sivua ja kuusi samanlaista kulmaa. Sen piirtämiseksi siis pitää mennä kuusi kertaa eteenpäin ja joka välissä kääntyä hieman. Kuinka paljon pitää kääntyä?
+Tyhjennetäänpä taas ruutu.
 
-Sen voimme laskea, kun tiedämme ympyrässä olevan 360 astetta, jolloin käännöksen asteluku on 360 jaettuna kuudella, eli 360 / 6. Kokeileppa syöttää komento
+    clear
 
-    360 / 6
+Seuraavaksi saatkin opettaa Turtle Roylle uusia temppuja. Kokeilepa tätä:
 
-Jos kaikki meni hyvin, niin Turtle Roy laski laskun puolestasi ja sait vastaukseksi 60. Se osaa siis laskea! Kokeile muitakin laskutoimituksia, esimerkiksi
+    let mutka = s [fd 100, rt 90]
 
-    1 + 1
-    2 * 3
-    360 / 4
-    1 - 0
+Jos kirjoitit oikein, niin Roy osaa ny yhden tempun enemmän kuin äsken. Teepä seuraavaksi näin:
 
-Tietokone siis toimii näppäränä laskukoneena. Se on tietysti hauskaa, mutta palataanpa taas piirtämään. Nyt kun tiedämme kuusikulmion kulman asteluvun, voimme piirtää kuusikulmion.
+    mutka
 
-TODO: konstruoidaan 6-kulmio-ohjelma samoin kuin neliö
+Ja uudestaan. Ehkä vielä pari kertaa? Taas neliö!
 
-TODO: tehdään 100-kulmio, huomataan, että lähtee lapasesta.
+Nyt siis neliön voi tehdä kirjoittamalla neljä kertaa peräkkäin *mutka*.
 
-Harjoitus: tee pienempi 100-kulmio (vinkki, lyhennä kerralla liikuttavaa matkaa!)
-Harjoitus: laske 8-kulmion kulman asteluku (kuinka monen asteen kulma)
-Harjoitus: piirrä 8-kulmio
-Harjoitus: piirrä kuusikulmio paperille
+Kun opetit tietokoneelle tempun nimeltä *mutka*, teit koodarien kielellä
+uuden *funktion*. Roy-ohjelmointikielessä funktioita tehdään sanomalla "let nimi = ohjeet",
+missä sanan "nimi" tilalle tulee funktion nimi ja sanan "ohjeet" tilalle tulee
+funktion toteutus eli ohjeet uuden tempun tekoon.
+
+Ei hullumpaa! Mutta neliön voi tehdä vielä hieman nopeammin. Vaikkapa näin:
+
+    s [clear, mutka, mutka, mutka, mutka]
+
+Nyt neliö piirtyikin jo yhdellä koodirivillä!
+
+TODO: Harjoituksia sekvensseillä ja funktioilla
+
+***
+
+### 1.5 Toistorakenteet
+
+Kokeilepa vielä tätä:
+
+    r 4 mutka
+
+Tuliko neliö? Jes! Käskit juuri tietokonetta tekemään "mutkan" 4 kertaa. Tässä `r`
+(tulee englannin sanasta *repeat*) tarkoittaa sitä, että toistetaan jokin temppu
+monta kertaa.
+
+Harjoituksia TODO

@@ -1,4 +1,9 @@
 ;(function() {
+  var lineColor = "#444444"
+  var textColor = "#56A594"
+  var turtleBorder = "#444444"
+  var turtleFill = "white"
+
   Turtle = function(element, w, h) {
     function xCenter() { return w / 2 }
     function yCenter() { return h / 2 }
@@ -30,7 +35,11 @@
       turtle.translate(xCenter(), yCenter());
       $("#turtlegraphics").css("background-color", "white");
       paper.font="20px Courier"
-      setColor("black")
+      setColor(lineColor)
+      paper.lineWidth=2;
+      turtle.fillStyle=turtleFill
+      turtle.strokeStyle=turtleBorder
+      turtle.lineWidth=2;
       drawTurtle()
     }
     function turtleToHome() {
@@ -65,6 +74,7 @@
         turtle.lineTo(-5, 10);
         turtle.lineTo(0, -10);
         turtle.stroke();
+        turtle.fill();
       }
     }
     function setColor(color) {
@@ -80,6 +90,7 @@
       fd: function(dist) {
         Smoothly.step(dist, 5, function(step) {
           if (pendown) {
+            paper.strokeStyle = lineColor
             paper.beginPath()
             paper.moveTo(0, 0)
             paper.lineTo(0, -step)
@@ -138,6 +149,7 @@
       },
       text: function(text) {
         Smoothly.do(function() {
+          setColor(textColor)
           paper.fillText(text, 0, 0)
         })()
       },

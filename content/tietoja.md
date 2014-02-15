@@ -1,3 +1,6 @@
+---
+company_name: "Koodirehtori T:mi"
+---
 # Tietoa koodikirjasta
 
 <div class="author">
@@ -27,15 +30,17 @@ Koodausta oppii parhaiten koodaamalla taitavan ja opetushaluisen ja -kykyisen ko
 Useimmilla ei tällaista henkilöä kuitenkaan perhepiiristä löydy.
 
 Toiseksi parhaiten koodausta oppii jos on käytettävissä tarvittavat välineet ja hyvä kirja.
-Koodauskirjan on tarkoitus olla juuri se kirja. Kirja jonka avulla lapsi voi opetella koodausta
+Koodikirjan on tarkoitus olla juuri se kirja. Kirja jonka avulla lapsi voi opetella koodausta
+itsenäisesti tai vanhemman avulla.
 
-## Kenelle Koodauskirja on
+## Kenelle Koodikirja on
 
 Jo 4-vuotias voi saada onnistumisen elämyksiä koodauksesta, mutta tarvitsee vanhemman
 tuekseen. Oma kokemukseni koodailuista 4-vuotiaan tyttäreni kanssa on, että
 koodaus yhdessä on hauskaaa ja siinä oppii paljon muutakin kuin koodausta.
 Toisaalta 4-vuotiaalle monet koodaukseen liittyvät abstraktit käsitteet ovat luonnollisesti
-hyvin haastavia, joten oppiminen ei välttämättä ole salamannopeaa.
+hyvin haastavia, joten oppiminen ei välttämättä ole salamannopeaa. Tärkeintä on, että
+oppiminen on hauskaa. Hankaliin yksityiskohtiin ei kannata jäädä jumiin.
 
 Itse opettelin koodaamaan noin 8-vuotiaana, pääasiassa lukemalla VIC-20:n ohjekirjaa ja
 kopioimalla sieltä pieniä ohjelmanpätkiä, joita sitten muuttelin ja vähitellen ymmärsin,
@@ -43,8 +48,8 @@ miten voin tehdä aivan omia tietokoneohjelmia. Toivon, ettäi koodauksen opette
 kouluikäisiltä vaikka itsenäisestikin Koodikirjan avulla. Vanhempien tuki on kuitenkin
 korvaamatonta ja opettelu yhdessä hyvin antoisaa.
 
-Vaikka kirja onkin suunniteltu lapsille, voi siitä myös aikuinen oppia paljon. Kirjasta
-oppii ihan oikeita koodaustaitoja, ei pelkästään lasten leikkejä. Matka Koodauskirjasta
+Vaikka kirja onkin suunniteltu lapsille, voi siitä myös nuori tai aikuinen oppia paljon. Kirjasta
+oppii ihan oikeita koodaustaitoja, ei pelkästään lasten leikkejä. Matka Koodikirjasta
 ammattikoodariksi on toki vielä pitkä.
 
 ## Miksi koodaus on tärkeää
@@ -86,17 +91,26 @@ open-source kirjastoja ja niin edellleen. Nytkin päässä pyörii pari hyvää 
 
 Koodaus on hauskaa, koska se on hauskaa!
 
-## Mitä Koodauskirja maksaa
+## Miten Koodikirja opettaa koodausta
 
-Koodauskirja on ja tulee aina olemaan käyttäjilleen ilmainen.
+Koodikirjassa koodausta lähestytään "koodikylpy"-menetelmällä, eli
+tutustutaan koodaukseen hauskojen esimerkkien kautta ja samalla
+opetetaan yleisiä ohjelmoinnin käsitteitä pienissä annoksissa.
 
-Myös Koodauskirjan lähdekoodi on avointa, joten se on nyt ja tulee jatkossakin olemaan kaikkien saatavilla, ilmaiseksi.
-Koodauskirja on siis vapaasti käytettävissä, kopioitavissa ja levitettävissä ei-kaupalliseen käyttöön.
+Harjoituksia tehdään paljon ja asioita kerrataan paljon. Samat käsitteet
+esitellään monta kertaa eri esimerkkien kautta.
 
-Koodauskirjan lähdekoodit löydät Githubista osoitteesta http://github.com/koodikirja/koodikirja.
+## Mitä Koodikirja maksaa
 
-Oikeudet materiaalin kaupalliseen käyttöön omistaa Koodikirja Oy (TBD firman nimi ja yhtiömuoto).
-Kaupallisesta käytöstä tulee siis sopia Koodikirja Oy:n kanssa.
+Koodikirja on ja tulee aina olemaan käyttäjilleen ilmainen.
+
+Myös Koodikirjan lähdekoodi on avointa, joten se on nyt ja tulee jatkossakin olemaan kaikkien saatavilla, ilmaiseksi.
+Koodikirja on siis vapaasti käytettävissä, kopioitavissa ja levitettävissä ei-kaupalliseen käyttöön.
+
+Koodikirjan lähdekoodit löydät Githubista osoitteesta http://github.com/koodikirja/koodikirja.
+
+Oikeudet materiaalin kaupalliseen käyttöön omistaa <%= @item[:company_name]%>.
+
 Tämä koskee myös kirjan käyttöä maksullisessa koulutuksessa ja sen
 painamista myytäväksi paperiversioksi.
 
@@ -108,19 +122,21 @@ yrityksiä, jotka haluavat edistää koodaustaitoa ja -kulttuuria maassamme.
 Koodikirjan ensimmäinen luku on tehty osittain vapaa-ajalla, osittain ohjelmistoyritys Reaktorin
 sponsoroimana.
 
-Koodikirjan jatkototeutuksesta vastaa Koodikirja Oy.
+Koodikirjan jatkototeutuksesta vastaa kirjoittajan, eli Juha Paanasen toiminimi <%=@item[:company_name]%>.
+Kirjan graafinen suunnittelu ja piirrokset on tarkoitus jatkossakin ostaa Mari Halla-aholta. Muita
+tekijöitä on mahdollista ottaa hankkeeseen mukaan riippuen rahoitustilanteesta.
 
 Koodikirja-projektin jatko riippuu siitä, löydetäänkö hankkeelle rahoittajia.
 
 ## Kuinka voit auttaa
 
-Jos koet asian tärkeäksi, auta meitä kehittämään Koodauskirjaa.
+Jos koet asian tärkeäksi, auta meitä kehittämään Koodikirjaa.
 
-Koodauskirja tarvitsee rahoitusta. Jos yrityksesi haluaa edistää hanketta, voitte auttaa
-meitä sponsoroimalla. Käyttämällänne rahalla saatte varmistettua, että Koodauskirja toteutuu.
+Koodikirja tarvitsee rahoitusta. Jos yrityksesi haluaa edistää hanketta, voitte auttaa
+meitä sponsoroimalla. Käyttämällänne rahalla saatte varmistettua, että Koodikirja toteutuu.
 Lisäksi saatte nimenne ikuistettua suomalaisen koodauksen historiaan.
 
 Yksityishenkilönä voit auttaa lukemalla, koodaamalla, opettamalla ja levittämällä sanaa.
 
-Voit auttaa myös omalla työpanoksellasi. Koodauskirja on avointa lähdekoodia, joten jos haluat
+Voit auttaa myös omalla työpanoksellasi. Koodikirja on avointa lähdekoodia, joten jos haluat
 parantaa sitä, olet tervetullut niin tekemään! Koodi on Githubissa. Tässä ohjeet. TODO

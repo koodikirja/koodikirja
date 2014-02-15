@@ -1,9 +1,3 @@
-## TODO
-
-- coffee
-- less
-- Tsekkaa syntax highlight http://clarkdave.net/2013/03/syntax-highlighting-in-nanoc/
-
 ## Install
 
     bundle install

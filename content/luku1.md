@@ -187,12 +187,6 @@ ajan myötä.
 
 ### 1.4 Sekvenssit
 
-Nyt on aika soveltaa "hajoita ja hallitse" -lähestymistapaa!
-
-Tämä ei tarkoita sitä, että hajoittamalla esineitä voimme hallita maailmaa.
-Vaan se tarkoittaa sitä, että jaetaan ongelma pienempiin osiin, jotka osaamme
-ratkaista.
-
 Mieti miten rakentaisit Lego-palikoista valtavan robotin! Ehkä rakentaisit
 ensin vartalon ja jalat ja yhdistäisit ne. Sitten rakentaisit vielä pään ja
 kädet ja pian robotti olisi valmis. 
@@ -237,11 +231,11 @@ Tyhjennetäänpä taas ruutu.
 
     clear
 
-Seuraavaksi saatkin opettaa Turtle Roylle uusia temppuja. Kokeilepa tätä:
+Seuraavaksi saat opettaa Turtle Roylle uuden tempun. Kokeilepa tätä:
 
     let mutka = s [fd 100, rt 90]
 
-Jos kirjoitit oikein, niin Roy osaa ny yhden tempun enemmän kuin äsken. Teepä seuraavaksi näin:
+Jos kirjoitit oikein, niin Roy osaa nyt yhden tempun enemmän kuin äsken. Teepä seuraavaksi näin:
 
     mutka
 

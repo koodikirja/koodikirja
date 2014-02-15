@@ -122,7 +122,7 @@ yrityksiä, jotka haluavat edistää koodaustaitoa ja -kulttuuria maassamme.
 Koodikirjan ensimmäinen luku on tehty osittain vapaa-ajalla, osittain ohjelmistoyritys Reaktorin
 sponsoroimana.
 
-Koodikirjan jatkototeutuksesta vastaa kirjoittajan, eli Juha Paanasen toiminimi <%=@item[:company_name]%>.
+Koodikirjan jatkototeutuksesta vastaa toiminimi <%=@item[:company_name]%>.
 Kirjan graafinen suunnittelu ja piirrokset on tarkoitus jatkossakin ostaa Mari Halla-aholta. Muita
 tekijöitä on mahdollista ottaa hankkeeseen mukaan riippuen rahoitustilanteesta.
 

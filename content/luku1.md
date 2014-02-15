@@ -11,11 +11,9 @@ Tervetuloa Koodikirjaan!
 Koodaus on hauskaa ja siinä oppii paljon. Koodaamalla
 voit rakentaa omia pelejä ja maailmoja, joiden säännöt määräät sinä. Olet varmasti
 tutustunut moniin hienoihin peleihin tietokoneella, puhelimella tai pelikonsolilla, ja haluaisit ehkä itse tehdä
-jotain yhtä hienoa. Se on mahdollista! Ensin täytyy kuitenkin opetella hieman perusasioita.
+jotain yhtä hienoa. Se on mahdollista! Ensin täytyy kuitenkin opetella hieman perusasioita. Juuri sitä varten Koodikirja on olemassa.
 
-Juuri sitä varten Koodikirja on olemassa.
-
-Vain lukemalla Koodikirjaa et kuitenkaan voi oppia koodaamaan, sillä koodausta oppii vain koodaamalla.
+Pelkästään lukemalla Koodikirjaa et kuitenkaan voi oppia koodaamaan, sillä koodaamaan oppii vain koodaamalla.
 Koodikirjassa koodausta opetellaankin tekemällä pieniä harjoituksia lukemisen ohessa. Lisäksi
 kirjassa on kappaleiden lopussa hieman haastavampia harjoituksia, joita tekemällä pääset koodaamaan
 ihan itse.
@@ -27,8 +25,12 @@ taas haluat päästä koodaamaan, niin jatka lukemista.
 
 ## Luku 1 - Konnankoukkuja Kahdelle
 
-Koodikirjan ensimmäisessä luvussa saatte tutustua ystäviini TBD ja Kilpikonna Roy,
-jotka opettavat sinulle koodauksen alkeita.
+Koodikirjan ensimmäisessä luvussa saatte tutustua ystäviini Robo ja Kilpikonna Roy,
+jotka opettavat sinulle koodauksen alkeita. He myös kertovat sinulle mitä on koodaus ja mitä on koodi.
+
+Koodi on tietokoneiden kieltä. Tietokone tottelee koodia. Koodilla voit käskeä tietokonetta tekemään mitä haluat.
+
+Koodaus on rakentamista. Koodaus on koodin kirjoittamista, ja koodista rakennettujen palasten yhdistelemistä.
 
 ### 1.1 Konna liikkeelle
 

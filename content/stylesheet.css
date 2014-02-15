@@ -121,7 +121,7 @@ pre {
   margin-left: 30px;
   width: 640px;
   height: 400px;
-  display: inline-block;
+  display: block;
   border: 1px solid black;
   background: url('/images/turtle-roy.png') 0 0 no-repeat;
 }

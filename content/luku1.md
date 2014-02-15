@@ -28,9 +28,11 @@ taas haluat päästä koodaamaan, niin jatka lukemista.
 Koodikirjan ensimmäisessä luvussa saatte tutustua ystäviini Robo ja Kilpikonna Roy,
 jotka opettavat sinulle koodauksen alkeita. He myös kertovat sinulle mitä on koodaus ja mitä on koodi.
 
-Koodi on tietokoneiden kieltä. Tietokone tottelee koodia. Koodilla voit käskeä tietokonetta tekemään mitä haluat.
+Koodi on tietokoneiden kieltä. Tietokone tottelee koodia. Koodilla voit käskeä tietokonetta 
+tekemään mitä haluat.
 
-Koodaus on rakentamista. Koodaus on koodin kirjoittamista, ja koodista rakennettujen palasten yhdistelemistä.
+Koodaus on rakentamista. Koodaus on koodin kirjoittamista, ja koodista rakennettujen palasten 
+yhdistelemistä.
 
 ### 1.1 Konna liikkeelle
 
@@ -175,7 +177,11 @@ mutta saman asian pystyy kertomaan sille myös ohjelmointikielellä.
 Miten?
 
 Seuraavissa kappaleissa teemme neliön, niin kuin koodari sen tekisi.
-Samalla opit, mitä ovat sekvenssit, funktiot ja toisto.
+Samalla saat tutustua sekvensseihin, funktioihin ja toistorakenteisiin.
+Ne ovat koodarin tärkeitä rakennuspalikoita ja saattavat aluksi tuntua
+aika monimutkaisilta. Mutta ei hätää! Tulemme käsittelemään niitä vielä
+monesti. Jos jokin siis tuntuu liian vaikealta, älä luovuta! Asiat selkiytyvät
+ajan myötä.
 
 ***
 
@@ -268,4 +274,4 @@ Tuliko neliö? Jes! Käskit juuri tietokonetta tekemään "mutkan" 4 kertaa. Tä
 (tulee englannin sanasta *repeat*) tarkoittaa sitä, että toistetaan jokin temppu
 monta kertaa.
 
-Harjoituksia TODO
+Harjoitus: piirrä portaat

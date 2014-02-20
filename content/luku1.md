@@ -221,7 +221,16 @@ Kun onnistuit, niin teepä samaa vielä muutaman kerran uudestaan.
 Muistathan, että edellisen komennon voi helposti toistaa painamalla `↑` ja Enter. 
 Mitä syntyi? Neliöhän siitä tuli, eikö?
 
-Neliön piirtämiseen siis riittää tehdä neljä kertaa peräkkäin sama sekvenssi.
+Neliön piirtämiseen siis riittää tehdä neljä kertaa peräkkäin sama sekvenssi. Harjoitellaanpa
+vielä hieman sekvenssejä! Kokeilepa tätä:
+
+    s[clear, fd 100, rt 90, fd 100]
+
+Tämän sekvenssin alussa on `clear`, joten tätä temppua tehdessään kilpikonna Roy
+tyhjentää aina aluksi paperin ja aloittaa keskeltä.
+
+**Harjoitus:** Piirrä oman nimesi alkukirjain (tai jokin muu kirjain)  yhdellä sekvenssillä. 
+Aloita sekvenssi `clear` -komennolla.
 
 ***
 
@@ -254,7 +263,8 @@ Ei hullumpaa! Mutta neliön voi tehdä vielä hieman nopeammin. Vaikkapa näin:
 
 Nyt neliö piirtyikin jo yhdellä koodirivillä!
 
-TODO: Harjoituksia sekvensseillä ja funktioilla
+**Harjoitus:** Opeta kilpikonnalle funktio, joka piirtää nimesi alkukirjaimen. Vinkki: aloita `let kirjain = `.
+Kun funktio on opetettu, voit piirtää nimesi alkukirjaimen komennolla `kirjain`.
 
 ***
 
@@ -268,4 +278,29 @@ Tuliko neliö? Jes! Käskit juuri tietokonetta tekemään "mutkan" 4 kertaa. Tä
 (tulee englannin sanasta *repeat*) tarkoittaa sitä, että toistetaan jokin temppu
 monta kertaa.
 
-Harjoitus: piirrä portaat
+Toistoa käyttäen voit piirtää vaikkapa tällaiset portaat melko helposti:
+
+<div class="turtle-diagram" id="portaat-diagram" data-id="portaat"></div>
+
+Kokeile piirtää portaat itse käyttämällä toistoa.
+
+> Voit tallentaa Turtle Royssa tekemäsi komennot melko helposti.
+>
+> 1. Kirjoita `login "omanimi"` (Korvaa sana *omanimi* omalla nimelläsi. Muista lainausmerkit!)
+> 2. Kirjoita `save "teos"` (Korvaa sana *teos* nimellä jonka haluat piirrustuksellsei antaa)
+>
+> Kun palaat Turtle Roylle, tee `login "omanimi"` uudestaan ja sitten `open "teos"`, niin kilpikonna
+> piirtää piirrustuksesi uudelleen. Komennolla `ls` näet listan tallentamistasi piirrustuksista.
+
+Tähän päättyy Koodikirjan ensimmäinen luku. Minulla oli hauskaa, kun kirjoitin tämän. 
+Toivottavasti sinullakin oli hauskaa!
+
+Nähdään taas Koodauskirjan [2.luvussa](/luku2/)!
+
+---
+
+P. S. Jos koodauskipinä iski, niin voit tutustua esimerkiksi näihin loistaviin koodauspeleihin ja -ympäristöihin.
+Nämä linkit johtavat englanninkielisille sivuille, joten saatat tarvita vanhemman apua.
+
+- [code.org/learn](http://code.org/learn) paljon hauskoja koodauspelejä ja puuhasteltavaa
+- [Scratch](http://scratch.mit.edu) MIT-yliopiston graafinen koodausympäristö

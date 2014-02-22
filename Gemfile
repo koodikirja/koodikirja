@@ -15,6 +15,8 @@ gem 'mime-types', :require => 'mime/types'
 group :development do
   # Nanoc for compiling dynamic code
   gem 'nanoc'
+  gem 'less'
+  gem 'therubyracer'
 
   # For spawning a file server in any directory and deploying to Heroku
   gem 'adsf'

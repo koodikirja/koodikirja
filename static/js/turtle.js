@@ -1,10 +1,10 @@
-;(function() {
+define(["smoothly", "jquery"], function(Smoothly) {
   var lineColor = "#444444"
   var textColor = "#56A594"
   var turtleBorder = "#444444"
   var turtleFill = "white"
 
-  Turtle = function(element, w, h) {
+  return function Turtle(element, w, h) {
     function xCenter() { return w / 2 }
     function yCenter() { return h / 2 }
     function setSize(width, height) {
@@ -167,14 +167,4 @@
     }
     return api
   }
-
-  window.Barrier = function(callback, things) {
-    var count = things.length
-    return {
-      countDown: function(x) {
-        count--
-        if (count == 0 && callback) callback()
-      }
-    }
-  }
-})()
+})

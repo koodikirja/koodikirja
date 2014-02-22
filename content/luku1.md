@@ -34,6 +34,17 @@ tekemään mitä haluat.
 Koodaus on rakentamista. Koodaus on koodin kirjoittamista, ja koodista rakennettujen palasten 
 yhdistelemistä.
 
+Ennen kuin aloitat, voit valita alla olevista kuvakkeista, millaista tietokonetta käytät. Tämä valinta
+vaikuttaa esimerkiksi kirjassa neuvottuihin näppäimistökomentoihin.
+
+<%=render 'partials/os'%>
+
+Jos luet tätä kirjaa puhelimesta tai tabletista (esimerkiksi iPad), tarvitset koodausharjoituksiin "oikean"
+tietokoneen, jossa on näppäimistö. Valitse kuvakkaista koodaustietokoneesi käyttöjärjestelmä.
+Jos et tiedä, mikä käyttöjärjestelmä koneessasi on, kysy vaikkapa äidiltäsi!
+
+Voit vaihtaa tätä valintaa myös myöhemmin palaamalla tänne.
+
 ### 1.1 Konna liikkeelle
 
 <div id="turtle-1-1" class="turtle-svg"></div>

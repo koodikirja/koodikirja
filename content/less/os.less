@@ -1,0 +1,25 @@
+.select-os {
+  list-style:none;
+  li {
+    display: inline-block;
+    width: 206px;
+    margin:0;
+    padding:0;
+    height: 241px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    &.os-windows {
+      background-image: url('/images/os-windows.jpg');
+    }
+    &.os-mac {
+      background-image: url('/images/os-mac.jpg');
+    }
+    &.os-linux {
+      background-image: url('/images/os-linux.jpg');
+    }
+    &:not(.selected) {
+      .grayscale;
+    }
+  }
+}

@@ -17,7 +17,7 @@ compile '/assets/*' do
 end
 
 compile '/stylesheet/' do
-  # don’t filter or layout
+  filter :less
 end
 
 compile '*' do

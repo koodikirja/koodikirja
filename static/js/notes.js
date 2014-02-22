@@ -1,4 +1,4 @@
-$(function() {
+define(["bacon.jquery"], function() {
   var main = $("#main")
   var click = main.clickE()
   var addedNote = click.flatMapFirst(function(e) {

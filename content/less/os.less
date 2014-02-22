@@ -21,6 +21,14 @@
     &:not(.selected) {
       .grayscale;
     }
+    border: 3px solid #eeeeee;
+    opacity: 0.9;
+    border-radius: 20px;
+    &.selected {
+      opacity: 1.0;
+      border-color: rgb(167, 188, 197);
+    }
+    transition: all 0.1s ease;
   }
 }
 .os-specific {

@@ -1,4 +1,4 @@
-define(["whenInView", "turtleDiagram", "turtleFake", "os", "jquery", "bacon.jquery"], 
+define(["whenInView", "turtleDiagram", "turtleFake", "os", "notes", "jquery", "bacon.jquery"], 
 function(whenInView) {
   $(function() {
     $("#main a").attr("target", "_blank")

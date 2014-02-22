@@ -1,4 +1,6 @@
 define(["bacon.jquery", "jquery"], function() {
+  var oses = ["windows", "mac", "linux"]
+
   $("body").addClass("os-detected-" + detectOS())
 
   var selectionEvents = $(".select-os li").clickE().map(function(e) {
@@ -6,10 +8,13 @@ define(["bacon.jquery", "jquery"], function() {
   })
   var selectedOS = selectionEvents.toProperty(initialOS())
 
-  selectedOS.onValue(function(os) {
-    localStorage.setItem("selectedOS", os)
+  selectedOS.onValue(function(selected) {
+    localStorage.setItem("selectedOS", selected)
     $(".select-os li").removeClass("selected")
-    $(".select-os .os-" + os).addClass("selected")
+    $(".select-os .os-" + selected).addClass("selected")
+    oses.forEach(function(os) {
+      $("body").toggleClass("os-" + os, os == selected)
+    })
   })
 
   function detectOS() {

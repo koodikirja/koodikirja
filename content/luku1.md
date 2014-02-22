@@ -221,7 +221,19 @@ Tässä `s` (tulee englanninkielisestä sanasta *sequence*) tarkoittaa sitä,
 että tehdään temppuja peräkkäin. Sitä kutsutaan myös *sekvenkssiksi*.
 Lista tehtävistä tempuista laitetaan hakasulkujen [ ] sisään ja erotellaan toisistaan pilkuilla.
 
-TODO: kuinka tehdään hakasulut
+<div class="os-specific os-mac">
+Osaatko tehdä hakasulut? Mac-tietokoneissa hakasulut tehdään painamalla samanaikaisesti
+<img class="key" src="/images/mac_key_alt.jpg"> ja
+<img class="key" src="/images/mac_key_8.jpg"> tai
+<img class="key" src="/images/mac_key_9.jpg">.
+</div>
+
+<div class="os-specific os-linux os-windows">
+Osaatko tehdä hakasulut? Linux- ja Windows-tietokoneissa hakasulut tehdään painamalla samanaikaisesti
+<img class="key" src="/images/windows_key_altgr.jpg"> ja
+<img class="key" src="/images/windows_key_8.jpg"> tai
+<img class="key" src="/images/windows_key_9.jpg">.
+</div>
 
 Kokeile! Muistithan välilyönnit, hakasulut ja pilkut.
 Kaikki pitää olla oikeilla paikoillaan tai tietokone ei ymmärrä.

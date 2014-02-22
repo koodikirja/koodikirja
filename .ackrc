@@ -1,0 +1,3 @@
+--ignore-dir=output
+--ignore-dir=tmp
+--ignore-dir=static/components

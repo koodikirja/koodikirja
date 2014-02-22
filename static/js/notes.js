@@ -1,4 +1,4 @@
-define(["bacon.jquery"], function() {
+define(["bacon.jquery", "lodash"], function() {
   var main = $("#main")
   var click = main.dblclickE()
   var addedNote = click.flatMapFirst(function(e) {

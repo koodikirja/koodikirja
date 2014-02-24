@@ -63,11 +63,18 @@ alueella sijaitsevan *kursorin* avulla. Kursori on se keltainen vilkkuva neliö.
 Nyt on aika avata Turtle Roy -ohjelma [tästä](http://turtle-roy.herokuapp.com), jolloin se aukeaa uuteen ikkunaan
 tai täbiin.
 
-> **Vinkki**: Kannattaa opetella vaihtelemaan Turtle Royn ja Koodikirjan välillä näppärästi. Jos Turtle
-> Roy aukeaa erillisellä täbillä, voit vaihdella täbien välillä pitämällä pohjassa näppäimiä Cmd
-> ja Alt (Mac) tai Ctrl ja Alt (Linux, Windows) ja painamalla nuolinäppäimiä. Jos Turtle Roy aukeaa
-> erillisessä ikkunassa, voit vaihdella ikkunoiden välillä painamalla yhtä aikaa Ctrl ja Tab -näppäimiä
-> (Linux, Windows).
+<blockquote class="os-specific os-mac">
+<strong>Vinkki:</strong> Kannattaa opetella vaihtelemaan Turtle Royn ja Koodikirjan välillä näppärästi. Jos Turtle
+Roy aukeaa erillisellä täbillä, voit vaihdella täbien välillä pitämällä pohjassa näppäimiä Cmd
+ja Alt ja painamalla nuolinäppäimiä.
+</blockquote>
+
+<blockquote class="os-specific os-windows os-linux">
+<strong>Vinkki:</strong> Kannattaa opetella vaihtelemaan Turtle Royn ja Koodikirjan välillä näppärästi. Jos Turtle
+Roy aukeaa erillisellä täbillä, voit vaihdella täbien välillä pitämällä pohjassa näppäimiä Ctrl ja Alt ja 
+painamalla nuolinäppäimiä. Jos Turtle Roy aukeaa
+erillisessä ikkunassa, voit vaihdella ikkunoiden välillä painamalla yhtä aikaa Ctrl ja Tab -näppäimiä.
+</blockquote>
 
 Kokeilepa kirjoittaa näin.
 

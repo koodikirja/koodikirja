@@ -44,7 +44,7 @@ oppiminen on hauskaa. Hankaliin yksityiskohtiin ei kannata jäädä jumiin.
 
 Itse opettelin koodaamaan noin 8-vuotiaana, pääasiassa lukemalla VIC-20:n ohjekirjaa ja
 kopioimalla sieltä pieniä ohjelmanpätkiä, joita sitten muuttelin ja vähitellen ymmärsin,
-miten voin tehdä aivan omia tietokoneohjelmia. Toivon, ettäi koodauksen opettelu onnistuu
+miten voin tehdä aivan omia tietokoneohjelmia. Toivon, että koodauksen opettelu onnistuu
 kouluikäisiltä vaikka itsenäisestikin Koodikirjan avulla. Vanhempien tuki on kuitenkin
 korvaamatonta ja opettelu yhdessä hyvin antoisaa.
 

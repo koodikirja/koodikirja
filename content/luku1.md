@@ -67,17 +67,20 @@ alueella sijaitsevan *kursorin* avulla. Kursori on se keltainen vilkkuva neliö.
 Nyt on aika avata Turtle Roy -ohjelma [tästä](http://turtle-roy.herokuapp.com), jolloin se aukeaa uuteen ikkunaan
 tai täbiin.
 
-<blockquote class="os-specific os-mac">
-<strong>Vinkki:</strong> Kannattaa opetella vaihtelemaan Turtle Royn ja Koodikirjan välillä näppärästi. Jos Turtle
-Roy aukeaa erillisellä täbillä, voit vaihdella täbien välillä pitämällä pohjassa näppäimiä Cmd
-ja Alt ja painamalla nuolinäppäimiä.
-</blockquote>
+<blockquote>
+  <p class="os-specific os-mac">
+  <strong>Vinkki:</strong> Kannattaa opetella vaihtelemaan Turtle Royn ja Koodikirjan välillä näppärästi. Jos Turtle
+  Roy aukeaa erillisellä täbillä, voit vaihdella täbien välillä pitämällä pohjassa näppäimiä Cmd
+  ja Alt ja painamalla nuolinäppäimiä.
+  </p>
 
-<blockquote class="os-specific os-windows os-linux">
-<strong>Vinkki:</strong> Kannattaa opetella vaihtelemaan Turtle Royn ja Koodikirjan välillä näppärästi. Jos Turtle
-Roy aukeaa erillisellä täbillä, voit vaihdella täbien välillä pitämällä pohjassa näppäimiä Ctrl ja Alt ja 
-painamalla nuolinäppäimiä. Jos Turtle Roy aukeaa
-erillisessä ikkunassa, voit vaihdella ikkunoiden välillä painamalla yhtä aikaa Ctrl ja Tab -näppäimiä.
+  <p class="os-specific os-windows os-linux">
+  <strong>Vinkki:</strong> Kannattaa opetella vaihtelemaan Turtle Royn ja Koodikirjan välillä näppärästi. Jos Turtle
+  Roy aukeaa erillisellä täbillä, voit vaihdella täbien välillä pitämällä pohjassa näppäimiä Ctrl ja Alt ja 
+  painamalla nuolinäppäimiä. Jos Turtle Roy aukeaa
+  erillisessä ikkunassa, voit vaihdella ikkunoiden välillä painamalla yhtä aikaa Ctrl ja Tab -näppäimiä.
+  </p>
+  <div class="robot"></div>
 </blockquote>
 
 Kokeilepa kirjoittaa näin.
@@ -135,15 +138,20 @@ Jos haluat palauttaa konnan keskelle pyyhkimättä paperia tyhjäksi, voit kokei
 
 **Harjoitus**: osaatko liikuttaa kilpikonnaa lyhemmän matkan, vaikkapa 50 pikseliä?
 
-> **Vinkki**: Jos haluat suorittaa edellisen komennon uudelleen, paina nuoli ylös `↑` -nappia. 
-> Nyt voit suorittaa komennon uudelleen painamalla Enter. Voit myös muokata komentoa. 
-> Voit poistaa merkkejä backspace-näppäimellä (kuva) ja liikuttaa kursoria sivunuolilla.
+<blockquote class="cloud2">
+  <strong>Vinkki:</strong> Jos haluat suorittaa edellisen komennon uudelleen, paina nuoli ylös `↑` -nappia. 
+  Nyt voit suorittaa komennon uudelleen painamalla Enter. Voit myös muokata komentoa. 
+  Voit poistaa merkkejä backspace-näppäimellä (kuva) ja liikuttaa kursoria sivunuolilla.
+  <div class="robot"></div>
+</blockquote>
 
-> **Vinkki**: Jos on vaikea päätellä, pitäisikö konnaa kääntää oikealle (`rt`) vai vasemmalle (`lt`), voit
-> askarrella pahvista oman pienen kilpikonnan. Laita kilpikonna näytölle samaan asentoon kuin
-> Kilpikonna Roy ja käännä haluttuun suuntaan. Jos käänsit myötäpäivään (suuntaan johon kello
-> pöyrii), on kyseessä käännös oikeaan eli `rt`.
-
+<blockquote class="cloud-left">
+  <strong>Vinkki:</strong> Jos on vaikea päätellä, pitäisikö konnaa kääntää oikealle (`rt`) vai vasemmalle (`lt`), voit
+  askarrella pahvista oman pienen kilpikonnan. Laita kilpikonna näytölle samaan asentoon kuin
+  Kilpikonna Roy ja käännä haluttuun suuntaan. Jos käänsit myötäpäivään (suuntaan johon kello
+  pöyrii), on kyseessä käännös oikeaan eli `rt`.
+  <div class="robot"></div>
+</blockquote>
 ***
 
 ### 1.2 Lisää konnankoukkuja

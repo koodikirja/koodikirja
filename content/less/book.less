@@ -97,15 +97,51 @@
   }
 
  blockquote {
-     background: #88ddFF;
-     border: 4px solid blue;
-     padding: 10px;
-     margin: 25px 30px;
+     position: relative;
+     background: url('/images/cloud1.png') 0 0 no-repeat;
+     padding: 107px 260px 80px 80px;
+     margin-right: -260px;
      transition: all 1s ease;
+     strong {
+       display: block;
+       text-transform: uppercase;
+       font-weight: normal;
+     }
+     p {
+       padding: 0;
+       margin: 0;
+     }
+    .robot {
+        display: block;
+        position: absolute;
+        width: 500px;
+        height: 789px;
+        background: url('/images/robot_left.png') 0 0 no-repeat;
+        left: 834px;
+        top: -247px;
+    }
+    &.cloud2 {
+      .robot {
+        width: 400px;
+        background-image: url('/images/robot_right.png');
+        top: -107px;
+        left: 849px;
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+      }
+    }
+    &.cloud-left {
+       background: url('/images/cloud2.png') 0 0 no-repeat;
+       padding: 107px 258px 80px 229px;
+       margin-left: -200px;
+      .robot {
+        width: 400px;
+        left: -352px;
+        top: -251px;
+        background-image: url('/images/robot_right.png');
+      }
+    }
   }
 
- blockquote p {
-     padding: 0;
-     margin: 0;
- }
 }

@@ -10,15 +10,14 @@ company_name: "Koodirehtori T:mi"
 </div>
 
 Innostukseni Koodikirja-projektiin syntyi [Koodikoulu](http://koodikoulu.fi)-tapahtumien valtavasta
-suosiosta, sekä kieltämättä myös Linda Liukkaan Hello Ruby-kirjan saamasta positiivisesta vastaanotosta.
+suosiosta sekä havainnosta, etten löytänyt Koodikoulun tueksi soveltuvaa opetusmateriaalia.
 Aika hyvälle suomenkieliselle koodauskirjalle on kypsä.
 
 Koodikirja-projektin tavoitteena on tuottaa Koodikoululle oppikirja.
 
-Suositut [Koodikoulu](http://koodikoulu.fi)-tapahtumat saivat alkunsa minun ja tyttäreni kahdenkeskisistä
-koodaustunneista. Niissä olen saanut jakaa sitä tietoa ja iloa, jota olen itse saanut 
-koodauksesta ja koodauksen opettamisesta omalle tyttärelleni. Koodikirjan avulla voin toivottavasti
-jakaa samaa iloa ja tietoa kaikille halukkaille.
+Suositut [Koodikoulu](http://koodikoulu.fi)-tapahtumat saivat alkunsa minun ja tyttäreni yhteisistä
+koodaustunneista. Niissä olen saanut jakaa sitä tietoa ja iloa, jota olen itse saanut
+koodauksesta. Koodikirjan avulla voin jakaa samaa iloa ja tietoa kaikille halukkaille.
 
 ***
 
@@ -30,14 +29,14 @@ Koodausta oppii parhaiten koodaamalla taitavan ja opetushaluisen ja -kykyisen ko
 Useimmilla ei tällaista henkilöä kuitenkaan perhepiiristä löydy.
 
 Toiseksi parhaiten koodausta oppii jos on käytettävissä tarvittavat välineet ja hyvä kirja.
-Koodikirjan on tarkoitus olla juuri se kirja. Kirja jonka avulla lapsi voi opetella koodausta
+Koodikirjan on tarkoitus olla juuri se kirja. Kirja, jonka avulla lapsi voi opetella koodausta
 itsenäisesti tai vanhemman avulla.
 
 ## Kenelle Koodikirja on
 
 Jo 4-vuotias voi saada onnistumisen elämyksiä koodauksesta, mutta tarvitsee vanhemman
 tuekseen. Oma kokemukseni koodailuista 4-vuotiaan tyttäreni kanssa on, että
-koodaus yhdessä on hauskaaa ja siinä oppii paljon muutakin kuin koodausta.
+koodaus yhdessä on hauskaa, ja siinä oppii paljon muutakin kuin koodausta.
 Toisaalta 4-vuotiaalle monet koodaukseen liittyvät abstraktit käsitteet ovat luonnollisesti
 hyvin haastavia, joten oppiminen ei välttämättä ole salamannopeaa. Tärkeintä on, että
 oppiminen on hauskaa. Hankaliin yksityiskohtiin ei kannata jäädä jumiin.
@@ -45,8 +44,8 @@ oppiminen on hauskaa. Hankaliin yksityiskohtiin ei kannata jäädä jumiin.
 Itse opettelin koodaamaan noin 8-vuotiaana, pääasiassa lukemalla VIC-20:n ohjekirjaa ja
 kopioimalla sieltä pieniä ohjelmanpätkiä, joita sitten muuttelin ja vähitellen ymmärsin,
 miten voin tehdä aivan omia tietokoneohjelmia. Toivon, että koodauksen opettelu onnistuu
-kouluikäisiltä vaikka itsenäisestikin Koodikirjan avulla. Vanhempien tuki on kuitenkin
-korvaamatonta ja opettelu yhdessä hyvin antoisaa.
+kouluikäisiltä itsenäisestikin Koodikirjan avulla. Vanhempien tuki on kuitenkin
+korvaamatonta, ja opettelu yhdessä on hyvin antoisaa.
 
 Vaikka kirja onkin suunniteltu lapsille, voi siitä myös nuori tai aikuinen oppia paljon. Kirjasta
 oppii ihan oikeita koodaustaitoja, ei pelkästään lasten leikkejä. Matka Koodikirjasta
@@ -64,15 +63,15 @@ Supercell...) tarvitsee valtavasti lahjakkaista koodareita. Ilman hyviä koodare
 ja toisaalta jos ja kun sitä tulee, niin samalla työllistetään paljon muitakin huippuammattilaisia.
 
 Koodausta kannattaa opetella nuorena. Se on hauska harrastus, josta tulee myöhemmin monelle työ.
-Koodausharrastus ja ohjelmoinnin opettelu sinänsä kehittää analyyttistä ajattelua ja ongelmanratkaisukykyä.
+Koodausharrastus ja ohjelmoinnin opettelu kehittää analyyttistä ajattelua ja ongelmanratkaisukykyä.
 
 Koodaustaidoista on hyötyä muissakin ammateissa kuin ohjelmoijana. Esimerkiksi
 
 - Johtavassa asemassa tehdään päätöksiä IT-järjestelmien hankinnasta. Jos ymmärrät IT-järjestelmiä,
-teet parempia päätöksiä
+teet parempia päätöksiä.
 - Suuri osa kaikesta työstä tehdään nykyisin tietokoneella. Koodarit ovat tietokoneen tehokäyttäjiä,
 ja suoriutuvat monenlaisista tehtävistä tehokkaasti, koska osaavat niksit ja pystyvät usein
-automatisoimaan tehtäviä, ja siten säästämään työaikaa
+automatisoimaan tehtäviä, ja siten säästämään työaikaa.
 - Tieteellisessä tutkimuksessa käsitellään usein suuria datamääriä. Koodaustaidoilla tämä käy tehokkaasti.
 
 Koodaus on tulevaisuuden kansalaistaito ja voi olla suuri menestystekijä sekä henkilökohtaisella
@@ -87,9 +86,9 @@ hän voi itse määrätä säännöt.
 Itse tein lapsena paljon erilaisia pelejä. Eräs näistä ole osakekauppapeli, jota kokoonnuimme monesti
 pelaamaan isolla porukalla tietokoneen ääreen. Myös aikuisena olen tehnyt kymmeniä vapaa-ajan
 koodausprojekteja, milloin mihinkin aiheeseen liittyen. Pelejä, apuohjelmia, 3D-moottoreita,
-open-source kirjastoja ja niin edellleen. Nytkin päässä pyörii pari hyvää mobiilisovellusideaa.
+open-source kirjastoja ja niin edelleen. Nytkin päässä pyörii pari hyvää mobiilisovellusideaa.
 
-Koodaus on hauskaa, koska se on hauskaa!
+Koodaus on hauskaa!
 
 ## Miten Koodikirja opettaa koodausta
 
@@ -102,7 +101,7 @@ esitellään monta kertaa eri esimerkkien kautta.
 
 ## Mitä Koodikirja maksaa
 
-Koodikirja on ja tulee aina olemaan käyttäjilleen ilmainen.
+Koodikirja on käyttäjilleen ilmainen.
 
 Myös Koodikirjan lähdekoodi on avointa, joten se on nyt ja tulee jatkossakin olemaan kaikkien saatavilla, ilmaiseksi.
 Koodikirja on siis vapaasti käytettävissä, kopioitavissa ja levitettävissä ei-kaupalliseen käyttöön.
@@ -122,9 +121,8 @@ yrityksiä, jotka haluavat edistää koodaustaitoa ja -kulttuuria maassamme.
 Koodikirjan ensimmäinen luku on tehty osittain vapaa-ajalla, osittain ohjelmistoyritys Reaktorin
 sponsoroimana.
 
-Koodikirjan jatkototeutuksesta vastaa toiminimi <%=@item[:company_name]%>.
-Kirjan graafinen suunnittelu ja piirrokset on tarkoitus jatkossakin ostaa Mari Halla-aholta. Muita
-tekijöitä on mahdollista ottaa hankkeeseen mukaan riippuen rahoitustilanteesta.
+Koodikirjan toteutuksesta vastaa toiminimi <%=@item[:company_name]%>.
+Kirjan graafinen suunnittelu ja piirrokset on toteuttanut Mari Halla-aho.
 
 Koodikirja-projektin jatko riippuu siitä, löydetäänkö hankkeelle rahoittajia.
 

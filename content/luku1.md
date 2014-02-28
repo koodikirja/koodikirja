@@ -23,9 +23,11 @@ Lue eteenpäin ja toimi ohjeiden mukaan niin opit kyllä varmasti vähän koodau
 Jos sinua kiinnostaa tietää enemmän Koodikirjasta, niin klikkaa [tästä](/tietoja/). Jos
 taas haluat päästä koodaamaan, niin jatka lukemista.
 
-***
+<hr class="short">
 
 ## Luku 1 - Konnankoukkuja Kahdelle
+
+<img id="turtle-character" src="/images/turtle1.png" alt="kilppari">
 
 Koodikirjan ensimmäisessä luvussa saatte tutustua ystäviini Robo ja Kilpikonna Roy,
 jotka opettavat sinulle koodauksen alkeita. He myös kertovat sinulle mitä on koodaus ja mitä on koodi.

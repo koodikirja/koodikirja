@@ -16,11 +16,21 @@ body {
   color: @body-color;
 }
 
+@media screen and (max-width: 1189px) {
+  #main {
+    margin: 0 0 0 120px;
+  }
+}
+@media screen and (min-width: 1190px) {
+  #main {
+    margin: 0 auto;
+  }
+}
+
 #main {
-  margin: 0 auto;
   position:relative;
   box-sizing: content-box;
-  max-width: 640px;
+  width: 640px;
   background: white;
   padding: 100px 170px 40px 140px;
   opacity: 0.96;

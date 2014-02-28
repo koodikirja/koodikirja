@@ -1,6 +1,8 @@
 @import "turtle.less";
 @import "os.less";
 
+@heading-color: #00D5AA;
+
 #main {
   position:relative;
   float: left;
@@ -31,6 +33,14 @@
   h1 {
     font-size: 40px;
     margin-bottom: 40px;
+    &#koodikirja {
+      background: url('/images/headline_koodikirja.png') 0 0 no-repeat;
+      color: transparent;
+    }
+  }
+
+  h1,h2,h3 {
+    color: @heading-color;
   }
 
   img {

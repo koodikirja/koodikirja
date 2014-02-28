@@ -23,6 +23,8 @@ Lue eteenpäin ja toimi ohjeiden mukaan niin opit kyllä varmasti vähän koodau
 Jos sinua kiinnostaa tietää enemmän Koodikirjasta, niin klikkaa [tästä](/tietoja/). Jos
 taas haluat päästä koodaamaan, niin jatka lukemista.
 
+***
+
 ## Luku 1 - Konnankoukkuja Kahdelle
 
 Koodikirjan ensimmäisessä luvussa saatte tutustua ystäviini Robo ja Kilpikonna Roy,

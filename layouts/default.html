@@ -12,23 +12,25 @@
     <%= render "partials/analytics" %>
     <div id="backdrop"></div>
     <div id="topshadow"></div>
-    <div id="sidebar">
-      <h2><a href="/">Koodikirja</a></h2>
-      <ul>
-        <li><a href="/tietoja/">Tietoja</a></li>
-        <li><a href="/yhteistyokumppanit/">Yhteistyökumppanit</a></li>
-        <li><a href="/luku1/">1. Luku</a></li>
-        <li><a href="/luku2/">2. Luku</a></li>
-      </ul>
-      <h2>Linkkejä</h2>
-      <ul>
-        <li><a href="http://koodikoulu.fi">Koodikoulu</a></li>
-        <li><a href="http://turtle-roy.herokuapp.com">Turtle Roy</a></li>
-      </ul>
-    </div>
     <div id="main">
+      <div id="sidebar">
+        <h2><a href="/">Koodikirja</a></h2>
+        <ul>
+          <li><a href="/tietoja/">Tietoja</a></li>
+          <li><a href="/yhteistyokumppanit/">Yhteistyökumppanit</a></li>
+          <li><a href="/luku1/">1. Luku</a></li>
+          <li><a href="/luku2/">2. Luku</a></li>
+        </ul>
+        <h2>Linkkejä</h2>
+        <ul>
+          <li><a href="http://koodikoulu.fi">Koodikoulu</a></li>
+          <li><a href="http://turtle-roy.herokuapp.com">Turtle Roy</a></li>
+        </ul>
+      </div>
       <div id="turtle-layer"></div>
-      <%= yield %>
+      <div id="book">
+        <%= yield %>
+      </div>
     </div>
     <div id="bottomshadow"></div>
     <script data-main="/js/main.js" src="/components/requirejs/require.js"></script>

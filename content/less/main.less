@@ -17,18 +17,44 @@ body {
 }
 
 #main {
+  margin: 0 auto;
   position:relative;
-  float: left;
   box-sizing: content-box;
   max-width: 640px;
-  margin-left: 140px;
-  margin-right: 20px;
   background: white;
-  display: inline-block;
   padding: 100px 170px 40px 140px;
   opacity: 0.96;
   border-radius: 10px;
 }
+
+#sidebar {
+  position: absolute;
+  left: -120px;
+  background: #79e2cf;
+  display: inline-block;
+  width: 220px;
+  padding: 50px 30px;
+  z-index: 2;
+
+  * {
+    color: @body-color;
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  h2 {
+    text-transform: uppercase;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    line-height: 20px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 20px 0;
+  }
+}
+
 
 #backdrop {
   width: 100%;
@@ -79,36 +105,6 @@ a {
 .noGrayscale {
   filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
   -webkit-filter: grayscale(0%);
-}
-
-#sidebar {
-  background: #79e2cf;
-  margin-top: 100px;
-  position: absolute;
-  display: inline-block;
-  width: 220px;
-  padding: 50px 30px;
-  opacity: 0.8;
-  z-index: 2;
-  margin-left: 15px;
-
-  * {
-    color: @body-color;
-    font-size: 18px;
-    line-height: 20px;
-  }
-
-  h2 {
-    text-transform: uppercase;
-    font-size: 1.1em;
-    letter-spacing: 1px;
-    line-height: 20px;
-  }
-
-  ul {
-    list-style-type: none;
-    margin: 20px 0;
-  }
 }
 
 .author {

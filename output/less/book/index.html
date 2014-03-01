@@ -1,0 +1,228 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Koodikirja - </title>
+    <link rel="stylesheet" href="/style.css">
+    <meta name="generator" content="nanoc 3.6.7">
+  </head>
+
+
+  <body class="clearfix">
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-47715622-1', 'koodikirja.fi');
+  ga('send', 'pageview');
+
+</script>
+
+    <div id="backdrop"></div>
+    <div id="topshadow"></div>
+    <div id="main">
+      <div id="sidebar">
+        <h2><a href="/">Koodikirja</a></h2>
+        <ul>
+          <li><a href="/tietoja/">Tietoja</a></li>
+          <li><a href="/yhteistyokumppanit/">Yhteistyökumppanit</a></li>
+          <li><a href="/luku1/">1. Luku</a></li>
+          <li><a href="/luku2/">2. Luku</a></li>
+        </ul>
+        <h2>Linkkejä</h2>
+        <ul>
+          <li><a href="http://koodikoulu.fi">Koodikoulu</a></li>
+          <li><a href="http://turtle-roy.herokuapp.com">Turtle Roy</a></li>
+        </ul>
+      </div>
+      <div id="turtle-layer"></div>
+      <div id="book">
+        <p>@import “turtle.less”;
+@import “os.less”;</p>
+
+<p>@heading-color: #00D5AA;
+@highlight-background: #41e4c7;
+@pink: #ffc7d2;</p>
+
+<h1 id="book-">book {</h1>
+<p>p, li, td, th {
+    line-height: 22px;
+  }
+  table {
+    text-align: left;
+    background: @pink;
+    padding: 20px;
+    th {
+      padding-bottom: 20px;
+    }
+    td, th {
+      padding-right: 40px;
+      &amp;:last-child {
+        width: 100%;
+      }
+    }
+  }</p>
+
+<p>hr {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-image: url(‘/images/line.png’);
+    background-repeat: no-repeat;
+    height: 7px;
+    width: 644px;
+    color: transparent;
+    border: none;
+    &amp;.short {
+      width: 436px;
+    }
+  }</p>
+
+<p>h1 {
+    font-size: 40px;
+    margin-bottom: 40px;
+    &amp;#koodikirja {
+      background: url(‘/images/headline_koodikirja.png’) 0 0 no-repeat;
+      color: transparent;
+    }
+  }</p>
+
+<p>h2 {
+    font-size: 1em;
+    font-weight: bold;
+    color: @heading-color;
+  }</p>
+
+<p>h3 {
+    font-size: 1em;
+    font-weight: bold;
+  }</p>
+
+<p>strong {
+    color: @heading-color;
+  }</p>
+
+<p>img {
+    max-width: 100%;
+    margin: 40px;
+    &amp;#turtle-character {
+      float: right;
+      margin-right: -120px;
+      margin-left: 10px;
+      margin-bottom: 0;
+      margin-top: -120px;
+    }
+  }</p>
+
+<p>a {
+    color: @heading-color;
+  }</p>
+
+<blockquote>
+  <p>p {
+    margin: 20px 0;
+    font-size: 17px;
+  }</p>
+</blockquote>
+
+<p>ul, ol {
+    margin: 20px;
+  }</p>
+
+<p>li {
+    font-size: 15px;
+  }</p>
+
+<p>ul li {
+    list-style-type: square;
+  }</p>
+
+<p>code {
+     background: @highlight-background;
+     margin: 5px;
+     padding: 1px 5px;
+   }
+  pre {
+     display: block;
+     margin-left: 20px;
+     width: 80%;
+     padding: 10px;
+     code {
+       padding: 8px 12px;
+     }
+  }</p>
+
+<p>blockquote {
+     position: relative;
+     background: url(‘/images/cloud1.png’) 0 0 no-repeat;
+     padding: 107px 260px 80px 80px;
+     margin-right: -260px;
+     transition: all 1s ease;
+     strong {
+       color: @body-color;
+       display: block;
+       text-transform: uppercase;
+       font-weight: normal;
+     }
+     p {
+       padding: 0;
+       margin: 0;
+     }
+    .robot {
+        display: block;
+        position: absolute;
+        width: 500px;
+        height: 789px;
+        background: url(‘/images/robot_left.png’) 0 0 no-repeat;
+        left: 834px;
+        top: -247px;
+    }
+    &amp;.cloud2 {
+      .robot {
+        width: 400px;
+        background-image: url(‘/images/robot_right.png’);
+        top: -107px;
+        left: 849px;
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+      }
+    }
+    &amp;.cloud-left {
+       background: url(‘/images/cloud2.png’) 0 0 no-repeat;
+       padding: 107px 258px 80px 229px;
+       margin-left: -200px;
+      .robot {
+        width: 400px;
+        left: -352px;
+        top: -251px;
+        background-image: url(‘/images/robot_right.png’);
+      }
+    }
+  }</p>
+
+<p>}</p>
+
+      </div>
+    </div>
+    <div id="bottomshadow"></div>
+    <script data-main="/js/main.js" src="/components/requirejs/require.js"></script>
+    <!--
+    <script src="/components/jquery/dist/jquery.js"></script>
+    <script src="/js/os.js"></script>
+    <script src="/js/jquery-ui-1.10.4.custom.min.js"></script>
+    <script src="/components/bacon/dist/Bacon.js"></script>
+    <script src="/components/bacon.jquery/dist/bacon.jquery.js"></script>
+    <script src="/components/lodash/lodash.js"></script>
+    <script src="/components/raphael/raphael-min.js"></script>
+    <script src="/js/turtle.js"></script>
+    <script src="/js/smoothly.js"></script>
+    <script src="/js/vector.js"></script>
+    <script src="/js/book.js"></script>
+    <script src="/js/svg-turtle.js"></script>
+    <script src="/js/turtle-diagram.js"></script>
+    <script src="/js/notes.js"></script>
+    -->
+  </body>
+</html>

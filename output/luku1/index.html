@@ -1,0 +1,438 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Koodikirja - Luku 1</title>
+    <link rel="stylesheet" href="/style.css">
+    <meta name="generator" content="nanoc 3.6.7">
+  </head>
+
+
+  <body class="clearfix">
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-47715622-1', 'koodikirja.fi');
+  ga('send', 'pageview');
+
+</script>
+
+    <div id="backdrop"></div>
+    <div id="topshadow"></div>
+    <div id="main">
+      <div id="sidebar">
+        <h2><a href="/">Koodikirja</a></h2>
+        <ul>
+          <li><a href="/tietoja/">Tietoja</a></li>
+          <li><a href="/yhteistyokumppanit/">Yhteistyökumppanit</a></li>
+          <li><a href="/luku1/">1. Luku</a></li>
+          <li><a href="/luku2/">2. Luku</a></li>
+        </ul>
+        <h2>Linkkejä</h2>
+        <ul>
+          <li><a href="http://koodikoulu.fi">Koodikoulu</a></li>
+          <li><a href="http://turtle-roy.herokuapp.com">Turtle Roy</a></li>
+        </ul>
+      </div>
+      <div id="turtle-layer"></div>
+      <div id="book">
+        <h1 id="koodikirja">Koodikirja</h1>
+
+<h2 id="alkusanat">Alkusanat</h2>
+
+<p>Tervetuloa Koodikirjaan! </p>
+
+<p>Koodaus on hauskaa ja siinä oppii paljon. Koodaamalla
+voit rakentaa omia pelejä ja maailmoja, joiden säännöt määräät sinä. Olet varmasti
+tutustunut moniin hienoihin peleihin tietokoneella, puhelimella tai pelikonsolilla, ja haluaisit ehkä itse tehdä
+jotain yhtä hienoa. Se on mahdollista! Ensin täytyy kuitenkin opetella hieman perusasioita. Juuri sitä varten Koodikirja on olemassa.</p>
+
+<p>Pelkästään lukemalla Koodikirjaa et kuitenkaan voi oppia koodaamaan, sillä koodaamaan oppii vain koodaamalla.
+Koodikirjassa koodausta opetellaankin tekemällä pieniä harjoituksia lukemisen ohessa. Lisäksi
+kirjassa on kappaleiden lopussa hieman haastavampia harjoituksia, joita tekemällä pääset koodaamaan
+ihan itse.</p>
+
+<p>Lue eteenpäin ja toimi ohjeiden mukaan niin opit kyllä varmasti vähän koodausta!</p>
+
+<p>Jos sinua kiinnostaa tietää enemmän Koodikirjasta, niin klikkaa <a href="/tietoja/">tästä</a>. Jos
+taas haluat päästä koodaamaan, niin jatka lukemista.</p>
+
+<hr class="short" />
+
+<h2 id="luku-1---konnankoukkuja-kahdelle">Luku 1 - Konnankoukkuja Kahdelle</h2>
+
+<p><img id="turtle-character" src="/images/turtle1.png" alt="kilppari" /></p>
+
+<p>Koodikirjan ensimmäisessä luvussa saatte tutustua ystäviini Robo ja Kilpikonna Roy,
+jotka opettavat sinulle koodauksen alkeita. He myös kertovat sinulle mitä on koodaus ja mitä on koodi.</p>
+
+<p>Koodi on tietokoneiden kieltä. Tietokone tottelee koodia. Koodilla voit käskeä tietokonetta 
+tekemään mitä haluat.</p>
+
+<p>Koodaus on rakentamista. Koodaus on koodin kirjoittamista, ja koodista rakennettujen palasten 
+yhdistelemistä.</p>
+
+<p>Ennen kuin aloitat, voit valita alla olevista kuvakkeista, millaista tietokonetta käytät. Tämä valinta
+vaikuttaa esimerkiksi kirjassa neuvottuihin näppäimistökomentoihin.</p>
+
+<ul class="select-os">
+
+<li class="os-windows" data-os="windows">
+</li>
+
+<li class="os-mac" data-os="mac">
+</li>
+
+<li class="os-linux" data-os="linux">
+</li>
+
+</ul>
+
+<p>Jos luet tätä kirjaa puhelimesta tai tabletista (esimerkiksi iPad), tarvitset koodausharjoituksiin “oikean”
+tietokoneen, jossa on näppäimistö. Valitse kuvakkaista koodaustietokoneesi käyttöjärjestelmä.
+Jos et tiedä, mikä käyttöjärjestelmä koneessasi on, kysy vaikkapa äidiltäsi!</p>
+
+<p>Voit vaihtaa tätä valintaa myös myöhemmin palaamalla tänne.</p>
+
+<h3 id="konna-liikkeelle">1.1 Konna liikkeelle</h3>
+
+<div id="turtle-1-1" class="turtle-svg"></div>
+
+<p>Kokeillaanko? Tässä luvussa leikimme Turtle Roy -ohjelmalla, jonka saat avata ihan kohta. Turtle Roy toimii
+selaimessasi, joten sinun ei tarvitse asentaa koneellesi mitään uutta. Lue
+tästä kuitenkin vielä lyhyt esittely, ennen kuin aloitat. Alla olevassa kuvassa näet, miltä Turtle Roy
+näyttää.</p>
+
+<div class="turtle-fake" id="turtle-embed-1.1"></div>
+
+<p>Ylempi, vaalea alue on “piirtopaperi”, jolle voit piirtää kuvioita sen keskellä sijaitsevan kolmiomaisen
+“kilpikonnan” avulla. Kilpikonnaa ohjataan antamalla sille käskyjä, jotka syötetään alemmalla, tummalla
+alueella sijaitsevan <em>kursorin</em> avulla. Kursori on se keltainen vilkkuva neliö.</p>
+
+<p>Nyt on aika avata Turtle Roy -ohjelma <a href="http://turtle-roy.herokuapp.com">tästä</a>, jolloin se aukeaa uuteen ikkunaan
+tai täbiin.</p>
+
+<blockquote>
+  <p class="os-specific os-mac">
+  <strong>Vinkki:</strong> Kannattaa opetella vaihtelemaan Turtle Royn ja Koodikirjan välillä näppärästi. Jos Turtle
+  Roy aukeaa erillisellä täbillä, voit vaihdella täbien välillä pitämällä pohjassa näppäimiä Cmd
+  ja Alt ja painamalla nuolinäppäimiä.
+  </p>
+
+  <p class="os-specific os-windows os-linux">
+  <strong>Vinkki:</strong> Kannattaa opetella vaihtelemaan Turtle Royn ja Koodikirjan välillä näppärästi. Jos Turtle
+  Roy aukeaa erillisellä täbillä, voit vaihdella täbien välillä pitämällä pohjassa näppäimiä Ctrl ja Alt ja 
+  painamalla nuolinäppäimiä. Jos Turtle Roy aukeaa
+  erillisessä ikkunassa, voit vaihdella ikkunoiden välillä painamalla yhtä aikaa Ctrl ja Tab -näppäimiä.
+  </p>
+  <div class="robot"></div>
+</blockquote>
+
+<p>Kokeilepa kirjoittaa näin.</p>
+
+<pre><code>fd 100
+</code></pre>
+
+<p>Kun painat Enter-nappia, kilpikonna Roy suorittaa antamasi käskyn. Uskallatko painaa?  Paina vaan!</p>
+
+<p>Hyvä! Liikkuiko konna? Muistithan välilyönnin! Jos meni mönkään, niin ei hätää! Tietokone ilmoittaa virheestä punaisella tekstillä. Yritä uudelleen.</p>
+
+<p>Joko onnistuit?</p>
+
+<p>Onneksi olkoon! 
+Siinä oli ensimmäinen tietokoneohjelmasi, joka teki yhden asian. 
+Kilpikonna liikkui 100 askelta eteenpäin ja piirsi viivan mennessään.
+Kilpikonnan askeleet ovat hyvin lyhyitä ja niitä sanotaan myös pikseleiksi. 
+Mitä muuta Kilpikonna Roy osaa tehdä? Kokeilepa tätä.</p>
+
+<pre><code>lt 90
+</code></pre>
+
+<p>Ja kas, kilpikonna kääntyi vasemmalle. Vai kääntyikö? Muistithan painaa taas Enteriä.  Ja vielä</p>
+
+<pre><code>rt 90
+</code></pre>
+
+<p>Nyt konna kääntyi oikealle. Näillä kolmella käskyllä pääset jo pitkälle. 
+Lisäksi on hyvä osata palauttaa konna keskelle paperia ja tyhjentää paperi. Se käy näin.</p>
+
+<pre><code>clear
+</code></pre>
+
+<p>Tässä vielä piirros käännöksistä eri suuntiin.</p>
+
+<div class="turtle-diagram" id="suunnat1-diagram" data-id="suunnat1"></div>
+
+<p>Onko on vaikeaa muistaa, kumpi oikea ja kumpi on vasen? Minua ainakin auttaa se, että kirjoitan aina
+oikealla kädellä. Kun otan kynän käteen, tiedän, kumpi on oikea. Myös englanninkielinen lause “You
+write with your right” auttaa muistamaan sen, että oikea (right) on kirjoituskäsi.</p>
+
+<table>
+  <thead><tr><th>Komento</th><th>Englanniksi</th><th>Suomeksi</th></thead>
+  <tbody>
+    <tr><td>fd<td>forward<td>eteenpäin</tr>
+    <tr><td>lt<td>left turn<td>käännös vasemmalle</tr>
+    <tr><td>rt<td>right turn<td>käännös oikealle</tr>
+  </tbody>
+</table>
+
+<p>Nyt voit kokeilla ohjailla konnaa ympäriinsä. Karkasiko konna ruudun ulkopuolelle? Ei hätää - <code>clear</code>-komennolla pääset alkuun. 
+Jos haluat palauttaa konnan keskelle pyyhkimättä paperia tyhjäksi, voit kokeilla myös <code>home</code> -komentoa</p>
+
+<hr />
+
+<p><strong>Harjoitus:</strong> saatko käännettyä konnan niin, että se osoittaa alaspäin?</p>
+
+<p><strong>Harjoitus:</strong> osaatko piirtää neliön?</p>
+
+<p><strong>Harjoitus:</strong> osaatko liikuttaa kilpikonnaa lyhemmän matkan, vaikkapa 50 pikseliä?</p>
+
+<hr />
+
+<blockquote class="cloud2">
+  <strong>Vinkki:</strong> Jos haluat suorittaa edellisen komennon uudelleen, paina nuoli ylös `↑` -nappia. 
+  Nyt voit suorittaa komennon uudelleen painamalla Enter. Voit myös muokata komentoa. 
+  Voit poistaa merkkejä backspace-näppäimellä (kuva) ja liikuttaa kursoria sivunuolilla.
+  <div class="robot"></div>
+</blockquote>
+
+<blockquote class="cloud-left">
+  <strong>Vinkki:</strong> Jos on vaikea päätellä, pitäisikö konnaa kääntää oikealle (`rt`) vai vasemmalle (`lt`), voit
+  askarrella pahvista oman pienen kilpikonnan. Laita kilpikonna näytölle samaan asentoon kuin
+  Kilpikonna Roy ja käännä haluttuun suuntaan. Jos käänsit myötäpäivään (suuntaan johon kello
+  pöyrii), on kyseessä käännös oikeaan eli `rt`.
+  <div class="robot"></div>
+</blockquote>
+<hr />
+
+<h3 id="lis-konnankoukkuja">1.2 Lisää konnankoukkuja</h3>
+
+<p>Jäitkö miettimään miksi käytimme lukua 90 käännöksissä? 
+No, sehän tarkoittaa tietenkin 90:n asteen käännöstä eli <em>suoraa kulmaa</em>.
+Käyttämällä eri lukua, saat konnan kääntymään eri asentoon. 
+Esimerkiksi jos teet <code>rt 180</code> niin konna kääntyy 180 astetta eli täyskäännöksen. Kokeile!</p>
+
+<p>MItä tapahtuu jos teet <code>lt 360</code>? Konna pyörähtää ympäri täydet 360 astetta 
+palaten alkuperäiseen asentoonsa. Alla olevassa kuvassa vielä hieman lisää eri
+asteisia käännöksiä.</p>
+
+<div class="turtle-diagram" id="suunnat2-diagram" data-id="suunnat2"></div>
+
+<p>Eri asteisia käännöksiä tarvitset, kun koetat piirtää hieman monimutkaisempia kuvioita.
+Alla näet M-kirjaimen eri nurkissa tarvittavat kulmat. Kokeile piirtää
+M-kirjain itse Turtle Roylla!</p>
+
+<div class="turtle-diagram" id="mkirjain-diagram" data-id="mkirjain"></div>
+
+<p>Joitain kuvioita piirrettäessä on tarpeellista nostaa välillä kynä ylös paperista.
+Turtle Royssa kynä voidaan nostaa ylös komennolla <code>penup</code>. Kynän voi laskea uudelleen
+alas komennolla <code>pendown</code>. Jos haluaisit piirtää kaksi viivaa vierekkäin, se kävisi näin.</p>
+
+<div class="turtle-diagram" id="kaksiviivaa-diagram" data-id="kaksiviivaa"></div>
+
+<p><strong>Harjoitus:</strong> Etsi suoria kulmia kotoasi. Onko pöydän kulma suora kulma?</p>
+
+<p><strong>Harjoitus:</strong> Piirrä oman nimesi alkukirjain</p>
+
+<p><strong>Harjoitus:</strong> Voit myös yrittää kirjoittaa koko nimesi (tarvitset <code>penup</code>, <code>pendown</code> -komentoja kirjainten välillä!)</p>
+
+<hr />
+
+<h3 id="neli">1.3 Neliö</h3>
+
+<p>Piirsitkö neliön jo? No, nyt piirretään neliö yhdessä! Mietitään aluksi,
+millaisia vaiheita neliön piirtämisessä on… suoria viivoja ja käännöksiä, eikö niin?
+Jos neliö piirtämisestä tehtäisiin sarjakuva, se näyttäisi suurin piirtein tältä:</p>
+
+<div class="turtle-diagram" id="neliovaiheet-diagram" data-id="neliovaiheet"></div>
+
+<p>Ja toistetaan samaa kaavaa kunnes neliö on valmis… Kokeile!</p>
+
+<p>Mutta eikö olekin tylsää jankuttaa tietokoneelle samoja käskyjä monta kertaa? 
+Mitä jos voisitkin sanoa sille että</p>
+
+<p><em>“Mene eteenpäin ja käänny oikealle. Toista tämä 4 kertaa.”</em></p>
+
+<p>Tietokone ei valitettavasti ymmärrä tätä, 
+mutta saman asian pystyy kertomaan sille myös ohjelmointikielellä. 
+Miten?</p>
+
+<p>Seuraavissa kappaleissa teemme neliön, niin kuin koodari sen tekisi.
+Samalla saat tutustua sekvensseihin, funktioihin ja toistorakenteisiin.
+Ne ovat koodarin tärkeitä rakennuspalikoita ja saattavat aluksi tuntua
+aika monimutkaisilta. Mutta ei hätää! Tulemme käsittelemään niitä vielä
+monesti. Jos jokin siis tuntuu liian vaikealta, älä luovuta! Asiat selkiytyvät
+ajan myötä.</p>
+
+<hr />
+
+<h3 id="sekvenssit">1.4 Sekvenssit</h3>
+
+<p>Mieti miten rakentaisit Lego-palikoista valtavan robotin! Ehkä rakentaisit
+ensin vartalon ja jalat ja yhdistäisit ne. Sitten rakentaisit vielä pään ja
+kädet ja pian robotti olisi valmis. </p>
+
+<p>TODO: sarjis robotin rakentamisesta!</p>
+
+<p>Juuri tällä tavalla koodari ajattelee! Hän keksii, mistä osista koodi koostuu,
+sitten rakentaa osat, ja lopuksi kytkee ne yhteen.</p>
+
+<p>Vaikka robottien rakennus onkin hyvin mielenkiintoista, palataan vielä hetkeksi
+neliön piirtämiseen. Aloitetaan siitä, että opetellaan kertomaan ohjelmointikielellä</p>
+
+<pre><code>*Mene eteenpäin ja käänny oikealle*
+</code></pre>
+
+<p>Ja se käy näin.</p>
+
+<pre><code>s [fd 100, rt 90]
+</code></pre>
+
+<p>Huh! Aika kummallinen kieli, vai mitä? 
+Tässä <code>s</code> (tulee englanninkielisestä sanasta <em>sequence</em>) tarkoittaa sitä, 
+että tehdään temppuja peräkkäin. Sitä kutsutaan myös <em>sekvenkssiksi</em>.
+Lista tehtävistä tempuista laitetaan hakasulkujen [ ] sisään ja erotellaan toisistaan pilkuilla.</p>
+
+<div class="os-specific os-mac">
+Osaatko tehdä hakasulut? Mac-tietokoneissa hakasulut tehdään painamalla samanaikaisesti
+<img class="key" src="/images/mac_key_alt.jpg" /> ja
+<img class="key" src="/images/mac_key_8.jpg" /> tai
+<img class="key" src="/images/mac_key_9.jpg" />.
+</div>
+
+<div class="os-specific os-linux os-windows">
+Osaatko tehdä hakasulut? Linux- ja Windows-tietokoneissa hakasulut tehdään painamalla samanaikaisesti
+<img class="key" src="/images/windows_key_altgr.jpg" /> ja
+<img class="key" src="/images/windows_key_8.jpg" /> tai
+<img class="key" src="/images/windows_key_9.jpg" />.
+</div>
+
+<p>Kokeile! Muistithan välilyönnit, hakasulut ja pilkut.
+Kaikki pitää olla oikeilla paikoillaan tai tietokone ei ymmärrä.
+Se ei ole kovin älykäs, vaan ottaa kaiken kirjaimellisesti.
+Sinun on opetettava sitä kärsivällisesti!</p>
+
+<p>Kun onnistuit, niin teepä samaa vielä muutaman kerran uudestaan.
+Muistathan, että edellisen komennon voi helposti toistaa painamalla <code>↑</code> ja Enter. 
+Mitä syntyi? Neliöhän siitä tuli, eikö?</p>
+
+<p>Neliön piirtämiseen siis riittää tehdä neljä kertaa peräkkäin sama sekvenssi. Harjoitellaanpa
+vielä hieman sekvenssejä! Kokeilepa tätä:</p>
+
+<pre><code>s[clear, fd 100, rt 90, fd 100]
+</code></pre>
+
+<p>Tämän sekvenssin alussa on <code>clear</code>, joten tätä temppua tehdessään kilpikonna Roy
+tyhjentää aina aluksi paperin ja aloittaa keskeltä.</p>
+
+<p><strong>Harjoitus:</strong> Piirrä oman nimesi alkukirjain (tai jokin muu kirjain)  yhdellä sekvenssillä. 
+Aloita sekvenssi <code>clear</code> -komennolla.</p>
+
+<hr />
+
+<h3 id="funktiot">1.5 Funktiot</h3>
+
+<p>Tyhjennetäänpä taas ruutu.</p>
+
+<pre><code>clear
+</code></pre>
+
+<p>Seuraavaksi saat opettaa Turtle Roylle uuden tempun. Kokeilepa tätä:</p>
+
+<pre><code>let mutka = s [fd 100, rt 90]
+</code></pre>
+
+<p>Jos kirjoitit oikein, niin Roy osaa nyt yhden tempun enemmän kuin äsken. Teepä seuraavaksi näin:</p>
+
+<pre><code>mutka
+</code></pre>
+
+<p>Ja uudestaan. Ehkä vielä pari kertaa? Taas neliö!</p>
+
+<p>Nyt siis neliön voi tehdä kirjoittamalla neljä kertaa peräkkäin <em>mutka</em>.</p>
+
+<p>Kun opetit tietokoneelle tempun nimeltä <em>mutka</em>, teit koodarien kielellä
+uuden <em>funktion</em>. Roy-ohjelmointikielessä funktioita tehdään sanomalla “let nimi = ohjeet”,
+missä sanan “nimi” tilalle tulee funktion nimi ja sanan “ohjeet” tilalle tulee
+funktion toteutus eli ohjeet uuden tempun tekoon.</p>
+
+<p>Ei hullumpaa! Mutta neliön voi tehdä vielä hieman nopeammin. Vaikkapa näin:</p>
+
+<pre><code>s [clear, mutka, mutka, mutka, mutka]
+</code></pre>
+
+<p>Nyt neliö piirtyikin jo yhdellä koodirivillä!</p>
+
+<p><strong>Harjoitus:</strong> Opeta kilpikonnalle funktio, joka piirtää nimesi alkukirjaimen. Vinkki: aloita <code>let kirjain = </code>.
+Kun funktio on opetettu, voit piirtää nimesi alkukirjaimen komennolla <code>kirjain</code>.</p>
+
+<hr />
+
+<h3 id="toistorakenteet">1.5 Toistorakenteet</h3>
+
+<p>Kokeilepa vielä tätä:</p>
+
+<pre><code>r 4 mutka
+</code></pre>
+
+<p>Tuliko neliö? Jes! Käskit juuri tietokonetta tekemään “mutkan” 4 kertaa. Tässä <code>r</code>
+(tulee englannin sanasta <em>repeat</em>) tarkoittaa sitä, että toistetaan jokin temppu
+monta kertaa.</p>
+
+<p>Toistoa käyttäen voit piirtää vaikkapa tällaiset portaat melko helposti:</p>
+
+<div class="turtle-diagram" id="portaat-diagram" data-id="portaat"></div>
+
+<p>Kokeile piirtää portaat itse käyttämällä toistoa.</p>
+
+<blockquote>
+  <p>Voit tallentaa Turtle Royssa tekemäsi komennot melko helposti.</p>
+
+  <ol>
+    <li>Kirjoita <code>login "omanimi"</code> (Korvaa sana <em>omanimi</em> omalla nimelläsi. Muista lainausmerkit!)</li>
+    <li>Kirjoita <code>save "teos"</code> (Korvaa sana <em>teos</em> nimellä jonka haluat piirrustuksellsei antaa)</li>
+  </ol>
+
+  <p>Kun palaat Turtle Roylle, tee <code>login "omanimi"</code> uudestaan ja sitten <code>open "teos"</code>, niin kilpikonna
+piirtää piirrustuksesi uudelleen. Komennolla <code>ls</code> näet listan tallentamistasi piirrustuksista.</p>
+</blockquote>
+
+<p>Tähän päättyy Koodikirjan ensimmäinen luku. Minulla oli hauskaa, kun kirjoitin tämän. 
+Toivottavasti sinullakin oli hauskaa!</p>
+
+<p>Nähdään taas Koodauskirjan <a href="/luku2/">2.luvussa</a>!</p>
+
+<hr />
+<p>P. S. Jos koodauskipinä iski, niin voit tutustua esimerkiksi näihin loistaviin koodauspeleihin ja -ympäristöihin.
+Nämä linkit johtavat englanninkielisille sivuille, joten saatat tarvita vanhemman apua.</p>
+
+<ul>
+  <li><a href="http://code.org/learn">code.org/learn</a> paljon hauskoja koodauspelejä ja puuhasteltavaa</li>
+  <li><a href="http://scratch.mit.edu">Scratch</a> MIT-yliopiston graafinen koodausympäristö</li>
+</ul>
+
+      </div>
+    </div>
+    <div id="bottomshadow"></div>
+    <script data-main="/js/main.js" src="/components/requirejs/require.js"></script>
+    <!--
+    <script src="/components/jquery/dist/jquery.js"></script>
+    <script src="/js/os.js"></script>
+    <script src="/js/jquery-ui-1.10.4.custom.min.js"></script>
+    <script src="/components/bacon/dist/Bacon.js"></script>
+    <script src="/components/bacon.jquery/dist/bacon.jquery.js"></script>
+    <script src="/components/lodash/lodash.js"></script>
+    <script src="/components/raphael/raphael-min.js"></script>
+    <script src="/js/turtle.js"></script>
+    <script src="/js/smoothly.js"></script>
+    <script src="/js/vector.js"></script>
+    <script src="/js/book.js"></script>
+    <script src="/js/svg-turtle.js"></script>
+    <script src="/js/turtle-diagram.js"></script>
+    <script src="/js/notes.js"></script>
+    -->
+  </body>
+</html>

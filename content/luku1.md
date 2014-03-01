@@ -246,16 +246,16 @@ Lista tehtävistä tempuista laitetaan hakasulkujen [ ] sisään ja erotellaan t
 
 <div class="os-specific os-mac">
 Osaatko tehdä hakasulut? Mac-tietokoneissa hakasulut tehdään painamalla samanaikaisesti
-<img class="key" src="/images/mac_key_alt.jpg"> ja
-<img class="key" src="/images/mac_key_8.jpg"> tai
-<img class="key" src="/images/mac_key_9.jpg">.
+<em class="key">Alt</em> ja
+<em class="key">8</em> tai
+<em class="key">9</em>.
 </div>
 
 <div class="os-specific os-linux os-windows">
 Osaatko tehdä hakasulut? Linux- ja Windows-tietokoneissa hakasulut tehdään painamalla samanaikaisesti
-<img class="key" src="/images/windows_key_altgr.jpg"> ja
-<img class="key" src="/images/windows_key_8.jpg"> tai
-<img class="key" src="/images/windows_key_9.jpg">.
+<em class="key">Alt gr</em> ja
+<em class="key">8</em> tai
+<em class="key">9</em>.
 </div>
 
 Kokeile! Muistithan välilyönnit, hakasulut ja pilkut.
@@ -264,7 +264,7 @@ Se ei ole kovin älykäs, vaan ottaa kaiken kirjaimellisesti.
 Sinun on opetettava sitä kärsivällisesti!
 
 Kun onnistuit, niin teepä samaa vielä muutaman kerran uudestaan.
-Muistathan, että edellisen komennon voi helposti toistaa painamalla `↑` ja Enter. 
+Muistathan, että edellisen komennon voi helposti toistaa painamalla <em class="key">↑</em> ja <em class="key">Enter</em>. 
 Mitä syntyi? Neliöhän siitä tuli, eikö?
 
 Neliön piirtämiseen siis riittää tehdä neljä kertaa peräkkäin sama sekvenssi. Harjoitellaanpa

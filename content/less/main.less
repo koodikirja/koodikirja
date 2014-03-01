@@ -1,4 +1,6 @@
 @body-color: #202020;
+@background-color: #eef5e3;
+@navi-background: #79e2cf;
 
 * {
   margin: 0;
@@ -8,7 +10,7 @@
 }
 
 html {
-  background-color: #eef5e3;
+  background-color: @background-color;
   background-image: url('/images/bg.png');
 }
 
@@ -40,7 +42,7 @@ body {
 #sidebar {
   position: absolute;
   left: -120px;
-  background: #79e2cf;
+  background: @navi-background;
   display: inline-block;
   width: 220px;
   padding: 50px 30px;

@@ -132,11 +132,15 @@ write with your right" auttaa muistamaan sen, että oikea (right) on kirjoitusk�
 Nyt voit kokeilla ohjailla konnaa ympäriinsä. Karkasiko konna ruudun ulkopuolelle? Ei hätää - `clear`-komennolla pääset alkuun. 
 Jos haluat palauttaa konnan keskelle pyyhkimättä paperia tyhjäksi, voit kokeilla myös `home` -komentoa
 
-**Harjoitus**: saatko käännettyä konnan niin, että se osoittaa alaspäin?
+***
 
-**Harjoitus**: osaatko piirtää neliön?
+**Harjoitus:** saatko käännettyä konnan niin, että se osoittaa alaspäin?
 
-**Harjoitus**: osaatko liikuttaa kilpikonnaa lyhemmän matkan, vaikkapa 50 pikseliä?
+**Harjoitus:** osaatko piirtää neliön?
+
+**Harjoitus:** osaatko liikuttaa kilpikonnaa lyhemmän matkan, vaikkapa 50 pikseliä?
+
+***
 
 <blockquote class="cloud2">
   <strong>Vinkki:</strong> Jos haluat suorittaa edellisen komennon uudelleen, paina nuoli ylös `↑` -nappia. 
@@ -179,11 +183,11 @@ alas komennolla `pendown`. Jos haluaisit piirtää kaksi viivaa vierekkäin, se 
 
 <div class="turtle-diagram" id="kaksiviivaa-diagram" data-id="kaksiviivaa"></div>
 
-**Harjoitus**: Etsi suoria kulmia kotoasi. Onko pöydän kulma suora kulma?
+**Harjoitus:** Etsi suoria kulmia kotoasi. Onko pöydän kulma suora kulma?
 
-**Harjoitus**: Piirrä oman nimesi alkukirjain
+**Harjoitus:** Piirrä oman nimesi alkukirjain
 
-**Harjoitus**: Voit myös yrittää kirjoittaa koko nimesi (tarvitset `penup`, `pendown` -komentoja kirjainten välillä!)
+**Harjoitus:** Voit myös yrittää kirjoittaa koko nimesi (tarvitset `penup`, `pendown` -komentoja kirjainten välillä!)
 
 ***
 

@@ -67,19 +67,20 @@ alueella sijaitsevan *kursorin* avulla. Kursori on se keltainen vilkkuva neliö.
 Nyt on aika avata Turtle Roy -ohjelma [tästä](http://turtle-roy.herokuapp.com), jolloin se aukeaa uuteen ikkunaan
 tai täbiin.
 
-<blockquote>
-  <p class="os-specific os-mac">
+<blockquote class="os-specific os-mac">
   <strong>Vinkki:</strong> Kannattaa opetella vaihtelemaan Turtle Royn ja Koodikirjan välillä näppärästi. Jos Turtle
-  Roy aukeaa erillisellä täbillä, voit vaihdella täbien välillä pitämällä pohjassa näppäimiä Cmd
-  ja Alt ja painamalla nuolinäppäimiä.
-  </p>
+  Roy aukeaa erillisellä täbillä, voit vaihdella täbien välillä pitämällä pohjassa näppäimiä <em class="key">Cmd</em>
+  ja <em class="key">Alt</em> ja painamalla nuolinäppäimiä.
+  <div class="robot"></div>
+</blockquote>
 
-  <p class="os-specific os-windows os-linux">
+<blockquote class="os-specific os-windows os-linux large">
   <strong>Vinkki:</strong> Kannattaa opetella vaihtelemaan Turtle Royn ja Koodikirjan välillä näppärästi. Jos Turtle
-  Roy aukeaa erillisellä täbillä, voit vaihdella täbien välillä pitämällä pohjassa näppäimiä Ctrl ja Alt ja 
+  Roy aukeaa erillisellä täbillä, voit vaihdella täbien välillä pitämällä pohjassa näppäimiä <em class="key">ctrl</em> 
+  ja <em class="key">alt</em> ja 
   painamalla nuolinäppäimiä. Jos Turtle Roy aukeaa
-  erillisessä ikkunassa, voit vaihdella ikkunoiden välillä painamalla yhtä aikaa Ctrl ja Tab -näppäimiä.
-  </p>
+  erillisessä ikkunassa, voit vaihdella ikkunoiden välillä painamalla yhtä aikaa <em class="key">ctrl</em> ja 
+  <em class="key">tab</em> -näppäimiä.
   <div class="robot"></div>
 </blockquote>
 
@@ -143,17 +144,18 @@ Jos haluat palauttaa konnan keskelle pyyhkimättä paperia tyhjäksi, voit kokei
 ***
 
 <blockquote class="cloud2">
-  <strong>Vinkki:</strong> Jos haluat suorittaa edellisen komennon uudelleen, paina nuoli ylös `↑` -nappia. 
-  Nyt voit suorittaa komennon uudelleen painamalla Enter. Voit myös muokata komentoa. 
-  Voit poistaa merkkejä backspace-näppäimellä (kuva) ja liikuttaa kursoria sivunuolilla.
+  <strong>Vinkki:</strong> Jos haluat suorittaa edellisen komennon uudelleen, paina <em class="key">↑</em> ja
+  <em class="key">enter</em>. 
+  Voit myös muokata komentoa ennen suorittamista. 
   <div class="robot"></div>
 </blockquote>
 
 <blockquote class="cloud-left">
-  <strong>Vinkki:</strong> Jos on vaikea päätellä, pitäisikö konnaa kääntää oikealle (`rt`) vai vasemmalle (`lt`), voit
+  <strong>Vinkki:</strong> Jos on vaikea päätellä, pitäisikö konnaa kääntää oikealle <code>rt</code> vai vasemmalle
+  <code>lt</code>, voit
   askarrella pahvista oman pienen kilpikonnan. Laita kilpikonna näytölle samaan asentoon kuin
   Kilpikonna Roy ja käännä haluttuun suuntaan. Jos käänsit myötäpäivään (suuntaan johon kello
-  pöyrii), on kyseessä käännös oikeaan eli `rt`.
+  pöyrii), on kyseessä käännös oikeaan eli <code>rt</code>.
   <div class="robot"></div>
 </blockquote>
 ***
@@ -330,20 +332,25 @@ Toistoa käyttäen voit piirtää vaikkapa tällaiset portaat melko helposti:
 
 Kokeile piirtää portaat itse käyttämällä toistoa.
 
-> Voit tallentaa Turtle Royssa tekemäsi komennot melko helposti.
->
-> 1. Kirjoita `login "omanimi"` (Korvaa sana *omanimi* omalla nimelläsi. Muista lainausmerkit!)
-> 2. Kirjoita `save "teos"` (Korvaa sana *teos* nimellä jonka haluat piirrustuksellsei antaa)
->
-> Kun palaat Turtle Roylle, tee `login "omanimi"` uudestaan ja sitten `open "teos"`, niin kilpikonna
-> piirtää piirrustuksesi uudelleen. Komennolla `ls` näet listan tallentamistasi piirrustuksista.
+***
+
+### Teoksen tallentaminen ja lataaminen
+
+Voit tallentaa Turtle Royssa tekemäsi komennot melko helposti.
+
+1. Kirjoita `login "omanimi"` (Korvaa sana *omanimi* omalla nimelläsi. Muista lainausmerkit!)
+2. Kirjoita `save "teos"` (Korvaa sana *teos* nimellä jonka haluat piirrustuksellsei antaa)
+
+Kun palaat Turtle Roylle, tee `login "omanimi"` uudestaan ja sitten `open "teos"`, niin kilpikonna
+piirtää piirrustuksesi uudelleen. Komennolla `ls` näet listan tallentamistasi piirrustuksista.
+
 
 Tähän päättyy Koodikirjan ensimmäinen luku. Minulla oli hauskaa, kun kirjoitin tämän. 
 Toivottavasti sinullakin oli hauskaa!
 
 Nähdään taas Koodauskirjan [2.luvussa](/luku2/)!
 
----
+***
 
 P. S. Jos koodauskipinä iski, niin voit tutustua esimerkiksi näihin loistaviin koodauspeleihin ja -ympäristöihin.
 Nämä linkit johtavat englanninkielisille sivuille, joten saatat tarvita vanhemman apua.

@@ -4,13 +4,22 @@
 @heading-color: #00D5AA;
 
 #book {
+  p, li, td, th {
+    line-height: 22px;
+  }
   table {
     text-align: left;
-    border: 1px solid black;
-  }
-
-  table td, table th {
-    padding-right: 40px;
+    background: #ffc7d2;
+    padding: 20px;
+    th {
+      padding-bottom: 20px;
+    }
+    td, th {
+      padding-right: 40px;
+      &:last-child {
+        width: 100%;
+      }
+    }
   }
 
   hr {
@@ -67,7 +76,6 @@
   >p {
     margin: 20px 0;
     font-size: 17px;
-    line-height: 22px;
   }
 
   ul, ol {
@@ -76,7 +84,6 @@
 
   li {
     font-size: 15px;
-    line-height: 20px;
   }
 
   ul li {

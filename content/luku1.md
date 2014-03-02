@@ -1,5 +1,6 @@
 --- 
 title: Luku 1
+pagetype: book
 ---
 
 # Koodikirja

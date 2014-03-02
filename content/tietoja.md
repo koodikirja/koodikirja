@@ -1,12 +1,12 @@
 ---
+title: Luku 1
+pagetype: info
 company_name: "Koodirehtori T:mi"
 ---
 # Tietoa koodikirjasta
 
 <div class="author">
-  <img src="/images/juha.jpg">
-  <p>Juha Paananen</p>
-  <p>@raimohanska</p>
+  <img src="/images/juha_mila.jpg">
 </div>
 
 Innostukseni Koodikirja-projektiin syntyi [Koodikoulu](http://koodikoulu.fi)-tapahtumien valtavasta
@@ -18,8 +18,6 @@ Koodikirja-projektin tavoitteena on tuottaa Koodikoululle oppikirja.
 Suositut [Koodikoulu](http://koodikoulu.fi)-tapahtumat saivat alkunsa minun ja tyttäreni yhteisistä
 koodaustunneista. Niissä olen saanut jakaa sitä tietoa ja iloa, jota olen itse saanut
 koodauksesta. Koodikirjan avulla voin jakaa samaa iloa ja tietoa kaikille halukkaille.
-
-***
 
 ## Miksi Koodikirja on tärkeä
 

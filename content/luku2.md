@@ -1,5 +1,6 @@
 --- 
 title: Luku 2
+pagetype: book
 ---
 
 ## Luku 2

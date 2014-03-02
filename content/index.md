@@ -1,5 +1,6 @@
 --- 
 title: Koodikirja
+pagetype: front
 ---
 
 # Koodikirja

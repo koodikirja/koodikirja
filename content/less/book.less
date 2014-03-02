@@ -7,8 +7,10 @@
 
 #book {
   p, li, td, th {
+    font-size: 17px;
     line-height: 22px;
   }
+
   table {
     text-align: left;
     background: @pink;
@@ -91,19 +93,17 @@
 
   >p {
     margin: 20px 0;
-    font-size: 17px;
   }
 
   ul, ol {
-    margin: 20px;
-  }
-
-  li {
-    font-size: 15px;
-  }
-
-  ul li {
-    list-style-type: square;
+    li {
+      list-style: none;
+      text-indent: -1.5em;
+      padding-left: 1.5em; 
+    }
+    li:before {
+      content: '\2014\a0\a0'; /* long dash */
+    }
   }
 
   code {

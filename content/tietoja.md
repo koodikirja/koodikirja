@@ -1,7 +1,7 @@
 ---
 title: Luku 1
 pagetype: info
-company_name: "Koodirehtori T:mi"
+company_name: Koodirehtori
 ---
 # Tietoa koodikirjasta
 

@@ -118,7 +118,7 @@ Tässä vielä piirros käännöksistä eri suuntiin.
 
 Onko on vaikeaa muistaa, kumpi oikea ja kumpi on vasen? Minua ainakin auttaa se, että kirjoitan aina
 oikealla kädellä. Kun otan kynän käteen, tiedän, kumpi on oikea. Myös englanninkielinen lause "You
-write with your right" auttaa muistamaan sen, että oikea (right) on kirjoituskäsi.
+write with your right" auttaa muistamaan sen, että oikea (right) on kirjoituskäsi. TODO: vain oikeakätisille
 
 {::nomarkdown}
 <table>

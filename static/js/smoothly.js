@@ -17,7 +17,7 @@ define([], function() {
 
     function checkQueue() {
       polling = false
-      var chunkSize = Math.min(queue.length, Math.floor(Math.max(1, queue.length / 100)))
+      var chunkSize = Math.min(queue.length, Math.floor(Math.max(1, queue.length / 500)))
       if (chunkSize > 0) {
         var todo = queue.splice(0, chunkSize)
         for (var i = 0; i < chunkSize; i++) {

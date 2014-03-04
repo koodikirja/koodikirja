@@ -70,8 +70,8 @@ tai täbiin.
 
 <blockquote class="os-specific os-mac">
   <strong>Vinkki:</strong> Kannattaa opetella vaihtelemaan Turtle Royn ja Koodikirjan välillä näppärästi. Jos Turtle
-  Roy aukeaa erillisellä täbillä, voit vaihdella täbien välillä pitämällä pohjassa näppäimiä <em class="key">Cmd</em>
-  ja <em class="key">Alt</em> ja painamalla nuolinäppäimiä.
+  Roy aukeaa erillisellä täbillä, voit vaihdella täbien välillä pitämällä pohjassa näppäimiä <em class="key">cmd</em>
+  ja <em class="key">alt</em> ja painamalla nuolinäppäimiä.
   <div class="robot"></div>
 </blockquote>
 
@@ -89,7 +89,7 @@ Kokeilepa kirjoittaa näin.
 
     fd 100
 
-Kun painat Enter-nappia, kilpikonna Roy suorittaa antamasi käskyn. Uskallatko painaa?  Paina vaan!
+Kun painat <em class="key">enter</em>-nappia, kilpikonna Roy suorittaa antamasi käskyn. Uskallatko painaa?  Paina vaan!
 
 Hyvä! Liikkuiko konna? Muistithan välilyönnin! Jos meni mönkään, niin ei hätää! Tietokone ilmoittaa virheestä punaisella tekstillä. Yritä uudelleen.
 
@@ -249,14 +249,14 @@ Lista tehtävistä tempuista laitetaan hakasulkujen [ ] sisään ja erotellaan t
 
 <div class="os-specific os-mac">
 Osaatko tehdä hakasulut? Mac-tietokoneissa hakasulut tehdään painamalla samanaikaisesti
-<em class="key">Alt</em> ja
+<em class="key">alt</em> ja
 <em class="key">8</em> tai
 <em class="key">9</em>.
 </div>
 
 <div class="os-specific os-linux os-windows">
 Osaatko tehdä hakasulut? Linux- ja Windows-tietokoneissa hakasulut tehdään painamalla samanaikaisesti
-<em class="key">Alt gr</em> ja
+<em class="key">alt gr</em> ja
 <em class="key">8</em> tai
 <em class="key">9</em>.
 </div>

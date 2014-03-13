@@ -6,7 +6,7 @@ require.config({
     bacon: "../components/bacon/dist/Bacon",
     "bacon.jquery": "../components/bacon.jquery/dist/bacon.jquery",
     "bacon.model": "../components/bacon.model/dist/bacon.model",
-    "lodash": "../components/lodash/lodash",
+    "lodash": "../components/lodash/dist/lodash",
     "raphael": "../components/raphael/raphael-min"
   }
 })

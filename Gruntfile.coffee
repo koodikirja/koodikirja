@@ -6,7 +6,7 @@ module.exports = (grunt) ->
     less: {
       all: {
         files: {
-          'public/game.css': ['app/less/game.less']
+          'output/book.css': ['app/less/book.less']
         }
       }
     }
@@ -33,5 +33,5 @@ module.exports = (grunt) ->
     }
   }
 
-  grunt.registerTask 'build', [] # [ 'browserify', 'less', 'copy']
+  grunt.registerTask 'build', ['less'] # [ 'browserify', 'less', 'copy']
   grunt.registerTask 'default', [ 'build', 'watch' ]

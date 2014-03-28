@@ -10,25 +10,19 @@ module.exports = (grunt) ->
         }
       }
     }
-    copy: {
-      html: {
-        files: [
-          {expand: true, cwd: 'app/', src: '**/*.html', dest: 'public/'}
-        ]
+    shell: {
+      content: {
+        command: "./nanoc"
       }
     }
     watch: {
-      scripts: {
-        files: ['app/script/**'],
-        tasks: 'browserify'
-      },
       less: {
         files: ['app/less/**'],
         tasks: 'less'
       },
-      html: {
-        files: ['app/**/*.html'],
-        tasks: 'copy'
+      content: {
+        files: ['content/**'],
+        tasks: 'shell:content'
       }
     }
   }

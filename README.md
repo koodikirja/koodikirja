@@ -3,7 +3,7 @@
     bundle install
     npm install
 
-## Start the file server
+## Start the server
 
     ./server
 
@@ -13,7 +13,11 @@ Login as koodikoulu/rehtori
 
 ## Auto-compiling when you update files
 
-    guard
+Just
+
+    grunt
+
+Will auto-compile all content.
 
 ## Heroku Deployment
 

@@ -6,7 +6,7 @@ module.exports = (grunt) ->
     less: {
       all: {
         files: {
-          'output/book.css': ['app/less/book.less']
+          'output/koodikirja.css': ['app/less/koodikirja.less']
         }
       }
     }

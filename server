@@ -1,1 +1,1 @@
-bundle exec thin start -p 3000
+./nanoc && node server.js

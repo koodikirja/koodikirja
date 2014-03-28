@@ -5,3 +5,4 @@
 output
 tmp
 static/components
+node_modules

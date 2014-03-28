@@ -6,4 +6,5 @@ app.get('/', function(request, response) {
     response.sendfile(__dirname + '/output/index.html');
 }).configure(function() {
     app.use('/', express.static(__dirname + '/output'));
+    app.use('/', express.static(__dirname + '/static'));
 }).listen(port);

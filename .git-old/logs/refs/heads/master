@@ -1,9 +1,0 @@
-0000000000000000000000000000000000000000 cd100da8b2c012c38544b44604ddfa2172dc01d6 Juha Paananen <juha.paananen@gmail.com> 1390857860 +0200	clone: from https://github.com/meskyanichi/nanoc-heroku.git
-cd100da8b2c012c38544b44604ddfa2172dc01d6 885ebc0e9da87fa977a00b2237a3ff87c3d4c329 Juha Paananen <juha.paananen@gmail.com> 1390859208 +0200	commit: remove guard gem which fails to install
-885ebc0e9da87fa977a00b2237a3ff87c3d4c329 ef3f8f63746eff74ef487f27703bb8b5684210cc Juha Paananen <juha.paananen@gmail.com> 1390859394 +0200	commit: simplify git status check
-ef3f8f63746eff74ef487f27703bb8b5684210cc 5a9d04c1d2b930578c20d6c7a5f91f9d9c29d0be Juha Paananen <juha.paananen@gmail.com> 1390859446 +0200	commit (amend): simplify git status check
-5a9d04c1d2b930578c20d6c7a5f91f9d9c29d0be 9a72c258a20d361fe9c7c4d2370378910b2c39a8 Juha Paananen <juha.paananen@gmail.com> 1390859454 +0200	commit: temporary commit for deployment
-9a72c258a20d361fe9c7c4d2370378910b2c39a8 c469e23e33742a09b7167b928c5db2a2682ea655 Juha Paananen <juha.paananen@gmail.com> 1390859608 +0200	commit: use ruby 1.9.3
-c469e23e33742a09b7167b928c5db2a2682ea655 8b9e37019a4caf2fbac635041f20ef2abc566b2e Juha Paananen <juha.paananen@gmail.com> 1390860669 +0200	commit: bring in the content
-8b9e37019a4caf2fbac635041f20ef2abc566b2e 22da504d8f89819835bc605a4b6cc8262657cbfe Juha Paananen <juha.paananen@gmail.com> 1390860707 +0200	commit: try to fix deploy
-22da504d8f89819835bc605a4b6cc8262657cbfe 75c167267ca1c48546cc7514a1b3d291b04d36dd Juha Paananen <juha.paananen@gmail.com> 1390860712 +0200	commit: temporary commit for deployment

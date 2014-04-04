@@ -1,7 +1,6 @@
 ---
 title: Luku 1
 pagetype: info
-company_name: Koodirehtori
 ---
 # Tietoa koodikirjasta
 
@@ -104,9 +103,10 @@ Koodikirja on käyttäjilleen ilmainen.
 Myös Koodikirjan lähdekoodi on avointa, joten se on nyt ja tulee jatkossakin olemaan kaikkien saatavilla, ilmaiseksi.
 Koodikirja on siis vapaasti käytettävissä, kopioitavissa ja levitettävissä ei-kaupalliseen käyttöön.
 
-Koodikirjan lähdekoodit löydät Githubista osoitteesta http://github.com/koodikirja/koodikirja.
+Koodikirjan lähdekoodit löydät Githubista osoitteesta 
+[http://github.com/koodikirja/koodikirja](http://github.com/koodikirja/koodikirja).
 
-Oikeudet materiaalin kaupalliseen käyttöön omistaa <%= @item[:company_name]%>.
+Oikeudet materiaalin kaupalliseen käyttöön omistaa Koodirehtori. TODO link
 
 Tämä koskee myös kirjan käyttöä maksullisessa koulutuksessa ja sen
 painamista myytäväksi paperiversioksi.
@@ -119,8 +119,8 @@ yrityksiä, jotka haluavat edistää koodaustaitoa ja -kulttuuria maassamme.
 Koodikirjan ensimmäinen luku on tehty osittain vapaa-ajalla, osittain ohjelmistoyritys Reaktorin
 sponsoroimana.
 
-Koodikirjan toteutuksesta vastaa toiminimi <%=@item[:company_name]%>.
-Kirjan graafinen suunnittelu ja piirrokset on toteuttanut Mari Halla-aho.
+Koodikirjan toteutuksesta vastaa Koodirehtori.
+Kirjan graafisen suunnittelun ja piirrokset on toteuttanut Mari Halla-aho.
 
 Koodikirja-projektin jatko riippuu siitä, löydetäänkö hankkeelle rahoittajia.
 
@@ -135,4 +135,7 @@ Lisäksi saatte nimenne ikuistettua suomalaisen koodauksen historiaan.
 Yksityishenkilönä voit auttaa lukemalla, koodaamalla, opettamalla ja levittämällä sanaa.
 
 Voit auttaa myös omalla työpanoksellasi. Koodikirja on avointa lähdekoodia, joten jos haluat
-parantaa sitä, olet tervetullut niin tekemään! Koodi on Githubissa. Tässä ohjeet. TODO
+parantaa sitä, olet tervetullut niin tekemään! Koodi ja ohjeet löytyvät 
+[Githubista](http://github.com/koodikirja/koodikirja).
+
+<%=render('partials/contact')%>

@@ -21,7 +21,7 @@ module.exports = (grunt) ->
         tasks: 'less'
       },
       content: {
-        files: ['content/**'],
+        files: ['content/**', 'layouts/**'],
         tasks: 'shell:content'
       }
     }

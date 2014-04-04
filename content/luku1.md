@@ -116,7 +116,7 @@ Tässä vielä piirros käännöksistä eri suuntiin.
 
 Onko on vaikeaa muistaa, kumpi oikea ja kumpi on vasen? Minua ainakin auttaa se, että kirjoitan aina
 oikealla kädellä. Kun otan kynän käteen, tiedän, kumpi on oikea. Myös englanninkielinen lause "You
-write with your right" auttaa muistamaan sen, että oikea (right) on kirjoituskäsi. TODO: vain oikeakätisille
+write with your right" auttaa ainakin oikeakätisiä muistamaan sen, että oikea (right) on kirjoituskäsi.
 
 {::nomarkdown}
 <table>
@@ -145,7 +145,7 @@ Jos haluat palauttaa konnan keskelle pyyhkimättä paperia tyhjäksi, voit kokei
 <blockquote class="cloud2">
   <strong>Vinkki:</strong> Jos haluat suorittaa edellisen komennon uudelleen, paina <em class="key">↑</em> ja
   <em class="key">enter</em>. 
-  Voit myös muokata komentoa ennen suorittamista. 
+  Voit myös muokata komentoa ennen suorittamista käyttämällä sivunuolia ja poistonäppäintä.
   <div class="robot"></div>
 </blockquote>
 
@@ -242,7 +242,7 @@ Ja se käy näin.
 
 Huh! Aika kummallinen kieli, vai mitä? 
 Tässä `s` (tulee englanninkielisestä sanasta *sequence*) tarkoittaa sitä, 
-että tehdään temppuja peräkkäin. Sitä kutsutaan myös *sekvenkssiksi*.
+että tehdään temppuja peräkkäin. Sitä kutsutaan myös *sekvenssiksi*.
 Lista tehtävistä tempuista laitetaan hakasulkujen [ ] sisään ja erotellaan toisistaan pilkuilla.
 
 <div class="os-specific os-mac">
@@ -271,7 +271,7 @@ Mitä syntyi? Neliöhän siitä tuli, eikö?
 Neliön piirtämiseen siis riittää tehdä neljä kertaa peräkkäin sama sekvenssi. Harjoitellaanpa
 vielä hieman sekvenssejä! Kokeilepa tätä:
 
-    s[clear, fd 100, rt 90, fd 100]
+    s [clear, fd 100, rt 90, fd 100]
 
 Tämän sekvenssin alussa on `clear`, joten tätä temppua tehdessään kilpikonna Roy
 tyhjentää aina aluksi paperin ja aloittaa keskeltä.
@@ -337,10 +337,10 @@ Kokeile piirtää portaat itse käyttämällä toistoa.
 
 Voit tallentaa Turtle Royssa tekemäsi komennot melko helposti.
 
-1. Kirjoita `login "omanimi"` (Korvaa sana *omanimi* omalla nimelläsi. Muista lainausmerkit!)
-2. Kirjoita `save "teos"` (Korvaa sana *teos* nimellä jonka haluat piirrustuksellsei antaa)
+1. Kirjoita `login "omanimi"`. Korvaa sana *omanimi* omalla nimelläsi. Muista lainausmerkit!
+2. Kirjoita `save "teos"`. Korvaa sana *teos* nimellä jonka haluat piirrustuksellsei antaa.
 
-Kun palaat Turtle Roylle, tee `login "omanimi"` uudestaan ja sitten `open "teos"`, niin kilpikonna
+Kun palaat Turtle Roy:hin, tee `login "omanimi"` uudestaan ja sitten `open "teos"`, niin kilpikonna
 piirtää piirrustuksesi uudelleen. Komennolla `ls` näet listan tallentamistasi piirrustuksista.
 
 

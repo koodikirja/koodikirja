@@ -19,8 +19,6 @@ Koodikirjassa koodausta opetellaankin tekemällä pieniä harjoituksia lukemisen
 kirjassa on kappaleiden lopussa hieman haastavampia harjoituksia, joita tekemällä pääset koodaamaan
 ihan itse.
 
-Lue eteenpäin ja toimi ohjeiden mukaan niin opit kyllä varmasti vähän koodausta!
-
 Jos sinua kiinnostaa tietää enemmän Koodikirjasta, niin klikkaa [tästä](/tietoja/). Jos
 taas haluat päästä koodaamaan, niin jatka lukemista.
 
@@ -39,15 +37,15 @@ tekemään mitä haluat.
 Koodaus on rakentamista. Koodaus on koodin kirjoittamista, ja koodista rakennettujen palasten 
 yhdistelemistä.
 
-Ennen kuin aloitat, voit valita alla olevista kuvakkeista, millaista tietokonetta käytät. Tämä valinta
+Jos luet tätä kirjaa puhelimesta tai tabletista (esimerkiksi iPad), tarvitset koodausharjoituksiin "oikean"
+tietokoneen, jossa on näppäimistö. Voi olla hyvä idea lukea kirjaa tabletilta ja koodata oikealla tietokoneella.
+
+Ennen kuin aloitat, voit valita alla olevista kuvakkeista, millaista tietokonetta käytät koodaukseen. Tämä valinta
 vaikuttaa esimerkiksi kirjassa neuvottuihin näppäimistökomentoihin.
 
 <%=render 'partials/os'%>
 
-Jos luet tätä kirjaa puhelimesta tai tabletista (esimerkiksi iPad), tarvitset koodausharjoituksiin "oikean"
-tietokoneen, jossa on näppäimistö. Valitse kuvakkaista koodaustietokoneesi käyttöjärjestelmä.
-Jos et tiedä, mikä käyttöjärjestelmä koneessasi on, kysy vaikkapa äidiltäsi!
-
+Jos et tiedä, mikä käyttöjärjestelmä koneessasi on, kysy vaikkapa äidiltäsi! 
 Voit vaihtaa tätä valintaa myös myöhemmin palaamalla tänne.
 
 ### 1.1 Konna liikkeelle

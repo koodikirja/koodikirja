@@ -7,6 +7,8 @@ pagetype: book
 
 ## Alkusanat
 
+<img id="turtle-character" src="/images/turtle1.png" alt="kilppari">
+
 Tervetuloa Koodikirjaan! 
 
 Koodaus on hauskaa ja siinä oppii paljon. Koodaamalla
@@ -22,11 +24,9 @@ ihan itse.
 Jos sinua kiinnostaa tietää enemmän Koodikirjasta, niin klikkaa [tästä](/tietoja/). Jos
 taas haluat päästä koodaamaan, niin jatka lukemista.
 
-<hr class="short">
+<hr>
 
-## Luku 1 - Konnankoukkuja Kahdelle
-
-<img id="turtle-character" src="/images/turtle1.png" alt="kilppari">
+## Luku 1 - Konnankoukkuja kahdelle
 
 Koodikirjan ensimmäisessä luvussa saatte tutustua ystäviini Robo ja Kilpikonna Roy,
 jotka opettavat sinulle koodauksen alkeita. He myös kertovat sinulle mitä on koodaus ja mitä on koodi.

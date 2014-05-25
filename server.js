@@ -43,7 +43,7 @@ app.get('/', basicAuth, function(request, response) {
 })
 app.post('/feedback', express.bodyParser(), function(request, response) {
   feedbackE.push(request.body)
-  response.redirect("/luku1/#palaute")
+  response.send("ok")
 })
 app.use(express.json())
 app.use('/', express.static(__dirname + '/output'));

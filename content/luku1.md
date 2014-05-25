@@ -358,3 +358,5 @@ Nämä linkit johtavat englanninkielisille sivuille, joten saatat tarvita vanhem
 
 - [code.org/learn](http://code.org/learn) paljon hauskoja koodauspelejä ja puuhasteltavaa
 - [Scratch](http://scratch.mit.edu) MIT-yliopiston graafinen koodausympäristö
+
+<%=render('partials/feedback')%>

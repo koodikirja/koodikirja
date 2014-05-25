@@ -5,7 +5,7 @@ function(whenInView) {
       .attr("target", "_blank")
     $("blockquote").each(function() {
       whenInView($(this), function(visible) {
-        this.toggleClass("grayscale", !visible)
+        this.toggleClass("translucent", !visible)
       })
     })
   })

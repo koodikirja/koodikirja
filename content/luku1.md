@@ -114,7 +114,7 @@ Lisäksi on hyvä osata palauttaa konna keskelle paperia ja tyhjentää paperi. 
 
 Tässä vielä piirros käännöksistä eri suuntiin.
 
-<div class="turtle-diagram" id="suunnat1-diagram" data-id="suunnat1"></div>
+<div class="turtle-diagram" style="width:400px;height:300px;" id="suunnat1-diagram" data-id="suunnat1"></div>
 
 Onko on vaikeaa muistaa, kumpi oikea ja kumpi on vasen? Minua ainakin auttaa se, että kirjoitan aina
 oikealla kädellä. Kun otan kynän käteen, tiedän, kumpi on oikea. Myös englanninkielinen lause "You
@@ -172,19 +172,19 @@ MItä tapahtuu jos teet `lt 360`? Konna pyörähtää ympäri täydet 360 astett
 palaten alkuperäiseen asentoonsa. Alla olevassa kuvassa vielä hieman lisää eri
 asteisia käännöksiä.
 
-<div class="turtle-diagram" id="suunnat2-diagram" data-id="suunnat2"></div>
+<div class="turtle-diagram" style="width:640px;height:500px;" id="suunnat2-diagram" data-id="suunnat2"></div>
 
 Eri asteisia käännöksiä tarvitset, kun koetat piirtää hieman monimutkaisempia kuvioita.
 Alla näet M-kirjaimen eri nurkissa tarvittavat kulmat. Kokeile piirtää
 M-kirjain itse Turtle Roylla!
 
-<div class="turtle-diagram" id="mkirjain-diagram" data-id="mkirjain"></div>
+<div class="turtle-diagram" style="width:400px;height:300px;" id="mkirjain-diagram" data-id="mkirjain"></div>
 
 Joitain kuvioita piirrettäessä on tarpeellista nostaa välillä kynä ylös paperista.
 Turtle Royssa kynä voidaan nostaa ylös komennolla `penup`. Kynän voi laskea uudelleen
 alas komennolla `pendown`. Jos haluaisit piirtää kaksi viivaa vierekkäin, se kävisi näin.
 
-<div class="turtle-diagram" id="kaksiviivaa-diagram" data-id="kaksiviivaa"></div>
+<div class="turtle-diagram" style="width:400px;height:300px" id="kaksiviivaa-diagram" data-id="kaksiviivaa"></div>
 
 **Harjoitus:** Etsi suoria kulmia kotoasi. Onko pöydän kulma suora kulma?
 
@@ -200,7 +200,7 @@ Piirsitkö neliön jo? No, nyt piirretään neliö yhdessä! Mietitään aluksi,
 millaisia vaiheita neliön piirtämisessä on... suoria viivoja ja käännöksiä, eikö niin?
 Jos neliö piirtämisestä tehtäisiin sarjakuva, se näyttäisi suurin piirtein tältä:
 
-<div class="turtle-diagram" id="neliovaiheet-diagram" data-id="neliovaiheet"></div>
+<div class="turtle-diagram" style="width:640px;height:300px;" id="neliovaiheet-diagram" data-id="neliovaiheet"></div>
 
 Ja toistetaan samaa kaavaa kunnes neliö on valmis... Kokeile!
 
@@ -329,7 +329,7 @@ monta kertaa.
 
 Toistoa käyttäen voit piirtää vaikkapa tällaiset portaat melko helposti:
 
-<div class="turtle-diagram" id="portaat-diagram" data-id="portaat"></div>
+<div class="turtle-diagram" style="width:450px;height:200px;" id="portaat-diagram" data-id="portaat"></div>
 
 Kokeile piirtää portaat itse käyttämällä toistoa.
 

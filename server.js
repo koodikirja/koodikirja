@@ -4,7 +4,7 @@ var mg = new Mailgun("key-62gzhlqok1m6z8fvhbncetlz1bzendm4")
 
 feedbackE = new Bacon.Bus()
 /*
-var pg = require('pg');
+var pg = require('pg')
 //var pgUrl = "postgres://qlhornyfuuuwqb:1qGtjs7HYWKCwPIYcFzf9xm8Kv@ec2-54-243-42-236.compute-1.amazonaws.com:5432/d6hshjr0tkvfds"
 var pgUrl = "postgres://localhost/koodikirja"
 connE = Bacon.fromNodeCallback(pg, "connect", pgUrl)
@@ -32,21 +32,21 @@ feedbackE.flatMap(function(feedback) {
     feedback.text).map(feedback.text)
 }).log("feedback->mail")
 
-var express = require('express');
-var port = process.env.PORT || 3000;
-var app = express();
+var express = require('express')
+var port = process.env.PORT || 3000
+var app = express()
 
 var basicAuth = express.basicAuth('koodikoulu', 'rehtori')
 
 app.get('/', basicAuth, function(request, response) {
-    response.sendfile(__dirname + '/output/index.html');
+    response.sendfile(__dirname + '/output/index.html')
 })
 app.post('/feedback', express.bodyParser(), function(request, response) {
   feedbackE.push(request.body)
   response.send("ok")
 })
+app.use(express.compress())
 app.use(express.json())
-app.use('/', express.static(__dirname + '/output'));
-app.use('/', express.static(__dirname + '/static'));
-
-app.listen(port);
+app.use('/', express.static(__dirname + '/output'))
+app.use('/', express.static(__dirname + '/static'))
+app.listen(port)

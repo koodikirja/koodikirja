@@ -2,6 +2,7 @@ define(["bacon.jquery", "jquery"], function() {
   var oses = ["windows", "mac", "linux"]
 
   $("body").addClass("os-detected-" + detectOS())
+           .removeClass("os-notdetected")
 
   var selectionEvents = $(".select-os li").clickE().map(function(e) {
     return $(e.target).closest("li").attr("data-os")

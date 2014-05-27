@@ -9,13 +9,27 @@ module.exports = (grunt) ->
           'output/koodikirja.css': ['app/less/koodikirja.less']
         }
       }
-    }
+    },
+    requirejs: {
+      compile: {
+        options: {
+          baseUrl: "app/js",
+          mainConfigFile: "main.js",
+          name: "main",
+          out: "output/koodikirja.js"
+        }
+      }
+    },
     shell: {
       content: {
         command: "./nanoc"
       }
     }
     watch: {
+      js: {
+        files: ['app/js/**'],
+        tasks: 'requirejs'
+      },
       less: {
         files: ['app/less/**'],
         tasks: 'less'
@@ -27,5 +41,5 @@ module.exports = (grunt) ->
     }
   }
 
-  grunt.registerTask 'build', ['less'] # [ 'browserify', 'less', 'copy']
+  grunt.registerTask 'build', ['less', 'requirejs'] # [ 'browserify', 'less', 'copy']
   grunt.registerTask 'default', [ 'build', 'watch' ]

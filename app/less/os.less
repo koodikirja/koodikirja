@@ -10,23 +10,28 @@
     background-position: center;
     cursor: pointer;
     &.os-windows {
-      background-image: url('/images/os-windows.jpg');
+      background-image: url('/images/windows.png');
     }
     &.os-mac {
-      background-image: url('/images/os-mac.jpg');
+      background-image: url('/images/mac.png');
     }
     &.os-linux {
-      background-image: url('/images/os-linux.jpg');
+      background-image: url('/images/linux.png');
     }
-    &:not(.selected) {
-      .grayscale;
+    &.selected {
+      &.os-windows {
+        background-image: url('/images/windows_active.png');
+      }
+      &.os-mac {
+        background-image: url('/images/mac_active.png');
+      }
+      &.os-linux {
+        background-image: url('/images/linux_active.png');
+      }
     }
-    border: 3px solid #eeeeee;
     opacity: 0.9;
-    border-radius: 20px;
     &.selected {
       opacity: 1.0;
-      border-color: rgb(167, 188, 197);
     }
     transition: all 0.1s ease;
   }

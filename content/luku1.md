@@ -69,14 +69,14 @@ Nyt on aika avata Turtle Roy -ohjelma [tästä](http://turtle-roy.herokuapp.com)
 tai täbiin.
 
 <blockquote class="os-specific os-mac">
-  <strong>Vinkki:</strong> Kannattaa opetella vaihtelemaan Turtle Royn ja Koodikirjan välillä näppärästi. Jos Turtle
+  <strong>Vinkki:</strong> Jos Turtle
   Roy aukeaa erillisellä täbillä, voit vaihdella täbien välillä pitämällä pohjassa näppäimiä <em class="key">cmd</em>
   ja <em class="key">alt</em> ja painamalla nuolinäppäimiä.
   <div class="robot"></div>
 </blockquote>
 
 <blockquote class="os-specific os-windows os-linux large">
-  <strong>Vinkki:</strong> Kannattaa opetella vaihtelemaan Turtle Royn ja Koodikirjan välillä näppärästi. Jos Turtle
+  <strong>Vinkki:</strong> Jos Turtle
   Roy aukeaa erillisellä täbillä, voit vaihdella täbien välillä pitämällä pohjassa näppäimiä <em class="key">ctrl</em> 
   ja <em class="key">alt</em> ja 
   painamalla nuolinäppäimiä. Jos Turtle Roy aukeaa

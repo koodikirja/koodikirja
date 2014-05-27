@@ -1,6 +1,7 @@
 define(["jquery", "bacon.jquery"], function() {
   return function whenInView(elem, f) {
     var isInView = $(window).asEventStream("scroll").doAction(".preventDefault")
+        .debounce(500)
         .toProperty(0)
         .map(function() { return isScrolledIntoView(elem) })
         .skipDuplicates()

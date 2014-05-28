@@ -3,6 +3,13 @@ module.exports = (grunt) ->
   require('load-grunt-tasks')(grunt)
 
   grunt.initConfig {
+    copy: {
+      requirejs: {
+        files: [
+          {expand: true, cwd: 'app', src: 'components/requirejs/**',  dest: 'output'}
+        ]
+      }
+    },
     less: {
       all: {
         files: {
@@ -41,5 +48,5 @@ module.exports = (grunt) ->
     }
   }
 
-  grunt.registerTask 'build', ['less', 'requirejs'] # [ 'browserify', 'less', 'copy']
+  grunt.registerTask 'build', ['copy', 'less', 'requirejs'] # [ 'browserify', 'less', 'copy']
   grunt.registerTask 'default', [ 'build', 'watch' ]

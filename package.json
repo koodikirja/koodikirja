@@ -4,7 +4,7 @@
   "description": "Coding book for children in Finnish",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "preinstall": "node_modules/grunt-cli/bin/grunt build&&node_modules/bower/bin/bower install"
+    "postinstall": "node_modules/bower/bin/bower install && node_modules/grunt-cli/bin/grunt build"
   },
   "author": "",
   "license": "MIT",

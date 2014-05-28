@@ -14,7 +14,7 @@ module.exports = (grunt) ->
       compile: {
         options: {
           baseUrl: "app/js",
-          mainConfigFile: "main.js",
+          mainConfigFile: "app/js/main.js",
           name: "main",
           out: "output/koodikirja.js"
         }

@@ -4,5 +4,5 @@
 *.log
 output
 tmp
-static/components
+app/components
 node_modules

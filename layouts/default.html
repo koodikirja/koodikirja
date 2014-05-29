@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="en" id="page-<%=@item[:pagetype]%>">
   <head>
     <meta charset="utf-8">
     <title>Koodikirja - <%= @item[:title] %></title>
@@ -10,7 +10,7 @@
   </head>
 
 
-  <body class="clearfix os-notdetected" id="page-<%=@item[:pagetype]%>">
+  <body class="clearfix os-notdetected">
     <%= render "partials/analytics" %>
     <div id="backdrop"></div>
     <div id="topshadow"></div>

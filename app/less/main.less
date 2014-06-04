@@ -16,8 +16,6 @@
 }
 
 html {
-  background-color: @background-color;
-  background-image: url('/images/bg.png');
   overflow-x: hidden;
 }
 
@@ -25,9 +23,22 @@ body {
   color: @body-color;
 }
 
-@media screen and (max-width: 1189px) {
+@media screen and (max-width: 999px) {
+  #sidebar {
+    right: -170px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  html {
+    background-color: @background-color;
+    background-image: url('/images/bg.png');
+  }
   #main {
     margin: 0 0 0 170px;
+  }
+  #sidebar {
+    left: -170px;
   }
 }
 @media screen and (min-width: 1190px) {
@@ -47,11 +58,10 @@ body {
 }
 
 #sidebar {
-  position: absolute;
-  left: -170px;
-  background: @navi-background;
   display: inline-block;
   padding: 50px 30px;
+  position: absolute;
+  background: @navi-background;
   z-index: 2;
 
   * {
@@ -76,7 +86,6 @@ body {
     }
   }
 }
-
 
 #backdrop {
   width: 100%;

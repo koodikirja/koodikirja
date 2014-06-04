@@ -1,4 +1,5 @@
 define(["bacon.jquery", "lodash", "jquery"], function() {
+  if (!$("#feedback").length) return
   function nonEmpty(x) { return x.length > 0 }
   var email = Bacon.$.textFieldValue($("#feedback-email"))
   var text = Bacon.$.textFieldValue($("#feedback-text"))

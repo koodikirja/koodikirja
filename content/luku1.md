@@ -5,9 +5,9 @@ pagetype: book
 
 # Koodikirja
 
-## Alkusanat
+<div><img id="turtle-character" src="/images/turtle1.png" alt="kilppari"></div>
 
-<img id="turtle-character" src="/images/turtle1.png" alt="kilppari">
+## Alkusanat
 
 Tervetuloa Koodikirjaan! 
 
@@ -28,7 +28,7 @@ taas haluat päästä koodaamaan, niin jatka lukemista.
 
 ## Luku 1 - Konnankoukkuja kahdelle
 
-<img id="sponsor-example" class="sponsor" src="/images/logo_placeholder.png">
+<div><img id="sponsor-example" class="sponsor" src="/images/logo_placeholder.png"></div>
 
 Koodikirjan ensimmäisessä luvussa saatte tutustua ystäviini Robo ja Kilpikonna Roy,
 jotka opettavat sinulle koodauksen alkeita. He myös kertovat sinulle mitä on koodaus ja mitä on koodi.
@@ -51,8 +51,6 @@ Jos et tiedä, mikä käyttöjärjestelmä koneessasi on, kysy vaikkapa äidilt�
 Voit vaihtaa tätä valintaa myös myöhemmin palaamalla tänne.
 
 ### 1.1 Konna liikkeelle
-
-<div id="turtle-1-1" class="turtle-svg"></div>
 
 Kokeillaanko? Tässä luvussa leikimme Turtle Roy -ohjelmalla, jonka saat avata ihan kohta. Turtle Roy toimii
 selaimessasi, joten sinun ei tarvitse asentaa koneellesi mitään uutta. Lue

@@ -6,7 +6,14 @@
     padding-bottom: 100px;
   }
 }
-@media screen and (min-width: 1190px) {
+@media screen and (max-width: 999px) {
+  #page-front {
+    #main {
+      margin: 0 auto;
+    }
+  }
+}
+@media screen and (min-width: 1000px) {
   #page-front {
     #main {
       position: fixed;
@@ -22,6 +29,7 @@
     width: 657px;
     height: 622px;
     background: url('/images/kansikuva.jpg') 0 0 no-repeat;
+    position: relative;
     #cover-text {
       * {
         color: @heading-color;
@@ -37,8 +45,8 @@
       }
       width: 240px;
       position: absolute;
-      top: 317px;
-      left: 218px;
+      top: 215px;
+      left: 139px;
     }
   }
   h2 {

@@ -228,8 +228,6 @@ Mieti miten rakentaisit Lego-palikoista valtavan robotin! Ehkä rakentaisit
 ensin vartalon ja jalat ja yhdistäisit ne. Sitten rakentaisit vielä pään ja
 kädet ja pian robotti olisi valmis. 
 
-TODO: sarjis robotin rakentamisesta!
-
 Juuri tällä tavalla koodari ajattelee! Hän keksii, mistä osista koodi koostuu,
 sitten rakentaa osat, ja lopuksi kytkee ne yhteen.
 

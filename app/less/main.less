@@ -28,7 +28,9 @@ body {
 
 @media screen and (max-width: 999px) {
   #sidebar {
-    right: -170px;
+    float: right;
+    margin: 172px -80px 40px 23px;
+    padding: 30px 30px;
   }
   #main {
     padding: 100px 90px 40px 40px;
@@ -45,7 +47,9 @@ body {
     padding: 100px 90px 40px 90px;
   }
   #sidebar {
+    position: absolute;
     left: -170px;
+    padding: 50px 30px;
   }
 }
 @media screen and (min-width: 1190px) {
@@ -65,8 +69,6 @@ body {
 
 #sidebar {
   display: inline-block;
-  padding: 50px 30px;
-  position: absolute;
   background: @navi-background;
   z-index: 2;
 

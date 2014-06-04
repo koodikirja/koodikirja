@@ -1,6 +1,6 @@
 define(["smoothly", "jquery"], function(Smoothly) {
   var lineColor = "#444444"
-  var textColor = "#56A594"
+  var textColor = "#12cdac"
   var turtleBorder = "#444444"
   var turtleFill = "white"
 

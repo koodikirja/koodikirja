@@ -50,10 +50,7 @@ define(["whenInView", "turtle", "jquery"], function(whenInView, Turtle) {
           }
           var calls = diagram.commands
           calls.forEach(function(call) {
-            if (call instanceof Array)
-              turtle[call[0]].apply(turtle, call[1])
-            else
-              turtle[call.key].apply(turtle, call.args)
+            turtle[call[0]].apply(turtle, call[1])
           })
         }
       })

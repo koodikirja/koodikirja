@@ -74,6 +74,9 @@ automatisoimaan tehtäviä, ja siten säästämään työaikaa.
 Koodaus on tulevaisuuden kansalaistaito ja voi olla suuri menestystekijä sekä henkilökohtaisella
 että jopa kansainvälisellä tasolla.
 
+Lisää asiaa koodaustaidon tärkeydestä ja koodauksen opettamisesta löytyy [Koodi2016](http://koodi2016.fi/)
+-sivustolta, jota olen itsekin ollut tukemassa.
+
 ## Miksi koodaus on hauskaa
 
 Useimmat lapset nauttivat rakentelua erilaisilla rakennuspalikoilla. Koodaus on myös rakentamista,

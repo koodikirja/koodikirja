@@ -7,7 +7,13 @@ pagetype: reference
 
 <div><img id="turtle-character" src="/images/turtle1.png" alt="kilppari"></div>
 
-## Liite: Turtle Royn komennot
+## Turtle Roy
+
+Turtle Roy on ohjelma, jossa voit ohjata kilpikonnaa englanninkielisillä käskyillä ja oppia
+samalla ohjelmoimaan. Klikkaa [tästä](http://turtle-roy.herokuapp.com) avataksesi Turtle Royn
+uuteen selainikkunaan tai täbiin.
+
+Olen koonnut tälle sivulle tärkeimmät Turtle Roy -käskyt suomenkielisine selityksineen.
 
 ### Piirtäminen
 
@@ -50,6 +56,21 @@ pagetype: reference
   </tbody>
 </table>
 {:/nomarkdown}
+
+### Värit ja teksti
+
+{::nomarkdown}
+<table>
+  <tbody>
+    <tr><td>color "red"<td>käytä punaista väriä (piirtämiseen ja tekstiin)</tr>
+    <tr><td>bg "blue"<td>vaihda siniseen paperiin</tr>
+    <tr><td>text "Koodikirja"<td>kirjoita "Koodikirja"</tr>
+    <tr><td>font 100<td>käytä 100 pikselin kirjaisinta (isompaa tekstiä!)</tr>
+    <tr><td><td></tr>
+  </tbody>
+</table>
+{:/nomarkdown}
+
 
 ### Ohjelmointi
 

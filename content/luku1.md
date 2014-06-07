@@ -341,6 +341,7 @@ Voit tallentaa Turtle Royssa tekemäsi komennot melko helposti.
 Kun palaat Turtle Roy:hin, tee `login "omanimi"` uudestaan ja sitten `open "teos"`, niin kilpikonna
 piirtää piirrustuksesi uudelleen. Komennolla `ls` näet listan tallentamistasi piirrustuksista.
 
+Tässä vielä [listaus](/turtle-roy/) tärkeimmistä Turtle Roy -komennoista suomenkielisine selityksineen.
 
 Tähän päättyy Koodikirjan ensimmäinen luku. Minulla oli hauskaa, kun kirjoitin tämän. 
 Toivottavasti sinullakin oli hauskaa!

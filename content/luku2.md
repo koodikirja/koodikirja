@@ -12,6 +12,6 @@ pagetype: book
 Tätä lukua ei ole vielä kirjoitettu. Pitäisikö sinusta kirjoittaa? 
 
 Jos pitäisi, niin
-[osallistu](/tietoja/)
+[osallistu](/tietoja/)!
 
 <%=render('partials/contact')%>

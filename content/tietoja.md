@@ -109,7 +109,7 @@ Koodikirja on siis vapaasti käytettävissä, kopioitavissa ja levitettävissä 
 Koodikirjan lähdekoodit löydät Githubista osoitteesta 
 [http://github.com/koodikirja/koodikirja](http://github.com/koodikirja/koodikirja).
 
-Oikeudet materiaalin kaupalliseen käyttöön omistaa Koodirehtori. TODO link
+Oikeudet materiaalin kaupalliseen käyttöön omistaa t:mi Koodirehtori.
 
 Tämä koskee myös kirjan käyttöä maksullisessa koulutuksessa ja sen
 painamista myytäväksi paperiversioksi.
@@ -122,7 +122,7 @@ yrityksiä, jotka haluavat edistää koodaustaitoa ja -kulttuuria maassamme.
 Koodikirjan ensimmäinen luku on tehty osittain vapaa-ajalla, osittain ohjelmistoyritys Reaktorin
 sponsoroimana.
 
-Koodikirjan toteutuksesta vastaa Koodirehtori.
+Koodikirjan toteutuksesta vastaa t:mi Koodirehtori.
 Kirjan graafisen suunnittelun ja piirrokset on toteuttanut Mari Halla-aho.
 
 Koodikirja-projektin jatko riippuu siitä, löydetäänkö hankkeelle rahoittajia.

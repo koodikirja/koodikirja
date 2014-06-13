@@ -327,7 +327,9 @@ Toistoa käyttäen voit piirtää vaikkapa tällaiset portaat melko helposti:
 
 <div class="turtle-diagram" style="width:450px;height:200px;" id="portaat-diagram" data-id="portaat"></div>
 
-Kokeile piirtää portaat itse käyttämällä toistoa.
+**Harjoitus:** Kokeile piirtää portaat itse käyttämällä toistoa.
+
+**Harjoitus:** Opeta Turtle Roylle temppu, jolla saat tehtyä neliön yhdellä sanalla. Piirrä neliöitä eri puolille ruutua.
 
 ***
 

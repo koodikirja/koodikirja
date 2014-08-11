@@ -66,10 +66,24 @@ alueella sijaitsevan *kursorin* avulla. Kursori on se keltainen vilkkuva neliö.
 Nyt on aika avata Turtle Roy -ohjelma [tästä](http://turtle-roy.herokuapp.com), jolloin se aukeaa uuteen ikkunaan
 tai täbiin.
 
-<blockquote class="os-specific os-mac">
+<blockquote class="os-specific os-mac browser-specific  browser-firefox">
   <strong>Vinkki:</strong> Jos Turtle
   Roy aukeaa erillisellä täbillä, voit vaihdella täbien välillä pitämällä pohjassa näppäimiä <em class="key">cmd</em>
   ja <em class="key">alt</em> ja painamalla nuolinäppäimiä.
+  <div class="robot"></div>
+</blockquote>
+
+<blockquote class="os-specific os-mac browser-specific browser-chrome">
+  <strong>Vinkki:</strong> Jos Turtle
+  Roy aukeaa erillisellä täbillä, voit vaihdella täbien välillä pitämällä pohjassa näppäimiä <em class="key">cmd</em>
+  ja <em class="key">alt</em> ja painamalla nuolinäppäimiä.
+  <div class="robot"></div>
+</blockquote>
+
+<blockquote class="os-specific os-mac browser-specific browser-safari">
+  <strong>Vinkki:</strong> Jos Turtle
+  Roy aukeaa erillisellä täbillä, voit vaihdella täbien välillä pitämällä pohjassa näppäimiä <em class="key">cmd</em>
+  ja <em class="key">shift</em> ja painamalla nuolinäppäimiä.
   <div class="robot"></div>
 </blockquote>
 

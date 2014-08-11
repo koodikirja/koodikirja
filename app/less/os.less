@@ -37,7 +37,7 @@
   }
 }
 .os-specific {
-  display: none
+  display: none;
 }
 .os-mac .os-specific.os-mac {
   display: block;
@@ -51,6 +51,18 @@
 .os-notdetected .os-specific.os-windows {
   display: block;
   opacity: 0;
+}
+body:not(.browser-chrome) .browser-specific.browser-chrome {
+  display: none !important;
+}
+body:not(.browser-firefox) .browser-specific.browser-firefox {
+  display: none !important;
+}
+body:not(.browser-safari) .browser-specific.browser-safari {
+  display: none !important;
+}
+body:not(.browser-ie) .browser-specific.browser-ie {
+  display: none !important;
 }
 #main img.key {
   margin: 0;

@@ -38,7 +38,7 @@ Toisaalta 4-vuotiaalle monet koodaukseen liittyvät abstraktit käsitteet ovat l
 hyvin haastavia, joten oppiminen ei välttämättä ole salamannopeaa. Tärkeintä on, että
 oppiminen on hauskaa. Hankaliin yksityiskohtiin ei kannata jäädä jumiin.
 
-Itse opettelin koodaamaan noin 8-vuotiaana, pääasiassa lukemalla VIC-20:n ohjekirjaa ja
+Itse aloitin koodaamisen 8-vuotiaana, pääasiassa lukemalla VIC-20:n ohjekirjaa ja
 kopioimalla sieltä pieniä ohjelmanpätkiä, joita sitten muuttelin ja vähitellen ymmärsin,
 miten voin tehdä aivan omia tietokoneohjelmia. Toivon, että koodauksen opettelu onnistuu
 kouluikäisiltä itsenäisestikin Koodikirjan avulla. Vanhempien tuki on kuitenkin
@@ -55,8 +55,8 @@ Kaikissa näissä intohimoiset koodarit ovat rakentaneet jotain itselleen tärke
 
 Koodi on tulevaisuudessa ja jo nykyään merkittävä suomalainen vientituote. Nokian loistava
 menestys rakentui osaltaan puhelimien ohjelmistojen eli koodin varaan. Myöhemmin kilpailijat tulivat ohi
-vielä paremmilla ohjelmistoillaan. Tällä hetkellä menestyksekäs suomalainen peliteollisuus (Rovio,
-Supercell...) tarvitsee valtavasti lahjakkaista koodareita. Ilman hyviä koodareita menestystä ei tule,
+vielä paremmilla ohjelmistoillaan. Tällä hetkellä menestyksekäs suomalainen peliteollisuus tarvitsee 
+valtavasti lahjakkaista koodareita. Ilman hyviä koodareita menestystä ei tule,
 ja toisaalta jos ja kun sitä tulee, niin samalla työllistetään paljon muitakin huippuammattilaisia.
 
 Koodausta kannattaa opetella nuorena. Se on hauska harrastus, josta tulee myöhemmin monelle työ.

@@ -30,9 +30,6 @@ taas haluat päästä koodaamaan, niin jatka lukemista.
 
 <div><img id="sponsor-example" class="sponsor" src="/images/logo_placeholder.png"></div>
 
-Koodikirjan ensimmäisessä luvussa saatte tutustua ystäviini Robo ja Kilpikonna Roy,
-jotka opettavat sinulle koodauksen alkeita. He myös kertovat sinulle mitä on koodaus ja mitä on koodi.
-
 Koodi on tietokoneiden kieltä. Tietokone tottelee koodia. Koodilla voit käskeä tietokonetta 
 tekemään mitä haluat.
 

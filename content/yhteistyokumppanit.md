@@ -12,8 +12,8 @@ pagetype: sponsors
        <td class="text">Yrityksesi logo ja pikku mainoslause voisi olla tässä!</td>
     </tr>
     <tr>
-       <td class="logo"><img src="/images/logo_placeholder.png"></td>
-       <td class="text">Yrityksesi logo ja pikku mainoslause voisi olla tässä!</td>
+       <td class="logo"><img src="/images/reaktor150.gif"></td>
+       <td class="text">Reaktor is a creative technology company. We construct exceptionally well-functioning services.</td>
     </tr>
   </tbody>
 </table>

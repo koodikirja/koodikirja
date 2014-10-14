@@ -1,3 +1,11 @@
+## Koodikirja
+
+Koodikirja is an online book for learning programming. The site is published at http://www.koodikirja.fi/.
+
+The book is available only in Finnish for now, so here you have yet another reason to learn this unique language.
+
+Development instructions below.
+
 ## Install
 
 Run

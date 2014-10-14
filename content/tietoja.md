@@ -149,7 +149,8 @@ Jos koet asian tärkeäksi, auta meitä kehittämään Koodikirjaa.
 
 Koodikirja tarvitsee rahoitusta. Jos yrityksesi haluaa edistää hanketta, voitte auttaa
 meitä sponsoroimalla. Käyttämällänne rahalla saatte varmistettua, että Koodikirja toteutuu.
-Lisäksi saatte nimenne ikuistettua suomalaisen koodauksen historiaan.
+Lisäksi saatte nimenne Koodikirjan Yhteistyökumppanit-sivulle ja siten ikuistetuksi suomalaisen 
+koodauksen historiaan.
 
 Yksityishenkilönä voit auttaa lukemalla, koodaamalla, opettamalla ja levittämällä sanaa.
 

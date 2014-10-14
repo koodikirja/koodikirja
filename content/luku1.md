@@ -28,8 +28,6 @@ taas haluat päästä koodaamaan, niin jatka lukemista.
 
 ## Luku 1 - Konnankoukkuja kahdelle
 
-<div><img id="sponsor-example" class="sponsor" src="/images/logo_placeholder.png"></div>
-
 Koodi on tietokoneiden kieltä. Tietokone tottelee koodia. Koodilla voit käskeä tietokonetta 
 tekemään mitä haluat.
 

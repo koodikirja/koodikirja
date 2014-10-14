@@ -13,5 +13,4 @@ pagetype: front
   </div>
 </div>
 <div id="sponsors">
-  <a href="http://www.reaktor.fi"><img src="/images/Reaktor150.gif"></a>
 </div>

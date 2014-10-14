@@ -12,7 +12,8 @@ Innostukseni Koodikirja-projektiin syntyi [Koodikoulu](http://koodikoulu.fi)-tap
 suosiosta sekä havainnosta, etten löytänyt Koodikoulun tueksi soveltuvaa opetusmateriaalia.
 Aika hyvälle suomenkieliselle koodauskirjalle on kypsä.
 
-Koodikirja-projektin tavoitteena on tuottaa Koodikoululle oppikirja.
+Koodikirja-projektin tavoitteena on tuottaa Koodikoululle oppikirja ja auttaa alakoulujen opettajia
+vuonna 2016 opetussuunnitelmaan sisällytettävässä ohjelmointiopetuksessa.
 
 Suositut [Koodikoulu](http://koodikoulu.fi)-tapahtumat saivat alkunsa minun ja tyttäreni yhteisistä
 koodaustunneista. Niissä olen saanut jakaa sitä tietoa ja iloa, jota olen itse saanut
@@ -20,14 +21,10 @@ koodauksesta. Koodikirjan avulla voin jakaa samaa iloa ja tietoa kaikille halukk
 
 ## Miksi Koodikirja on tärkeä
 
-[Koodikoulu](http://koodikoulu.fi) tarvitsee tuekseen hyvän kirjan.
+[Koodikoulu](http://koodikoulu.fi) tarvitsee tuekseen itseopiskeluun soveltuvaa suomenkielistä 
+opetusmateriaalia, sillä kaikilla ei ole mahdollisuutta päästä Koodikouluun paikan päälle. 
 
-Koodausta oppii parhaiten koodaamalla taitavan ja opetushaluisen ja -kykyisen koodarin kanssa.
-Useimmilla ei tällaista henkilöä kuitenkaan perhepiiristä löydy.
-
-Toiseksi parhaiten koodausta oppii jos on käytettävissä tarvittavat välineet ja hyvä kirja.
-Koodikirjan on tarkoitus olla juuri se kirja. Kirja, jonka avulla lapsi voi opetella koodausta
-itsenäisesti tai vanhemman avulla.
+Alakoulujen opettajat tarvitsevat opetusmateriaalia ohjelmoinnin opettamiseen.
 
 ## Kenelle Koodikirja on
 
@@ -48,6 +45,8 @@ Vaikka kirja onkin suunniteltu lapsille, voi siitä myös nuori tai aikuinen opp
 oppii ihan oikeita koodaustaitoja, ei pelkästään lasten leikkejä. Matka Koodikirjasta
 ammattikoodariksi on toki vielä pitkä.
 
+Koodikirjaa on tarkoitus myös kehittää tukemaan alakoulujen opettajien työtä ohjelmoinnin opetuksessa.
+
 ## Miksi koodaus on tärkeää
 
 Moni Internetin tukipilari, kuten Linux, MySQL, IRC ja SSH ovat suomalaisten koodarien työtä.
@@ -58,6 +57,9 @@ menestys rakentui osaltaan puhelimien ohjelmistojen eli koodin varaan. Myöhemmi
 vielä paremmilla ohjelmistoillaan. Tällä hetkellä menestyksekäs suomalainen peliteollisuus tarvitsee 
 valtavasti lahjakkaista koodareita. Ilman hyviä koodareita menestystä ei tule,
 ja toisaalta jos ja kun sitä tulee, niin samalla työllistetään paljon muitakin huippuammattilaisia.
+
+Kaikki toimii nykyään koodilla. Kotonasi löydät koodilla toimivia laitteita yllättävän paljon: uunit,
+liedet, mikrot, televisiot, autot, lämpöpumput sisältävät nykyään prosessorin, joka suorittaa koodia.
 
 Koodausta kannattaa opetella nuorena. Se on hauska harrastus, josta tulee myöhemmin monelle työ.
 Koodausharrastus ja ohjelmoinnin opettelu kehittää analyyttistä ajattelua ja ongelmanratkaisukykyä.
@@ -109,7 +111,8 @@ Koodikirja on siis vapaasti käytettävissä, kopioitavissa ja levitettävissä 
 Koodikirjan lähdekoodit löydät Githubista osoitteesta 
 [http://github.com/koodikirja/koodikirja](http://github.com/koodikirja/koodikirja).
 
-Oikeudet materiaalin kaupalliseen käyttöön omistaa t:mi Koodirehtori.
+Koodikirjan sisällön tekijänoikeudet säilyvät tekijöillä itsellään, joten materiaalin mahdollisesta kaupallisesta käytöstä
+on neuvoteltava tekijöiden kanssa.
 
 Tämä koskee myös kirjan käyttöä maksullisessa koulutuksessa ja sen
 painamista myytäväksi paperiversioksi.
@@ -119,13 +122,26 @@ painamista myytäväksi paperiversioksi.
 Koodikirja-projekti on yhteistyöprojekti, johon haemme rahoittajiksi ensisijaisesti suomalaisia
 yrityksiä, jotka haluavat edistää koodaustaitoa ja -kulttuuria maassamme.
 
-Koodikirjan ensimmäinen luku on tehty osittain vapaa-ajalla, osittain ohjelmistoyritys Reaktorin
+Olen toteuttanut Koodikirjan ensimmäisen luvun osittain vapaa-ajalla, osittain ohjelmistoyritys Reaktorin
 sponsoroimana.
 
-Koodikirjan toteutuksesta vastaa t:mi Koodirehtori.
 Kirjan graafisen suunnittelun ja piirrokset on toteuttanut Mari Halla-aho.
 
-Koodikirja-projektin jatko riippuu siitä, löydetäänkö hankkeelle rahoittajia.
+Koodikirja-projektin jatko riippuu siitä, löydetäänkö hankkeelle lisää tekijöitä ja rahoittajia.
+
+## Mitä on suunnitelmissa
+
+Koodikirja on vasta alussa. Nykymuodossaan se palvelee lähinnä lasten ja vanhempien yhteistä
+ohjelmointiopettelua. Tarkoituksena olisi sovittaa tätä paremmin erityisesti alakoulujen ohjelmointiopetusta
+tukevaksi. Tässä hieman suunnitelmia
+
+- Lisätään leikkejä ja aktiviteetteja, joiden avulla ohjelmointia voi ymmärtää käyttämättä 
+varsinaisesti tietokonetta. Tämä soveltuu 1-2 luokille. (tätä aloitettu: https://github.com/koodikirja/leikit)
+- Jaetaan sisältö pienempiin "kortteihin", jotka soveltuvat yksittäisen opetus/oppimissession sisällöksi
+- Testataan sisältöä alakouluissa
+- Integroidaan Turtle Roy Koodikirjan sivulle (proto olemassa)
+- Tehdään ohjelmointiharjoituksisa interaktiivisia (tyyliin codecademy)
+- Lisätään Turtle Roy -ympäristöön mahdollisuus luoda ohjelmia graafisista blokeista (proto olemassa)
 
 ## Kuinka voit auttaa
 

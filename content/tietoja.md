@@ -147,6 +147,7 @@ varsinaisesti tietokonetta. Tämä soveltuu 1-2 luokille. (tätä aloitettu: htt
 - Integroidaan Turtle Roy Koodikirjan sivulle (proto olemassa)
 - Tehdään ohjelmointiharjoituksisa interaktiivisia (tyyliin codecademy)
 - Lisätään Turtle Roy -ympäristöön mahdollisuus luoda ohjelmia graafisista blokeista (proto olemassa)
+- Hankitaan hieman luotettavampi/tehokkaampi hostaus (nyt käytössä Herokun ilmaisversio)
 
 ## Kuinka voit auttaa
 

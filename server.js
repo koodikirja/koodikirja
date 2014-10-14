@@ -15,11 +15,6 @@ var express = require('express')
 var port = process.env.PORT || 3000
 var app = express()
 
-var basicAuth = express.basicAuth('koodikoulu', 'rehtori')
-
-app.get('/', basicAuth, function(request, response) {
-    response.sendfile(__dirname + '/output/index.html')
-})
 app.post('/feedback', express.bodyParser(), function(request, response) {
   feedbackE.push(request.body)
   response.send("ok")

@@ -8,12 +8,12 @@ pagetype: info
   <img src="/images/juha_mila.jpg">
 </div>
 
+Koodikirja-projektin tavoitteena on tuottaa Koodikoululle oppikirja ja auttaa alakoulujen opettajia
+vuonna 2016 opetussuunnitelmaan sisällytettävässä ohjelmointiopetuksessa.
+
 Innostukseni Koodikirja-projektiin syntyi [Koodikoulu](http://koodikoulu.fi)-tapahtumien valtavasta
 suosiosta sekä havainnosta, etten löytänyt Koodikoulun tueksi soveltuvaa opetusmateriaalia.
 Aika hyvälle suomenkieliselle koodauskirjalle on kypsä.
-
-Koodikirja-projektin tavoitteena on tuottaa Koodikoululle oppikirja ja auttaa alakoulujen opettajia
-vuonna 2016 opetussuunnitelmaan sisällytettävässä ohjelmointiopetuksessa.
 
 Suositut [Koodikoulu](http://koodikoulu.fi)-tapahtumat saivat alkunsa minun ja tyttäreni yhteisistä
 koodaustunneista. Niissä olen saanut jakaa sitä tietoa ja iloa, jota olen itse saanut
@@ -26,7 +26,14 @@ opetusmateriaalia, sillä kaikilla ei ole mahdollisuutta päästä Koodikouluun 
 
 Alakoulujen opettajat tarvitsevat opetusmateriaalia ohjelmoinnin opettamiseen.
 
+Minun mielestäni tämän materiaalin tulee olla kaikkien saatavissa ilmaiseksi. Ja paras tapa
+tuottaa tämä materiaali on tehdä se avoimen lähdekoodin periaatteella. Yhteistyössä on voimaa!
+
 ## Kenelle Koodikirja on
+
+Nykymuodossaan koodikirja soveltuu parhaiten vähintään 4-vuotiaiden lasten ohjelmoinnin
+opetteluun vanhemman kanssa. Jatkossa Koodikirja toivottaasti tukee paremmin myös alakoulujen
+opettajia.
 
 Jo 4-vuotias voi saada onnistumisen elämyksiä koodauksesta, mutta tarvitsee vanhemman
 tuekseen. Oma kokemukseni koodailuista 4-vuotiaan tyttäreni kanssa on, että
@@ -44,8 +51,6 @@ korvaamatonta, ja opettelu yhdessä on hyvin antoisaa.
 Vaikka kirja onkin suunniteltu lapsille, voi siitä myös nuori tai aikuinen oppia paljon. Kirjasta
 oppii ihan oikeita koodaustaitoja, ei pelkästään lasten leikkejä. Matka Koodikirjasta
 ammattikoodariksi on toki vielä pitkä.
-
-Koodikirjaa on tarkoitus myös kehittää tukemaan alakoulujen opettajien työtä ohjelmoinnin opetuksessa.
 
 ## Miksi koodaus on tärkeää
 

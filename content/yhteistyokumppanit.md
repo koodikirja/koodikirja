@@ -9,6 +9,7 @@ pagetype: sponsors
   <tbody>
     <tr>
        <td class="logo"><img src="/images/reaktor150.gif"></td>
+       <td class="text">Reaktor on tukenut Koodikirjaa antamalla tekijöiden käyttää työaikaa tähän hankkeeseen. Kiitos!</td>
     </tr>
   </tbody>
 </table>

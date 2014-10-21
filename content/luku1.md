@@ -16,7 +16,12 @@ voit rakentaa omia pelejä ja maailmoja, joiden säännöt määräät sinä. Ol
 tutustunut moniin hienoihin peleihin tietokoneella, puhelimella tai pelikonsolilla, ja haluaisit ehkä itse tehdä
 jotain yhtä hienoa. Se on mahdollista! Ensin täytyy kuitenkin opetella hieman perusasioita. Juuri sitä varten Koodikirja on olemassa.
 
-Pelkästään lukemalla Koodikirjaa et kuitenkaan voi oppia koodaamaan, sillä koodaamaan oppii vain koodaamalla.
+Koodi on tietokoneiden kieltä. Koodilla voit käskeä tietokonetta 
+tekemään mitä haluat. Koodaus puolestaan on koodin kirjoittamista, ja koodista rakennettujen palasten 
+yhdistelemistä.
+
+Koodikirjassa kerrotaan koodista ja koodauksesta, mutta pelkästään lukemalla Koodikirjaa et kuitenkaan voi
+oppia koodaamaan, sillä koodaamaan oppii vain koodaamalla.
 Koodikirjassa koodausta opetellaankin tekemällä pieniä harjoituksia lukemisen ohessa. Lisäksi
 kirjassa on kappaleiden lopussa hieman haastavampia harjoituksia, joita tekemällä pääset koodaamaan
 ihan itse.
@@ -27,12 +32,6 @@ taas haluat päästä koodaamaan, niin jatka lukemista.
 <hr>
 
 ## Luku 1 - Konnankoukkuja kahdelle
-
-Koodi on tietokoneiden kieltä. Tietokone tottelee koodia. Koodilla voit käskeä tietokonetta 
-tekemään mitä haluat.
-
-Koodaus on rakentamista. Koodaus on koodin kirjoittamista, ja koodista rakennettujen palasten 
-yhdistelemistä.
 
 Jos luet tätä kirjaa puhelimesta tai tabletista (esimerkiksi iPad), tarvitset koodausharjoituksiin "oikean"
 tietokoneen, jossa on näppäimistö. Voi olla hyvä idea lukea kirjaa tabletilta ja koodata oikealla tietokoneella.

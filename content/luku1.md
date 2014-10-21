@@ -122,7 +122,7 @@ Tässä vielä piirros käännöksistä eri suuntiin.
 
 <div class="turtle-diagram" style="width:400px;height:300px;" id="suunnat1-diagram" data-id="suunnat1"></div>
 
-Onko on vaikeaa muistaa, kumpi oikea ja kumpi on vasen? Minua ainakin auttaa se, että kirjoitan aina
+Onko vaikeaa muistaa, kumpi oikea ja kumpi on vasen? Minua ainakin auttaa se, että kirjoitan aina
 oikealla kädellä. Kun otan kynän käteen, tiedän, kumpi on oikea. Myös englanninkielinen lause "You
 write with your right" auttaa ainakin oikeakätisiä muistamaan sen, että oikea (right) on kirjoituskäsi.
 
@@ -174,7 +174,7 @@ No, sehän tarkoittaa tietenkin 90:n asteen käännöstä eli *suoraa kulmaa*.
 Käyttämällä eri lukua, saat konnan kääntymään eri asentoon. 
 Esimerkiksi jos teet `rt 180` niin konna kääntyy 180 astetta eli täyskäännöksen. Kokeile!
 
-MItä tapahtuu jos teet `lt 360`? Konna pyörähtää ympäri täydet 360 astetta 
+Mitä tapahtuu jos teet `lt 360`? Konna pyörähtää ympäri täydet 360 astetta 
 palaten alkuperäiseen asentoonsa. Alla olevassa kuvassa vielä hieman lisää eri
 asteisia käännöksiä.
 

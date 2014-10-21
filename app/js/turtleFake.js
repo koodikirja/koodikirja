@@ -1,4 +1,4 @@
-define(["whenInView", "jquery"], function(whenInView) {
+define(["whenInView", "jquery", "jquery-ui"], function(whenInView) {
     $(".turtle-fake").click(function() { $(this).effect("shake", {distance: 5, times: 2})})
     $(".turtle-fake").each(function() {
       var cursor = $("<div>").addClass("cursor")

@@ -4,6 +4,8 @@ Koodikirja is an online book for learning programming. The site is published at 
 
 The book is available only in Finnish for now, so here you have yet another reason to learn this unique language.
 
+The whole build/runtime system can be run on the local developement machine without a database server or anything else; all content is included in this git repository. This means you can author content and code on your local machine and deploy the result onto Heroku hosting when everything is ok.
+
 Development instructions below.
 
 ## Install
@@ -44,8 +46,6 @@ Koodikirja uses `nanoc` for building the site content and `grunt` for building j
 In general, assets from `/app`, `/content`, `/layouts` will be transformed into assets in `/output`. Static assets
 in `/static` directory will be served as-is. The node.js based `express` web server is used for serving content.
 The server code can be found in `server.js`.
-
-The whole build/runtime system can be run on the local developement machine without a database server or anything else; all content is included in this git repository.
 
 ### The `nanoc` build
 

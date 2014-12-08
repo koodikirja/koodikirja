@@ -41,4 +41,5 @@ Katso myös ihana [Koodikoulu-video](https://www.youtube.com/watch?v=a6hf5cTOyhI
 
 Koodauksen iloa!
 
+<%=render('partials/teachercontact')%>
 <%=render('partials/contact')%>

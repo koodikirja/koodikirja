@@ -4,11 +4,15 @@ var mg = new Mailgun("key-62gzhlqok1m6z8fvhbncetlz1bzendm4")
 
 feedbackE = new Bacon.Bus()
 feedbackE.flatMap(function(feedback) {
+  var email = feedback.email
+  var text = feedback.text
+  var formtype = feedback.formtype || "feedback"
+  console.log(feedback)
   return Bacon.fromNodeCallback(mg, "sendText", 
     "juha.paananen@gmail.com",
     ["juha.paananen@gmail.com"],
-    "Koodikirja - feedback (" + feedback.email + ")",
-    feedback.text).map(feedback.text)
+    "Koodikirja - " + formtype + "(" + email + ")",
+    feedback.text).map(text)
 }).log("feedback->mail")
 
 var express = require('express')

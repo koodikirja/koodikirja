@@ -6,7 +6,8 @@ define(["bacon.jquery", "lodash", "jquery"], function() {
   var sendButton = $("#feedback-send")
   var feedback = Bacon.combineTemplate({
     email: email,
-    text: text})
+    text: text,
+    formtype: $("#feedback-type").attr("value")})
   var request = sendButton.clickE().doAction(".preventDefault")
   var response = request.map(feedback).flatMap(function(feedback) {
     return Bacon.$.ajax({

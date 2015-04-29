@@ -34,7 +34,7 @@ taas haluat päästä koodaamaan, niin jatka lukemista.
 ## Luku 1 - Konnankoukkuja kahdelle
 
 Jos luet tätä kirjaa puhelimesta tai tabletista (esimerkiksi iPad), tarvitset koodausharjoituksiin "oikean"
-tietokoneen, jossa on näppäimistö. Voi olla hyvä idea lukea kirjaa tabletilta ja koodata oikealla tietokoneella.
+tietokoneen, jossa on näppäimistö. Voit myös lukea kirjaa tabletilta ja koodata oikealla tietokoneella.
 
 Ennen kuin aloitat, voit valita alla olevista kuvakkeista, millaista tietokonetta käytät koodaukseen. Tämä valinta
 vaikuttaa esimerkiksi kirjassa neuvottuihin näppäimistökomentoihin.

@@ -364,6 +364,8 @@ P. S. Jos koodauskipinä iski, niin voit tutustua esimerkiksi näihin loistaviin
 Nämä linkit johtavat englanninkielisille sivuille, joten saatat tarvita vanhemman apua.
 
 - [code.org/learn](http://code.org/learn) paljon hauskoja koodauspelejä ja puuhasteltavaa
-- [Scratch](http://scratch.mit.edu) MIT-yliopiston graafinen koodausympäristö
+- [Scratch](http://scratch.mit.edu) MIT-yliopiston graafinen koodausympäristö lapsille
+- [The Foos](http://thefoos.com/) Hauska ja ilmainen koodauspeli mm. tableteille
+- [Code Combat](https://codecombat.com/) Koodauspeli hieman isommille koululaisille
 
 <%=render('partials/feedback')%>

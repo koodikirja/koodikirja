@@ -23,7 +23,8 @@ module.exports = (grunt) ->
           baseUrl: "app/js",
           mainConfigFile: "app/js/main.js",
           name: "main",
-          out: "output/koodikirja.js"
+          out: "output/koodikirja.js",
+          optimize: "none"
         }
       }
     },

@@ -1,4 +1,4 @@
-define(["whenInView", "turtleDiagram", "turtleFake", "os", "notes", "feedback", "jquery", "bacon.jquery"], 
+define(["whenInView", "turtleDiagram", "turtleFake", "os", "feedback", "jquery", "bacon.jquery"], 
 function(whenInView) {
   $(function() {
     $("a").filter(function() { return $(this).attr("href").indexOf("http") >= 0 })

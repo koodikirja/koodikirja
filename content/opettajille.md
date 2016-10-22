@@ -24,7 +24,7 @@ Kannattaa tilata Koodikerhon uutiskirje! Koodikerhon yhtenä tavoitteena on tuot
 Koodikerhoissa on havaittu, että ennen varsinaista ohjelmointia on hyvä tutustua ohjemointiin ilman tietokonetta. 
 Käytännössä on tehty muutamaa eri variaatiota leikistä, missä opettaja toimii tietokoneena/robottina ja oppilaat tekevät tälle paperille kirjoitetun ohjelman. 
 Esimerkiksi Koodi2016-oppaassa on kuvattu Harold-robotti -harjoitus, joka perustuu [csunplugged.org](http://www.csunplugged.org/)-sivuston materiaaleihin. 
-Saman tapainen harjoitus on myös [Robot Turtles](http://www.robotturtles.com/) -lautapeli, jossa tehdään kilpikonnaa ohjaava ohjelma pelikorteista.
+Hauskana ohjelmoinnin harjoituksena voidaan käyttää myös [Robogem](http://robogem.fi/) -lautapeliä, jossa ohjelmoidaan robottia keräämään timantteja.
 
 Aikuisille ja isommille lapsille löytyy englanninkielisiä kursseja esimerkiksi [Khan Academy](https://www.khanacademy.org/) ja [Codecademy](https://www.khanacademy.org/).
 Jos luokassa on hyvin eritasoisia oppilaita, voi pidemmälle ehtineitä ohjata käymään näillä oikeita ohjelmointikieliä opettavilla kursseilla.
@@ -34,6 +34,7 @@ Suosittelen tietysti myös omia teoksiani!
 - [Girls Can’t Code blogi](http://girlscantcode.blogspot.fi/)
 - [Koodikoulu.fi](http://www.koodikoulu.fi)
 - [Koodikirja.fi](http://www.koodikirja.fi)
+- [Robogem](http://robogem.fi)
 - [Turtle Roy](http://turtle-roy.herokuapp.com)
 - [Turtle JS](http://turtle-js.herokuapp.com)
 

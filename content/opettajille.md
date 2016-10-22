@@ -21,7 +21,7 @@ Lisää näistä harjoituksista [Koodikerhon artikkelissa](http://koodikerho.fi/
 Yksi tapa edistää koodauksen oppimista kouluissa on kouluille iltapäiväkerhotoimintaa järjestävä [Koodikerho](http://koodikerho.fi/). 
 Kannattaa tilata Koodikerhon uutiskirje! Koodikerhon yhtenä tavoitteena on tuottaa opetusmateriaalia näihin kerhoihin. Näistä materiaaleista on varmasti hyötyä myös opettajille.
 
-Koodikerhoissa on havaittu, että ennen varsinaista ohjelmointia on hyvä tutustua ohjemointiin ilman tietokonetta. 
+Koodikerhoissa on havaittu, että ennen varsinaista ohjelmointia on hyvä tutustua ohjelmointiin ilman tietokonetta. 
 Käytännössä on tehty muutamaa eri variaatiota leikistä, missä opettaja toimii tietokoneena/robottina ja oppilaat tekevät tälle paperille kirjoitetun ohjelman. 
 Esimerkiksi Koodi2016-oppaassa on kuvattu Harold-robotti -harjoitus, joka perustuu [csunplugged.org](http://www.csunplugged.org/)-sivuston materiaaleihin. 
 Hauskana ohjelmoinnin harjoituksena voidaan käyttää myös [Robogem](http://robogem.fi/) -lautapeliä, jossa ohjelmoidaan robottia keräämään timantteja.

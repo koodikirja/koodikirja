@@ -16,71 +16,43 @@ Ensimmäisessä luvussa opit jo paljon koodauskomentoja:
 * Funktio: `let funktio = s[ komento1, komento2, ...]`
 * Toisto: `r 5 funktio`
 
-Näitä yksinkertaisia peruspalikoita yhdistelemällä, teimme jo monta jännää temppua: neliöitä, kirjaimia ja portaita!
+Näitä yksinkertaisia komentoja yhdistelemällä, teimme jo monta jännää temppua: neliöitä, kirjaimia ja portaita!
 
 Koodaus on juuri tätä. Kilpikonnan, eli tietokoneen, tekemät monimutkaisimmatkin temput, ovat oikeasti vain
 tällaisten yksinkertaisten komentojen yhdistelmiä. Koodari on ihminen, joka yhdistää komentoja funktioiksi, ja
 sitten vielä yhdistelee funktioita yhä monimutkaisemmiksi funktioiksi. Mutta monimutkaisinkin tietokoneohjelma
 loppujen lopuksi koostuu hyvin yksinkertaisista komennoista.
 
-Yksinkertaisia peruspalikoita on vielä vähän lisää. Tässä luvussa opimme tärkeän tempun nimeltä *muuttujat*.
+Yksinkertaisia peruskomentoja on vielä vähän lisää. Tässä luvussa opimme tärkeän tempun nimeltä *muuttujat*.
 
 ### 2.1 Muuttujat
 
-*Muuttuja* on koodin osa, joka voi sisältää numeron. Itse asiassa osaat jo komennon millä muuttujia tehdään. Se on sama
-komento, jota käytimme funktion tekemiseen: `let` ja sen jälkeen vielä yhtäsuuruusmerkki: `=`.
-
-Kun yhtäsuuruusmerkin jälkeen tulee sekvenssi, syntyi `let` komennolla funktio. Mutta jos yhtäsuuruusmerkin
-jälkeen tuleekin pelkkä numero, sitä kutsutaan muuttujaksi. Teet siis muuttujan näin:
-
-    let korkeus = 10
+*Muuttuja* on koodin osa, joka voi sisältää numeron. 
 
 Ensimmäisessä luvussa opit, että tietokone tekee sen mitä koodari käskee sitä tekemään. Tietokone voi piirtää
 vaikka sata porrasta, eikä sitä yhtään väsytä, jos käytit `r`-komentoa ja käskit tietokonetta tekemään niin.
 
-Muuttujien avulla koodia voidaan, juuri niin: *muutella*.
+Muuttujien avulla koodia voidaan, juuri niin: *muutella*. Joskus voit haluta tehdä saman asian monta kertaa, 
+mutta *kuitenkin vähän eri tavalla*. Juuri tähän käytetään muuttujia.
 
-Joskus voit haluta tehdä saman asian monta kertaa, mutta *kuitenkin vähän eri tavalla*. Juuri tähän käytetään *muuttujia*.
-
-Käytetäänpä nyt `korkeus`-muuttujaa erikokoisten portaiden piirtämiseen. Tehdään siis ensin muuttuja, ja sitten funktio:
-
-    clear
-    let korkeus = 10
-    let porras = s[ fd korkeus, rt 90, fd korkeus, lt 90]
-
-Ja sitten piirretään `r`-komennolla vaikkapa 5 porrasta:
-
-    r 5 porras
-
-Piirsit nyt portaikon, jossa portaat ovat 10 pikselin korkuisia. Kokeile antaa `korkeus`-muuttujalle joku toinen *arvo*,
-eli joku toinen *numero*. Piirrä esimerkiksi 3 porrasta, jotka ovat 50 pikselin korkuisia:
+Jatketaan siitä mihin ensimmäisessä luvussa jäätiin. Alla on porras-funktio, joka piirtää 10 pikselin korkuisia portaita.
+[Siirry Turtle Roy -ympäristöön](http://turtle-roy.herokuapp.com), ja kirjoita nämä komennot uudestaan, ja paina lopuksi
+enteriä.
 
     clear
-    let korkeus = 50
-    let porras = s[ fd korkeus, rt 90, fd korkeus, lt 90]
-    r 3 porras
+    let porras = s[ fd 10, rt 90, fd 10, lt 90]
 
+Nyt on aika tehdä `porras`-funktiosta *muunneltava*, eli lisäämme siihen muuttujan. Muuttujien nimet kerrotaan
+heti funktion nimen perään. Eli tehdään portaan korkeudesta *muuttuja*:
 
-### 2.2 Funktion muuttujat (eli argumentit)
+    let porras korkeus =
 
-Olet oppinut käyttämään *muuttujia*, eli *muuttelemaan* koodiasi! Valitettavasti yllä oleva esimerkki on kuitenkin vielä vähän
-hankala. Turtle Roy ohjelmointikielessä, muuttujan arvo (eli numero) lasketaan siitä hetkestä kun koodisekvenssi kirjoitetaan
-ja painat Enter. Jos vaihdat `korkeus`-muuttujan arvoa, pitää sinun myös luoda `porras`-funktio uudestaan. Joka kerta!
-
-Jos käytit nuoli-ylös näppäintä, eli <em class="key">↑</em>, tämä ei ehkä ole kovin suuri vaiva. Mutta se on kuitenkin turhaa.
-Voimme yksinkertaistaa ja nopeuttaa koodaustyötämme vielä entisestään käyttämällä *funktiomuuttujia*.
-
-(Koodarit kutsuvat funktiomuuttujia yleensä *"argumenteiksi"*. Koska "argumentti" ei oikeastaan ole suomenkielinen sana ollenkaan,
-emme käytä sitä koodikirjassa. Puhumme vain yksinkertaisesti muuttujista.)
-
-Jotta funktio tietäisi, että `korkeus` on muuttuja, se pitää kertoa tietokoneelle funktiota luotaessa. Voit kertoa funktiolle
-sen muuttujien nimet, kun luot funktion `let`-komennolla. Funktiossa käytettävien muuttujien nimet, kirjoitetaan funktion
-oman nimen jälkeen, näin:
+Ja tämän jälkeen korvataan myös sekvenssin numero `10` muuttujan nimellä:
 
     let porras korkeus = s[ fd korkeus, rt 90, fd korkeus, lt 90]
 
-Nyt kun seuraavan kerran käsket kilpikonnaa piirtäämään `porras`-funktion, sinun pitää myös kertoa portaan korkeus samalla kertaa.
-Kokeile piirtää erikorkuisia portaita, vaikka näin:
+Nyt voitkin piirtää erikokoisia portaita. Kirjoita ensin funktion nimi, ja sitten mikä tahansa numero!
+Vaikka näin:
 
     clear
     porras 30
@@ -95,11 +67,20 @@ Kokeile piirtää erikorkuisia portaita, vaikka näin:
     porras 2
     porras 1
 
+### 2.2 Useamman muuttujan käyttö
+
 Toki voit myös edelleen käyttää toistokomentoa `r`. Toistokomentoa pitää nyt kuitenkin vähän auttaa. Jotta toistokomento osaa
 lukea funktion nimen ja siihen kuuluvan muuttujan yhdessä, pitää funktion nimi ja muuttuja laittaa kaarisulkeiden sisään:
 
     clear
     r 50 (porras 5)
+
+<blockquote class="cloud-left">
+  <strong>Vinkki:</strong> Kaarisulkeet saat kun painat samaan aikaan <em class="key">Shift ⇧</em> ja <em class="key">8</em>
+  tai <em class="key">9</em>.
+  <div class="robot"></div>
+</blockquote>
+
 
 Funktiossa voi olla useampiakin muuttujia. Itse asiassa toistokomennostakin voi tehdä funktion, ja silloin voi tehdä toistojen
 määrästä myös muuttujan!
@@ -137,7 +118,14 @@ on muutettu muuttujiksi:
     let sivu pituus kulma = s[ fd pituus, rt kulma]
     let kuvio lukumäärä pituus kulma = s[ r lukumäärä (sivu pituus kulma)]
 
-Voit nyt kokeilla piirtää erilaisia kuvioita vaihtelemalla muuttujien arvoja. Mikähän kuvio tästäkin muodostuu:
+Yllä on siis kaksi funktiota: `sivu` ja `kuvio`, ja yhteensä kolme muuttujaa: `lukumäärä`, `pituus` ja `kulma`.
+
+Arvasitko jo mitä kukin muuttuja tarkoittaa?
+
+`lukumäärä` kertoo kuinka monta *sivua* on *kuviossa*. `pituus` on tietenkin *sivun* pituus ja `kulma` on kahden
+*sivun* välinen kulma.
+
+Voit nyt kokeilla piirtää erilaisia kuvioita vaihtelemalla muuttujien arvoja. Mikähän kuvio tästäkin muodostuu?
 
     kuvio 4 100 90
 
@@ -155,7 +143,7 @@ Kokeile seuraavaksi vaikka näitä, tai voit keksiä omia numeroita. Muista aina
     kuvio 100 100 170
     kuvio 72 5 5
 
-<blockquote class="cloud-left">
+<blockquote class="cloud2">
   <strong>Vinkki:</strong> Jos olet jo koulussa oppinut geometriaa, tai kuvioiden matematiikka kiinnostaa sinua
   muuten vaan, saatat huomata, että numeroiden valitsemisessa auttavat seuraavat säännöt. (Ja jos et ole, voit pyytää
   vanhempaa vinkkaamaan sopivia numeroita!)<br />
@@ -178,8 +166,7 @@ Hienoa! Olet nyt oppinut käyttämään muuttujia. Niiden avulla voit muutella k
 voi tehdä kerrasta toiseen hieman erilaisia temppuja!
 
 (Turtle Roy:ssa muuttujien käyttö on aika rajattua moniin muihin ohjelmointikieliin verrattuna. Muuttujien käyttö
-rajoittuu lähinnä funktion alkuarvojen - eli argumenttien - käyttöön. Mutta näilläkin muuttujilla tehtiin jo
-monta kivaa temppua, eikö vain?)
+rajoittuu lähinnä funktion alkuarvojen käyttöön. Mutta näilläkin muuttujilla tehtiin jo monta kivaa temppua, eikö vain?)
 
 Tästä pääset Koodikirjan [3.lukuun](/luku3/)!
 

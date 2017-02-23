@@ -73,3 +73,21 @@ Jos haluat todella korkean C-nuotin voit kokeilla tätä:
     play c*32
     
 Kokeilin myös nuottia `c*64` mutta en kuullut mitään. Kuuletko sinä näin korkean äänen? Jos kuulet, niin sinulla on hyvä kuulo!
+
+### 2.4 Polyfonia ja parallelismi
+
+Polyfonialla tarkoitetaan sitä, että soitetaan samanaikaisesti monta eri säveltä. Usein polyfonia muodostuu, kun orkesterin eri soittimet soittavat samanaikaisesti erilaisia, toisiaan tukevia melodioita. Ohjelmoinnissa samaa asiaa kutsutaan parallelismiksi; tietokoneohjelma voidaan haarauttaa tekemään rinnakkain kahta eri asiaa. Turtle Royssa parallelismi onnistuu funktiolla `par`. Jos siis haluat soittaa rinnakkain kahta eri melodiaa, voit kokeilla tätä:
+
+    par [s [play c, play d, play e], s [play e, play f, play g]]
+    
+**Harjoitus:** Tee oma kappale, jossa soitetaan rinnakkain kahta ääntä
+
+Soitetaanpa vielä Tuiki tuiki tähtönen -kappaleen kaanonissa, eli siten, että toinen ääni seuraa ensimmäistä ääntä esimerkiksi yhden tahdin verran jäljessä.
+
+Kaanonissa soittaminen on itse asiassa aika helppoa: jos olet tehnyt funktion `tuiki` joka soittaa kappaleen, voit soittaa sen kaanonissa näin:
+
+    par [tuiki, s [r 4 pause, tuiki]]
+    
+***
+
+P. S. Musiikki ja ohjelmointi ovat aika samanlaisia, eikö? Jos haluat sukeltaa syvemmälle musiikkiohjelmoinnin maailmaan, kannattaa tutustua Sonic Pi -ohjelmaa [Mehackit -sivuston ohjeilla](http://sonic-pi.mehackit.org/index_fi.html)!

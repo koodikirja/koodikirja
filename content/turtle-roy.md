@@ -10,7 +10,7 @@ pagetype: reference
 ## Turtle Roy
 
 Turtle Roy on ohjelma, jossa voit ohjata kilpikonnaa englanninkielisillä käskyillä ja oppia
-samalla ohjelmoimaan. Klikkaa [tästä](http://turtle-roy.herokuapp.com) avataksesi Turtle Royn
+samalla ohjelmoimaan. Klikkaa [tästä](http://www.turtle-roy.com) avataksesi Turtle Royn
 uuteen selainikkunaan tai täbiin.
 
 Olen koonnut tälle sivulle tärkeimmät Turtle Roy -käskyt suomenkielisine selityksineen.

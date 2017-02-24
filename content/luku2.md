@@ -12,8 +12,8 @@ pagetype: book
 Ensimmäisessä luvussa opit jo paljon koodauskomentoja:
 
 * Perus-piirustuskomennot: `fd`, `lt`, `rt` sekä `penup` ja `pendown`
-* Sekvenssi: `s[ komento1, komento2, ...]`
-* Funktio: `let funktio = s[ komento1, komento2, ...]`
+* Sekvenssi: `s [komento1, komento2, ...]`
+* Funktio: `let funktio = s [komento1, komento2, ...]`
 * Toisto: `r 5 funktio`
 
 Näitä yksinkertaisia komentoja yhdistelemällä, teimme jo monta jännää temppua: neliöitä, kirjaimia ja portaita!
@@ -44,7 +44,7 @@ Jatketaan nyt siitä mihin ensimmäisessä luvussa jäätiin. Alla on porras-fun
 enteriä.
 
     clear
-    let porras = s[ fd 10, rt 90, fd 10, lt 90]
+    let porras = s [fd 10, rt 90, fd 10, lt 90]
 
 Nyt on aika lisätä `porras`-funktioon *parametri*. Muutetaan numero `10` parametriksi niin, että samalla funktiolla
 voi piirtää eri korkuisia portaita.
@@ -52,7 +52,7 @@ voi piirtää eri korkuisia portaita.
 Parametrin nimi kerrotaan `let` komennossa heti funktion nimen perään. Eli lisätään parametri `korkeus` ja tämän
 jälkeen korvataan myös sekvenssin sisällä numero `10` parametrin nimellä, eli `korkeus`:
 
-<pre><code>let porras <strong>korkeus</strong> = s[ fd <strong>korkeus</strong>, rt 90, fd <strong>korkeus</strong>, lt 90]</code></pre>
+    let porras korkeus = s [fd korkeus, rt 90, fd korkeus, lt 90]
 
 Nyt voitkin piirtää erikokoisia portaita. Kirjoita ensin funktion nimi, ja sitten parametrin kohdalle mikä tahansa numero!
 Vaikka näin:
@@ -87,7 +87,7 @@ lukea funktion nimen ja siihen kuuluvan parametrin yhdessä, pitää funktion ni
 Funktiossa voi olla useampiakin parametreja. Itse asiassa toistokomennostakin voi tehdä funktion, ja silloin voi tehdä toistojen
 määrästä myös parametrin!
 
-    let portaikko lukumäärä korkeus = s[ r lukumäärä (porras korkeus)]
+    let portaikko lukumäärä korkeus = s [r lukumäärä (porras korkeus)]
 
 Voit nyt piirtää erilaisia portaikkoja vaihtelemalla `portaikko`-funktion perässä olevaa kahta numeroa, eli parametrejä:
 
@@ -117,8 +117,8 @@ Funktio on samanlainen, kuin millä teit edellisessä harjoituksessa neliön, mu
 on muutettu parametreiksi:
 
     clear
-    let sivu pituus kulma = s[ fd pituus, rt kulma]
-    let kuvio lukumäärä pituus kulma = s[ r lukumäärä (sivu pituus kulma)]
+    let sivu pituus kulma = s [fd pituus, rt kulma]
+    let kuvio lukumäärä pituus kulma = s [r lukumäärä (sivu pituus kulma)]
 
 Yllä on siis kaksi funktiota: `sivu` ja `kuvio`, ja yhteensä kolme parametria: `lukumäärä`, `pituus` ja `kulma`.
 

@@ -8,7 +8,8 @@ define(["whenInView", "turtle", "lodash", "jquery"], function(whenInView, Turtle
       var elem = $(this)
       var diagram = { 
         commands: jsonAttr(elem, "data-commands"), 
-        offsetY: jsonAttr(elem, "data-offsety")
+        offsetY: jsonAttr(elem, "data-offsety"),
+        offsetX: jsonAttr(elem, "data-offsetx")
       }
       var turtle = Turtle(elem, parseInt(elem.css("width")) || 640, parseInt(elem.css("height")) || 500)
       var drawn = false

@@ -69,12 +69,12 @@ jälkeen korvataan myös sekvenssin sisällä numero 10 parametrin nimellä `kor
 Nyt voitkin piirtää erikokoisia portaita. Kirjoita ensin funktion nimi, ja sitten parametrin kohdalle mikä tahansa numero!
 Vaikka näin:
 
-    clear
-    porras 30
-    porras 25
-    porras 20
-    porras 15
-    porras 10
+<div class="turtle-diagram" style="width:400px;height:300px;" 
+  id="suunnat1-diagram" 
+  data-commands='[["fd",[30]],["rt",[90]],["fd",[30]],["lt",[90]],["fd",[25]],["rt",[90]],["fd",[25]],["lt",[90]],["fd",[20]],["rt",[90]],["fd",[20]],["lt",[90]],["fd",[15]],["rt",[90]],["fd",[15]],["lt",[90]],["fd",[10]],["rt",[90]],["fd",[10]],["lt",[90]],["penup",[]],["lt",[90]],["fd",[300]],["rt",[90]],["text",["clear"]],["fd",[-20]],["text",["porras 30"]],["fd",[-20]],["text",["porras 25"]],["fd",[-20]],["text",["porras 20"]],["fd",[-20]],["text",["porras 15"]],["fd",[-20]],["text",["porras 10"]],["fd",[-20]]]'
+  data-offsetx='-40'
+  data-offsety='50'
+></div>
 
 <blockquote>
   <strong>Vinkki:</strong>
@@ -173,9 +173,9 @@ Kokeile seuraavaksi vaikka näitä, tai voit keksiä omia numeroita. Muista aina
 
 
 **Harjoitus:** Piirrä vielä tähti, jossa on seitsemän sakaraa. Laske vaikka laskimella, paljonko on 1080 jaettuna
-seitsemällä. (Vastauksena ei ole tasaluku, vaan siis desimaaliluku. Voit kuitenkin käyttää pelkkää kokonaislukua
+seitsemällä. Vastauksena ei ole tasaluku, vaan siis desimaaliluku. Voit kuitenkin käyttää pelkkää kokonaislukua
 tässä harjoituksessa. Jos olet luonteeltasi tarkka, voit kokeilla desimaalilukuakin. Huomaa, että Turtle Roy
-ympäristössä desimaalimerkki on piste. Esimerkki: `12.34`.)
+-ympäristössä desimaalimerkki on piste. Esimerkki: `12.34`.
 
 ***
 

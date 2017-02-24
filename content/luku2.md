@@ -40,7 +40,7 @@ käytetään *parametrejä*. Parametrien avulla voidaan käyttää samaa funktio
 kuitenkin vähän vaihtelee joka kerta.
 
 Jatketaan nyt siitä mihin ensimmäisessä luvussa jäätiin. Alla on porras-funktio, joka piirtää 10 pikselin korkuisia portaita.
-[Siirry Turtle Roy -ympäristöön](http://turtle-roy.herokuapp.com), ja kirjoita nämä komennot uudestaan, ja paina lopuksi
+[Siirry Turtle Roy -ympäristöön](http://www.turtle-roy.com), ja kirjoita nämä komennot uudestaan, ja paina lopuksi
 enteriä.
 
     clear

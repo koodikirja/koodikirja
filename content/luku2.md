@@ -1,6 +1,6 @@
 --- 
 title: Luku 2
-pagetype: book
+pagetype: book-chapter2
 ---
 
 # Koodikirja
@@ -145,7 +145,7 @@ Kokeile seuraavaksi vaikka näitä, tai voit keksiä omia numeroita. Muista aina
     kuvio 100 100 170
     kuvio 72 5 5
 
-<blockquote class="cloud2">
+<blockquote class="cloud-huge">
   <strong>Vinkki:</strong> Jos olet jo koulussa oppinut geometriaa, tai kuvioiden matematiikka kiinnostaa sinua
   muuten vaan, saatat huomata, että numeroiden valitsemisessa auttavat seuraavat säännöt. (Ja jos et ole, voit pyytää
   vanhempaa vinkkaamaan sopivia numeroita!)<br />

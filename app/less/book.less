@@ -1,7 +1,13 @@
 @import "turtle.less";
 @import "os.less";
 
-#book {
+#main #book-chapter2 {
+  code {
+    background: #f5e2f7;
+  }
+}
+
+#book, #book-chapter2 {
   p, li, td, th {
     font-size: 17px;
     line-height: 22px;
@@ -161,6 +167,10 @@
     }
     &.os-specific {
       height: 300px;
+    }
+    &.cloud-huge {
+       background: url('/images/cloud1.png') 0 0 no-repeat, url('/images/cloud1-flipped.png') 0 200px no-repeat;
+       min-height: 452px;
     }
     &.cloud2 {
       .robot {

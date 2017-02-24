@@ -104,15 +104,8 @@ määrästä myös parametrin!
 
     let portaikko lukumäärä korkeus = r lukumäärä (porras korkeus)
 
-Voit nyt piirtää erilaisia portaikkoja vaihtelemalla `portaikko`-funktion perässä olevaa kahta numeroa, eli parametrejä:
-
-    clear
-    portaikko 3 50
-
-tai
-
-    clear
-    portaikko 50 5
+Voit nyt piirtää erilaisia portaikkoja vaihtelemalla funktion nimen perässä olevaa kahta numeroa eli funktion parametrejä.
+Kokeile vaikkapa `portaikko 3 50` tai `portaikko 50 5`.
 
 Olet nyt luonut funktion, joka voi tehdä hyvinkin erikokoisia - ja pituisia - portaikkoja helposti vain
 kahta parametriä muuttelemalla!

@@ -45,12 +45,24 @@ enteriä.
 
     clear
     let porras = s [fd 10, rt 90, fd 10, lt 90]
+    porras
 
-Nyt on aika lisätä `porras`-funktioon *parametri*. Muutetaan numero `10` parametriksi niin, että samalla funktiolla
+Käyttämällä toistorakennetta `r 5 porras`, voit tehdä myös 5-portaiset portaat nopeasti!
+
+<blockquote class="cloud2">
+  <strong>Vinkki:</strong>
+  Koodaus Turtle Roylla sujuu kätevimmin, kun klikkaat koodi-ikkunan yläreunassa olevaa <i>Show editor</i> -linkkiä.
+  Nyt voit muokata koodia vapaasti ja ajaa koko koodin uudestaan <i>Run</i>-linkistä.
+  <div class="robot"></div>
+</blockquote>
+
+Entäpä jos haluaisit tehdä eri korkuisia portaita?
+
+Nyt on aika lisätä `porras`-funktioon *parametri*. Muutetaan numero 10 parametriksi niin, että samalla funktiolla
 voi piirtää eri korkuisia portaita.
 
-Parametrin nimi kerrotaan `let` komennossa heti funktion nimen perään. Eli lisätään parametri `korkeus` ja tämän
-jälkeen korvataan myös sekvenssin sisällä numero `10` parametrin nimellä, eli `korkeus`:
+Lisätään funktion nimen perään parametri `korkeus` ja tämän
+jälkeen korvataan myös sekvenssin sisällä numero 10 parametrin nimellä `korkeus`:
 
     let porras korkeus = s [fd korkeus, rt 90, fd korkeus, lt 90]
 
@@ -63,11 +75,14 @@ Vaikka näin:
     porras 20
     porras 15
     porras 10
-    porras 7
-    porras 5
-    porras 4
-    porras 3
-    porras 2
+
+<blockquote>
+  <strong>Vinkki:</strong>
+<p>Parametrillista funktiota suorittaessaan tietokone korvaa parametrin nimen sille annetulla arvolla. Esimerkiksi suorittaessaan
+komentoa <code>porras 30</code>, se korvaa <code>korkeus</code> -sanan arvolla 30 ja toimii samoin kuin suorittaessaan komentoa
+<code>s [fd 30, rt 90, fd 30, lt 90]</code>.</p>
+  <div class="robot"></div>
+</blockquote>
 
 ### 2.2 Useamman parametrin käyttö
 
@@ -77,7 +92,7 @@ lukea funktion nimen ja siihen kuuluvan parametrin yhdessä, pitää funktion ni
     clear
     r 50 (porras 5)
 
-<blockquote class="cloud-left">
+<blockquote class="cloud-small">
   <strong>Vinkki:</strong> Kaarisulkeet saat kun painat samaan aikaan <em class="key">Shift ⇧</em> ja <em class="key">8</em>
   tai <em class="key">9</em>.
   <div class="robot"></div>

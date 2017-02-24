@@ -102,7 +102,7 @@ lukea funktion nimen ja siihen kuuluvan parametrin yhdessä, pitää funktion ni
 Funktiossa voi olla useampiakin parametreja. Itse asiassa toistokomennostakin voi tehdä funktion, ja silloin voi tehdä toistojen
 määrästä myös parametrin!
 
-    let portaikko lukumäärä korkeus = s [r lukumäärä (porras korkeus)]
+    let portaikko lukumäärä korkeus = r lukumäärä (porras korkeus)
 
 Voit nyt piirtää erilaisia portaikkoja vaihtelemalla `portaikko`-funktion perässä olevaa kahta numeroa, eli parametrejä:
 

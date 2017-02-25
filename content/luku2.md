@@ -71,7 +71,7 @@ Vaikka näin:
 
 <div class="turtle-diagram" style="width:400px;height:300px;" 
   id="suunnat1-diagram" 
-  data-commands='[["fd",[30]],["rt",[90]],["fd",[30]],["lt",[90]],["fd",[25]],["rt",[90]],["fd",[25]],["lt",[90]],["fd",[20]],["rt",[90]],["fd",[20]],["lt",[90]],["fd",[15]],["rt",[90]],["fd",[15]],["lt",[90]],["fd",[10]],["rt",[90]],["fd",[10]],["lt",[90]],["penup",[]],["lt",[90]],["fd",[300]],["rt",[90]],["text",["clear"]],["fd",[-20]],["text",["porras 30"]],["fd",[-20]],["text",["porras 25"]],["fd",[-20]],["text",["porras 20"]],["fd",[-20]],["text",["porras 15"]],["fd",[-20]],["text",["porras 10"]],["fd",[-20]]]'
+  data-commands='[["fd",[100]],["rt",[154.28571428571428]],["fd",[100]],["rt",[154.28571428571428]],["fd",[100]],["rt",[154.28571428571428]],["fd",[100]],["rt",[154.28571428571428]],["fd",[100]],["rt",[154.28571428571428]],["fd",[100]],["rt",[154.28571428571428]],["fd",[100]],["rt",[154.28571428571428]]]'
   data-offsetx='-40'
   data-offsety='50'
 ></div>
@@ -134,8 +134,9 @@ Yllä on siis kaksi funktiota: *sivu* ja *kuvio*, ja yhteensä kolme parametria:
 
 Arvasitko jo mitä kukin parametri tarkoittaa?
 
-*lukumäärä* kertoo kuinka monta *sivua* on *kuviossa*. *pituus* on tietenkin *sivun* pituus ja *kulma* on kahden
-*sivun* välinen kulma.
+- *lukumäärä* kertoo kuinka monta sivua on kuviossa.
+- *pituus* on tietenkin sivun pituus ja 
+- *kulma* on kahden sivun välinen kulma.
 
 Voit nyt kokeilla piirtää erilaisia kuvioita vaihtelemalla parametrien arvoja. Mikähän kuvio tästäkin muodostuu?
 
@@ -155,23 +156,24 @@ Kokeile seuraavaksi vaikka näitä, tai voit keksiä omia numeroita. Muista aina
     kuvio 100 100 170
     kuvio 72 5 5
 
-<blockquote class="cloud-huge">
+<blockquote>
   <strong>Vinkki:</strong> Jos olet jo koulussa oppinut geometriaa, tai kuvioiden matematiikka kiinnostaa sinua
-  muuten vaan, saatat huomata, että numeroiden valitsemisessa auttavat seuraavat säännöt. (Ja jos et ole, voit pyytää
-  vanhempaa vinkkaamaan sopivia numeroita!)<br />
-  <br />
-  Monitahokkaissa <code>sivu</code> kertaa <code>kulma</code> on aina yhteensä <code>360</code> astetta!<br />
-  Tähtikuvioissa <code>sivu</code> kertaa <code>kulma</code> on yhteensä <code>1080</code> astetta.<br />
-  Ympyräkin on monitahokas. Siinä on vain hirveän monta, hirveän lyhyttä sivua. Kulmien summa on edelleen 360!
+  muuten vaan, saatat huomata, että numeroiden valitsemisessa auttavat seuraavat säännöt:
+  <ul>
+  <li>Monitahokkaissa <i>sivu</i> kertaa <i>kulma</i> on aina yhteensä <i>360</i> astetta!</li>
+  <li>Tähtikuvioissa <i>sivu</i> kertaa <i>kulma</i> on yhteensä <i>1080</i> astetta.</li>
+  </ul>
   <div class="robot"></div>
 </blockquote>
 
 
-**Harjoitus:** Piirrä vielä tähti, jossa on seitsemän sakaraa. Laske vaikka laskimella, paljonko on 1080 jaettuna
-seitsemällä. Vastauksena ei ole tasaluku, vaan siis desimaaliluku. Voit kuitenkin käyttää pelkkää kokonaislukua
-tässä harjoituksessa. Jos olet luonteeltasi tarkka, voit kokeilla desimaalilukuakin. Huomaa, että Turtle Roy
--ympäristössä desimaalimerkki on piste. Esimerkki: *12.34*.
+**Harjoitus:** Piirrä tähti, jossa on seitsemän sakaraa. Voit toki laskea vaikka laskimella, paljonko on 1080 jaettuna
+seitsemällä, mutta helpompaa on antaa Turtle Royn laskea sinun puolestasi. Voit siis käyttää kulmana arvoa `(1080 / 7)`.
 <a class="ratkaisu" href="http://www.turtle-roy.com/?code=clear%0Alet%20sivu%20pituus%20kulma%20%3D%20s%20%5Bfd%20pituus%2C%20rt%20kulma%5D%0Alet%20kuvio%20lukum%C3%A4%C3%A4r%C3%A4%20pituus%20kulma%20%3D%20s%20%5Br%20lukum%C3%A4%C3%A4r%C3%A4%20(sivu%20pituus%20kulma)%5D%0Akuvio%207%20200%20(1080%20%2F%207)">
+Ratkaisu</a>
+
+**Harjoitus:** Piirrä ympyrä. Vinkki: tietokoneelle ympyräkin on monitahokas, jossa vain on hirveän monta, hirveän lyhyttä sivua.
+<a class="ratkaisu" href="http://www.turtle-roy.com/?code=clear%0Alet%20sivu%20pituus%20kulma%20%3D%20s%20%5Bfd%20pituus%2C%20rt%20kulma%5D%0Alet%20kuvio%20lukum%C3%A4%C3%A4r%C3%A4%20pituus%20kulma%20%3D%20s%20%5Br%20lukum%C3%A4%C3%A4r%C3%A4%20(sivu%20pituus%20kulma)%5D%0Akuvio%20360%201%201">
 Ratkaisu</a>
 
 ***

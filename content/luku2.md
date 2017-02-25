@@ -158,8 +158,8 @@ Kokeile seuraavaksi vaikka näitä, tai voit keksiä omia numeroita. Muista aina
   muuten vaan, saatat huomata, että numeroiden valitsemisessa auttavat seuraavat säännöt. (Ja jos et ole, voit pyytää
   vanhempaa vinkkaamaan sopivia numeroita!)<br />
   <br />
-  Monitahokkaissa `sivu` kertaa `kulma` on aina yhteensä `360` astetta!<br />
-  Tähtikuvioissa `sivu` kertaa `kulma` on yhteensä `1080` astetta.<br />
+  Monitahokkaissa <code>sivu</code> kertaa <code>kulma</code> on aina yhteensä <code>360</code> astetta!<br />
+  Tähtikuvioissa <code>sivu</code> kertaa <code>kulma</code> on yhteensä <code>1080</code> astetta.<br />
   Ympyräkin on monitahokas. Siinä on vain hirveän monta, hirveän lyhyttä sivua. Kulmien summa on edelleen 360!
   <div class="robot"></div>
 </blockquote>

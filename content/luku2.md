@@ -79,7 +79,7 @@ Vaikka näin:
 <blockquote>
   <strong>Vinkki:</strong>
 <p>Parametrillista funktiota suorittaessaan tietokone korvaa parametrin nimen sille annetulla arvolla. Esimerkiksi suorittaessaan
-komentoa <code>porras 30</code>, se korvaa <code>korkeus</code> -sanan arvolla 30 ja toimii samoin kuin suorittaessaan komentoa
+komentoa <code>porras 30</code>, se korvaa <i>korkeus</i> -sanan arvolla 30 ja toimii samoin kuin suorittaessaan komentoa
 <code>s [fd 30, rt 90, fd 30, lt 90]</code>.</p>
   <div class="robot"></div>
 </blockquote>
@@ -110,11 +110,11 @@ Kokeile vaikkapa `portaikko 3 50` tai `portaikko 50 5`.
 Olet nyt luonut funktion, joka voi tehdä hyvinkin erikokoisia - ja pituisia - portaikkoja helposti vain
 kahta parametriä muuttelemalla!
 
-**Harjoitus:** Muistatko vielä miten Luvussa 1 piirrettiin neliö käyttämällä `mutka`-funktiota? Jos et muista, voit
+**Harjoitus:** Muistatko vielä miten Luvussa 1 piirrettiin neliö käyttämällä *mutka*-funktiota? Jos et muista, voit
 virkistää muistiasi: Hyppää Turtle Roy ikkunan puolelle ja piirrä neliö, ihan samalla tavalla kuin luvussa 1 piirrettiin.
 ... Noniin, muistuiko mieleen? Hyvä! Muuta nyt `mutka`-funktiota niin, että neliön sivun pituus onkin parametri. Eli
-sen sijaan, että funktiossa kirjoitetaan suoraan `fd 100`, kirjoitakin `fd pituus` ja muista kertoa `let` komennolle,
-että `pituus` on funktion parametri.
+sen sijaan, että funktiossa kirjoitetaan suoraan `fd 100`, kirjoitakin `fd pituus` ja muista kertoa *let* komennolle,
+että *pituus* on funktion parametri.
 
 ### 2.3 Piirretään kuvioita
 
@@ -128,11 +128,11 @@ on muutettu parametreiksi:
     let sivu pituus kulma = s [fd pituus, rt kulma]
     let kuvio lukumäärä pituus kulma = s [r lukumäärä (sivu pituus kulma)]
 
-Yllä on siis kaksi funktiota: `sivu` ja `kuvio`, ja yhteensä kolme parametria: `lukumäärä`, `pituus` ja `kulma`.
+Yllä on siis kaksi funktiota: *sivu* ja *kuvio*, ja yhteensä kolme parametria: *lukumäärä*, *pituus* ja *kulma*.
 
 Arvasitko jo mitä kukin parametri tarkoittaa?
 
-`lukumäärä` kertoo kuinka monta *sivua* on *kuviossa*. `pituus` on tietenkin *sivun* pituus ja `kulma` on kahden
+*lukumäärä* kertoo kuinka monta *sivua* on *kuviossa*. *pituus* on tietenkin *sivun* pituus ja *kulma* on kahden
 *sivun* välinen kulma.
 
 Voit nyt kokeilla piirtää erilaisia kuvioita vaihtelemalla parametrien arvoja. Mikähän kuvio tästäkin muodostuu?
@@ -168,7 +168,7 @@ Kokeile seuraavaksi vaikka näitä, tai voit keksiä omia numeroita. Muista aina
 **Harjoitus:** Piirrä vielä tähti, jossa on seitsemän sakaraa. Laske vaikka laskimella, paljonko on 1080 jaettuna
 seitsemällä. Vastauksena ei ole tasaluku, vaan siis desimaaliluku. Voit kuitenkin käyttää pelkkää kokonaislukua
 tässä harjoituksessa. Jos olet luonteeltasi tarkka, voit kokeilla desimaalilukuakin. Huomaa, että Turtle Roy
--ympäristössä desimaalimerkki on piste. Esimerkki: `12.34`.
+-ympäristössä desimaalimerkki on piste. Esimerkki: *12.34*.
 
 ***
 

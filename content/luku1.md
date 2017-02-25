@@ -199,7 +199,7 @@ Joitain kuvioita piirrettäessä on tarpeellista nostaa välillä kynä ylös pa
 Turtle Royssa kynä voidaan nostaa ylös komennolla `penup`. Kynän voi laskea uudelleen
 alas komennolla `pendown`. Jos haluaisit piirtää kaksi viivaa vierekkäin, se kävisi näin.
 
-<div class="turtle-diagram" style="width:400px;height:300px" id="kaksiviivaa-diagram" 
+<div class="turtle-diagram" style="width:500px;height:300px" id="kaksiviivaa-diagram" 
   data-commands='[["penup",[]],["lt",[135]],["fd",[120]],["rt",[135]],["pendown",[]],["fd",[200]],["penup",[]],["rt",[90]],["fd",[200]],["pendown",[]],["rt",[90]],["fd",[200]],["penup",[]],["rt",[180]],["fd",[180]],["rt",[90]],["fd",[20]],["lt",[90]],["text",["fd 100"]],["penup",[]],["rt",[180]],["fd",[25]],["lt",[180]],["pendown",[]],["text",["penup"]],["penup",[]],["rt",[180]],["fd",[25]],["lt",[180]],["pendown",[]],["text",["rt 90"]],["penup",[]],["rt",[180]],["fd",[25]],["lt",[180]],["pendown",[]],["text",["fd 100"]],["penup",[]],["rt",[180]],["fd",[25]],["lt",[180]],["pendown",[]],["text",["rt 90"]],["penup",[]],["rt",[180]],["fd",[25]],["lt",[180]],["pendown",[]],["text",["pendown"]],["penup",[]],["rt",[180]],["fd",[25]],["lt",[180]],["pendown",[]],["text",["fd 100"]],["penup",[]],["rt",[180]],["fd",[25]],["lt",[180]],["pendown",[]]]' 
   data-offsety='50'></div>
 

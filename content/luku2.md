@@ -11,7 +11,7 @@ pagetype: book-chapter2
 
 Ensimmäisessä luvussa opit jo paljon koodauskomentoja:
 
-* Perus-piirustuskomennot: `fd`, `lt`, `rt` sekä `penup` ja `pendown`
+* Piirustuskomennot: `fd`, `lt`, `rt` sekä `penup` ja `pendown`
 * Sekvenssi: `s [komento1, komento2, ...]`
 * Funktio: `let funktio = s [komento1, komento2, ...]`
 * Toisto: `r 5 funktio`
@@ -156,7 +156,7 @@ Kokeile seuraavaksi vaikka näitä, tai voit keksiä omia numeroita. Muista aina
     kuvio 100 100 170
     kuvio 72 5 5
 
-<blockquote>
+<blockquote class="cloud-large">
   <strong>Vinkki:</strong> Jos olet jo koulussa oppinut geometriaa, tai kuvioiden matematiikka kiinnostaa sinua
   muuten vaan, saatat huomata, että numeroiden valitsemisessa auttavat seuraavat säännöt:
   <ul>

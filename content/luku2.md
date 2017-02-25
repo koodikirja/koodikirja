@@ -105,7 +105,7 @@ määrästä myös parametrin!
     let portaikko lukumäärä korkeus = r lukumäärä (porras korkeus)
 
 Voit nyt piirtää erilaisia portaikkoja vaihtelemalla funktion nimen perässä olevaa kahta numeroa eli funktion parametrejä.
-Kokeile vaikkapa `portaikko 3 50` tai `portaikko 50 5`.
+Kokeile vaikkapa esimerkiksi `portaikko 3 50` tai `portaikko 50 5`.
 
 Olet nyt luonut funktion, joka voi tehdä hyvinkin erikokoisia - ja pituisia - portaikkoja helposti vain
 kahta parametriä muuttelemalla!
@@ -115,6 +115,8 @@ virkistää muistiasi: Hyppää Turtle Roy ikkunan puolelle ja piirrä neliö, i
 ... Noniin, muistuiko mieleen? Hyvä! Muuta nyt `mutka`-funktiota niin, että neliön sivun pituus onkin parametri. Eli
 sen sijaan, että funktiossa kirjoitetaan suoraan `fd 100`, kirjoitakin `fd pituus` ja muista kertoa *let* komennolle,
 että *pituus* on funktion parametri.
+<a class="ratkaisu" href="http://www.turtle-roy.com/?code=let%20mutka%20pituus%20%20%3D%20s%20%5Bfd%20pituus%20%2C%20rt%2090%5D%0Alet%20neli%C3%B6%20pituus%20%3D%20r%204%20(mutka%20pituus)%0Aneli%C3%B6%2050%0Aneli%C3%B6%20100%0Aneli%C3%B6%20200">
+Ratkaisu</a>
 
 ### 2.3 Piirretään kuvioita
 
@@ -169,6 +171,8 @@ Kokeile seuraavaksi vaikka näitä, tai voit keksiä omia numeroita. Muista aina
 seitsemällä. Vastauksena ei ole tasaluku, vaan siis desimaaliluku. Voit kuitenkin käyttää pelkkää kokonaislukua
 tässä harjoituksessa. Jos olet luonteeltasi tarkka, voit kokeilla desimaalilukuakin. Huomaa, että Turtle Roy
 -ympäristössä desimaalimerkki on piste. Esimerkki: *12.34*.
+<a class="ratkaisu" href="http://www.turtle-roy.com/?code=clear%0Alet%20sivu%20pituus%20kulma%20%3D%20s%20%5Bfd%20pituus%2C%20rt%20kulma%5D%0Alet%20kuvio%20lukum%C3%A4%C3%A4r%C3%A4%20pituus%20kulma%20%3D%20s%20%5Br%20lukum%C3%A4%C3%A4r%C3%A4%20(sivu%20pituus%20kulma)%5D%0Akuvio%207%20200%20(1080%20%2F%207)">
+Ratkaisu</a>
 
 ***
 

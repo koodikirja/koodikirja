@@ -1,7 +1,16 @@
 @import "turtle.less";
 @import "os.less";
 
-#book {
+#main #book-chapter2 {
+  code {
+    background: #f5e2f7;
+  }
+  blockquote code {
+    background: #7cffe7;
+  }
+}
+
+#book, #book-chapter2 {
   p, li, td, th {
     font-size: 17px;
     line-height: 22px;
@@ -102,6 +111,7 @@
   }
 
   ul:not(.select-os), ol {
+    margin: 10px 0;
     li {
       list-style: none;
       text-indent: -1.5em;
@@ -114,8 +124,10 @@
 
   code {
      background: @highlight-background;
-     margin: 5px;
-     padding: 1px 5px;
+      margin: 2px 5px;
+      display: inline-block;
+      text-indent: 0;
+      padding: 1px 5px;
    }
   pre {
      display: block;
@@ -124,6 +136,7 @@
      padding: 10px;
      code {
        padding: 8px 12px;
+       display: block;
      }
   }
 
@@ -159,6 +172,9 @@
     &.os-specific {
       height: 300px;
     }
+    &.cloud-large {
+       padding-top: 94px;
+    }
     &.cloud2 {
       .robot {
         width: 400px;
@@ -181,6 +197,23 @@
         background-image: url('/images/robot_right.png');
       }
     }
+    &.cloud-small {
+       background: url('/images/cloud2.png') 0 0 no-repeat;
+      background-size: 761px 137px;
+       padding: 59px 278px 41px 174px;
+       margin-left: -129px;
+      .robot {
+        width: 400px;
+        left: -267px;
+        top: -226px;
+        background-image: url('/images/robot_right.png');
+      }
+    }
+  }
+
+  a.ratkaisu {
+    font-size: 0.7em;
+    margin-left: 6px;  
   }
 
 }

@@ -5,7 +5,7 @@ pagetype: book
 
 # Koodikirja
 
-## Luku 2
+## Luku 3
 
 <img id="turtle-character" src="/images/turtle1.png" alt="kilppari">
 

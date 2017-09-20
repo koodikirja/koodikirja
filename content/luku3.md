@@ -9,7 +9,7 @@ pagetype: book
 
 ## Luku 3 - Musiikkia korville
 
-Tiesitkö, että Turtle Roy osaa soittaa musiikkia? Kokelepa
+Tiesitkö, että Turtle Roy osaa soittaa musiikkia? Kokeilepa
 
     play c
 

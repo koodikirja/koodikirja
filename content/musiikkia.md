@@ -40,7 +40,7 @@ Tässä pari ensimmäistä osaa ja niistä koostettu kappaleen alku:
 
 Tiesithän, että ääni on ilman värähtelyä? Me kuulemme toiset äänet korkeampina (vaikkapa hyttysen ininä) ja 
 toiset äänet matalampina (vaikkapa ison koiran murina). Oikeasti korkeammat äänet ovat nopeampaa ilman värinaa ja 
-matalammat hitaampaa värinää. Ilman värähtelyn nopeutta kutsutaan *taajudeksi* ja sen yksikkö on *hertsi* eli 
+matalammat hitaampaa värinää. Ilman värähtelyn nopeutta kutsutaan *taajuudeksi* ja sen yksikkö on *hertsi* eli 
 värähdysten määrä sekunnissa. Esimerkiksi keski-C -nuotin taajuus on noin 261,6 Hz eli hertsiä.
 
 Myös Turtle Roy ymmärtää tämän ja osaa soittaa nuotteja niiden taajuuden mukaan. Voit siis käyttää `play` -komennossa myös
@@ -48,11 +48,11 @@ taajuuslukuja:
 
     play 1000
     
-Itse asiassa nuotit c,d,e,f,g,a ja h ovatkin vain funktioita, joiden arvo on tietty hertsiluku. Kokeile vaikka
+Itse asiassa nuotit c,d,e,f,g,a ja h ovatkin vain funktioita, joiden arvo on tietty taajuus. Kokeile vaikka
 
     c
     
-Turtle Roy kertoo sinulle C-nuotin taajuuden.
+Turtle Roy kertoo sinulle C-nuotin taajuuden hertseissä.
 
 **Harjoitus:** Mikä on F-nuotin taajuus?
 

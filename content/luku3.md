@@ -26,7 +26,7 @@ Kuulostiko tutulta? Jos meni oikein, niin tämä saattoi kuulostaa Tuiki tuiki t
 
 **Harjoitus:** Saatko tietokoneen soittamaan koko kappaleen?
 
-<blockquote class="cloud-left">
+<blockquote class="cloud-small">
   <strong>Vinkki:</strong> Musiikissa käytetään usein taukoja. Turtle Roy osaa pitää tauon komennolla `pause`.
   <div class="robot"></div>
 </blockquote>

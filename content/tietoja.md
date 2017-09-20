@@ -127,8 +127,8 @@ painamista myytäväksi paperiversioksi.
 Koodikirja-projekti on yhteistyöprojekti, johon haemme rahoittajiksi ensisijaisesti suomalaisia
 yrityksiä, jotka haluavat edistää koodaustaitoa ja -kulttuuria maassamme.
 
-Olen toteuttanut Koodikirjan ensimmäisen luvun osittain vapaa-ajalla, osittain ohjelmistoyritys Reaktorin
-sponsoroimana.
+Olen toteuttanut Koodikirja-sivuston ja kirjoittanut sen ensimmäisen ja kolmannen luvun osittain vapaa-ajalla, osittain 
+ohjelmistoyritys Reaktorin sponsoroimana. Toisen luvun kirjoitti Henrik Ingo.
 
 Kirjan graafisen suunnittelun ja piirrokset on toteuttanut Mari Halla-aho.
 
@@ -158,7 +158,8 @@ meitä sponsoroimalla. Käyttämällänne rahalla saatte varmistettua, että Koo
 Lisäksi saatte nimenne Koodikirjan Yhteistyökumppanit-sivulle ja siten ikuistetuksi suomalaisen 
 koodauksen historiaan.
 
-Yksityishenkilönä voit auttaa lukemalla, koodaamalla, opettamalla ja levittämällä sanaa.
+Yksityishenkilönä voit auttaa lukemalla, koodaamalla, opettamalla ja levittämällä sanaa. Voit myös ottaa
+yhteyttä ja ehdottaa seuraavia käsiteltäviä aiheita.
 
 Voit auttaa myös omalla työpanoksellasi. Koodikirja on avointa lähdekoodia, joten jos haluat
 parantaa sitä, olet tervetullut niin tekemään! Koodi ja ohjeet löytyvät 

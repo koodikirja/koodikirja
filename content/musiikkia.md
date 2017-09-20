@@ -76,7 +76,11 @@ Kokeilin myös nuottia `c*64` mutta en kuullut mitään. Kuuletko sinä näin ko
 
 ### 2.4 Polyfonia ja parallelismi
 
-Polyfonialla tarkoitetaan sitä, että soitetaan samanaikaisesti monta eri säveltä. Usein polyfonia muodostuu, kun orkesterin eri soittimet soittavat samanaikaisesti erilaisia, toisiaan tukevia melodioita. Ohjelmoinnissa samaa asiaa kutsutaan parallelismiksi; tietokoneohjelma voidaan haarauttaa tekemään rinnakkain kahta eri asiaa. Turtle Royssa parallelismi onnistuu funktiolla `par`. Jos siis haluat soittaa rinnakkain kahta eri melodiaa, voit kokeilla tätä:
+Polyfonialla tarkoitetaan sitä, että soitetaan samanaikaisesti monta eri säveltä. Usein polyfonia muodostuu, kun orkesterin eri soittimet soittavat samanaikaisesti erilaisia, toisiaan tukevia melodioita. Ohjelmoinnissa samaa asiaa kutsutaan parallelismiksi; tietokoneohjelma voidaan haarauttaa tekemään rinnakkain kahta eri asiaa. Turtle Royssa parallelismi onnistuu funktiolla `par`. Jos siis haluat soittaa samanaikaisesti kaksi nuotti, kokeile tätä:
+
+    par [play c, play e]
+
+Jos taas haluat soittaa rinnakkain kahta eri melodiaa, voit kokeilla tätä:
 
     par [s [play c, play d, play e], s [play e, play f, play g]]
     

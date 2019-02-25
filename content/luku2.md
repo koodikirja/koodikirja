@@ -40,7 +40,7 @@ käytetään *parametrejä*. Parametrien avulla voidaan käyttää samaa funktio
 kuitenkin vähän vaihtelee joka kerta.
 
 Jatketaan nyt siitä mihin ensimmäisessä luvussa jäätiin. Alla on porras-funktio, joka piirtää 10 pikselin korkuisia portaita.
-[Siirry Turtle Roy -ympäristöön](http://www.turtle-roy.com), ja kirjoita nämä komennot uudestaan, ja paina lopuksi
+[Siirry Turtle Roy -ympäristöön](http://turtle-roy.herokuapp.com), ja kirjoita nämä komennot uudestaan, ja paina lopuksi
 enteriä.
 
     clear
@@ -115,7 +115,7 @@ virkistää muistiasi: Hyppää Turtle Roy ikkunan puolelle ja piirrä neliö, i
 ... Noniin, muistuiko mieleen? Hyvä! Muuta nyt `mutka`-funktiota niin, että neliön sivun pituus onkin parametri. Eli
 sen sijaan, että funktiossa kirjoitetaan suoraan `fd 100`, kirjoitakin `fd pituus` ja muista kertoa *let* komennolle,
 että *pituus* on funktion parametri.
-<a class="ratkaisu" href="http://www.turtle-roy.com/?code=let%20mutka%20pituus%20%20%3D%20s%20%5Bfd%20pituus%20%2C%20rt%2090%5D%0Alet%20neli%C3%B6%20pituus%20%3D%20r%204%20(mutka%20pituus)%0Aneli%C3%B6%2050%0Aneli%C3%B6%20100%0Aneli%C3%B6%20200">
+<a class="ratkaisu" href="http://turtle-roy.herokuapp.com/?code=let%20mutka%20pituus%20%20%3D%20s%20%5Bfd%20pituus%20%2C%20rt%2090%5D%0Alet%20neli%C3%B6%20pituus%20%3D%20r%204%20(mutka%20pituus)%0Aneli%C3%B6%2050%0Aneli%C3%B6%20100%0Aneli%C3%B6%20200">
 Ratkaisu</a>
 
 ### 2.3 Piirretään kuvioita
@@ -169,11 +169,11 @@ Kokeile seuraavaksi vaikka näitä, tai voit keksiä omia numeroita. Muista aina
 
 **Harjoitus:** Piirrä tähti, jossa on seitsemän sakaraa. Voit toki laskea vaikka laskimella, paljonko on 1080 jaettuna
 seitsemällä, mutta helpompaa on antaa Turtle Royn laskea sinun puolestasi. Voit siis käyttää kulmana arvoa `(1080 / 7)`.
-<a class="ratkaisu" href="http://www.turtle-roy.com/?code=clear%0Alet%20sivu%20pituus%20kulma%20%3D%20s%20%5Bfd%20pituus%2C%20rt%20kulma%5D%0Alet%20kuvio%20lukum%C3%A4%C3%A4r%C3%A4%20pituus%20kulma%20%3D%20s%20%5Br%20lukum%C3%A4%C3%A4r%C3%A4%20(sivu%20pituus%20kulma)%5D%0Akuvio%207%20200%20(1080%20%2F%207)">
+<a class="ratkaisu" href="http://turtle-roy.herokuapp.com/?code=clear%0Alet%20sivu%20pituus%20kulma%20%3D%20s%20%5Bfd%20pituus%2C%20rt%20kulma%5D%0Alet%20kuvio%20lukum%C3%A4%C3%A4r%C3%A4%20pituus%20kulma%20%3D%20s%20%5Br%20lukum%C3%A4%C3%A4r%C3%A4%20(sivu%20pituus%20kulma)%5D%0Akuvio%207%20200%20(1080%20%2F%207)">
 Ratkaisu</a>
 
 **Harjoitus:** Piirrä ympyrä. Vinkki: tietokoneelle ympyräkin on monitahokas, jossa vain on hirveän monta, hirveän lyhyttä sivua.
-<a class="ratkaisu" href="http://www.turtle-roy.com/?code=clear%0Alet%20sivu%20pituus%20kulma%20%3D%20s%20%5Bfd%20pituus%2C%20rt%20kulma%5D%0Alet%20kuvio%20lukum%C3%A4%C3%A4r%C3%A4%20pituus%20kulma%20%3D%20s%20%5Br%20lukum%C3%A4%C3%A4r%C3%A4%20(sivu%20pituus%20kulma)%5D%0Akuvio%20360%201%201">
+<a class="ratkaisu" href="http://turtle-roy.herokuapp.com/?code=clear%0Alet%20sivu%20pituus%20kulma%20%3D%20s%20%5Bfd%20pituus%2C%20rt%20kulma%5D%0Alet%20kuvio%20lukum%C3%A4%C3%A4r%C3%A4%20pituus%20kulma%20%3D%20s%20%5Br%20lukum%C3%A4%C3%A4r%C3%A4%20(sivu%20pituus%20kulma)%5D%0Akuvio%20360%201%201">
 Ratkaisu</a>
 
 ***

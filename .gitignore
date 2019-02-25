@@ -6,3 +6,4 @@ output
 tmp
 app/components
 node_modules
+.idea

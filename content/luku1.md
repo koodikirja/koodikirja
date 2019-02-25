@@ -57,7 +57,7 @@ Ylempi, vaalea alue on "piirtopaperi", jolle voit piirtää kuvioita sen keskell
 "kilpikonnan" avulla. Kilpikonnaa ohjataan antamalla sille käskyjä, jotka syötetään alemmalla, tummalla
 alueella sijaitsevan *kursorin* avulla. Kursori on se keltainen vilkkuva neliö.
 
-Nyt on aika avata Turtle Roy -ohjelma [tästä](http://www.turtle-roy.com), jolloin se aukeaa uuteen ikkunaan
+Nyt on aika avata Turtle Roy -ohjelma [tästä](http://turtle-roy.herokuapp.com), jolloin se aukeaa uuteen ikkunaan
 tai täbiin.
 
 <blockquote class="os-specific os-mac browser-specific  browser-firefox">

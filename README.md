@@ -44,7 +44,9 @@ You can manually deploy by
 
 Automatic deploy from Github is also set up so you probably need not do that.
 
-Buildpacks used: heroku/ruby, heroku/nodejs
+Buildpacks used: `heroku/ruby`, `heroku/nodejs`
+Heroku stack: `heroku-18`
+Node.js and ruby versions specified in `package.json` and `Gemfile` respectively
 
 ## How the build/runtime system works
 

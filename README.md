@@ -10,6 +10,15 @@ Development instructions below.
 
 ## Install
 
+Install RVM
+
+    curl -sSL https://get.rvm.io | bash -s stable
+    rvm install 2.6.5
+
+In a new shell, RVM should automatically use ruby 2.6.5. Next
+
+    sudo gem install bundler
+
 Run
 
     bundle install

@@ -1,19 +1,35 @@
 var Bacon = require('baconjs')
-var Mailgun = require("mailgun").Mailgun
-var mg = new Mailgun("key-62gzhlqok1m6z8fvhbncetlz1bzendm4")
+var sendFeedback
+
+if (process.env.SENDGRID_API_KEY) {
+  var sgMail = require('@sendgrid/mail');  
+  sgMail.setApiKey(process.env.SENDGRID_API_KEY);
+  sendFeedback = function(feedback) {
+
+    var email = feedback.email
+    var text = feedback.text
+    var formtype = feedback.formtype || "feedback"
+
+    var message = {
+      from: "juha.paananen@gmail.com",
+      to: "juha.paananen@gmail.com",
+      subject: "Koodikirja - " + formtype + "(" + email + ")",
+      text: text
+    }
+    sgMail.send(message)
+    console.log("Sent to SendGrid")
+    return Bacon.once(message)
+  } 
+} else {
+  console.warn("SENDGRID_API_KEY missing -> using fake email sender")
+  sendFeedback = function (feedback) {
+    console.log("Not sending feedback mail", feedback)
+    return Bacon.once(feedback.text)
+  }
+}
 
 feedbackE = new Bacon.Bus()
-feedbackE.flatMap(function(feedback) {
-  var email = feedback.email
-  var text = feedback.text
-  var formtype = feedback.formtype || "feedback"
-  console.log(feedback)
-  return Bacon.fromNodeCallback(mg, "sendText", 
-    "juha.paananen@gmail.com",
-    ["juha.paananen@gmail.com"],
-    "Koodikirja - " + formtype + "(" + email + ")",
-    feedback.text).map(text)
-}).log("feedback->mail")
+feedbackE.flatMap(sendFeedback).log("feedback->mail")
 
 var express = require('express')
 var port = process.env.PORT || 3000

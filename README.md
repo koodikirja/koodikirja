@@ -38,7 +38,13 @@ Will auto-compile all content.
 
 ## Heroku Deployment
 
+You can manually deploy by
+
     git push heroku master
+
+Automatic deploy from Github is also set up so you probably need not do that.
+
+Buildpacks used: heroku/ruby, heroku/nodejs
 
 ## How the build/runtime system works
 

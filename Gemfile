@@ -1,3 +1,5 @@
+ruby '2.6.5'
+
 # encoding: utf-8
 source 'http://rubygems.org'
 

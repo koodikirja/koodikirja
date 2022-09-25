@@ -1,4 +1,4 @@
---- 
+---
 title: Turtle Roy
 pagetype: reference
 ---
@@ -10,7 +10,7 @@ pagetype: reference
 ## Turtle Roy
 
 Turtle Roy on ohjelma, jossa voit ohjata kilpikonnaa englanninkielisillä käskyillä ja oppia
-samalla ohjelmoimaan. Klikkaa [tästä](http://turtle-roy.herokuapp.com) avataksesi Turtle Royn
+samalla ohjelmoimaan. Klikkaa [tästä](https://turtle-roy.fly.dev) avataksesi Turtle Royn
 uuteen selainikkunaan tai täbiin.
 
 Tsekkaa myös pikku-Milan [Koodikoulu-esittelyvideo](https://www.youtube.com/watch?v=a6hf5cTOyhI)!
@@ -20,6 +20,7 @@ Olen koonnut tälle sivulle tärkeimmät Turtle Roy -käskyt suomenkielisine sel
 ### Piirtäminen
 
 {::nomarkdown}
+
 <table>
   <tbody>
     <tr><td>fd 100<td>etene 100 askelta</tr>
@@ -36,6 +37,7 @@ Olen koonnut tälle sivulle tärkeimmät Turtle Roy -käskyt suomenkielisine sel
 ### Tallentaminen ja lataaminen
 
 {::nomarkdown}
+
 <table>
   <tbody>
     <tr><td>login "juha"<td>kirjaudu sisään käyttäjänä "juha"</tr>
@@ -49,6 +51,7 @@ Olen koonnut tälle sivulle tärkeimmät Turtle Roy -käskyt suomenkielisine sel
 ### Ääni ja puhe
 
 {::nomarkdown}
+
 <table>
   <tbody>
     <tr><td>say "hello"<td>sano "hello"</tr>
@@ -62,6 +65,7 @@ Olen koonnut tälle sivulle tärkeimmät Turtle Roy -käskyt suomenkielisine sel
 ### Värit ja teksti
 
 {::nomarkdown}
+
 <table>
   <tbody>
     <tr><td>color "red"<td>käytä punaista väriä (piirtämiseen ja tekstiin)</tr>
@@ -73,10 +77,10 @@ Olen koonnut tälle sivulle tärkeimmät Turtle Roy -käskyt suomenkielisine sel
 </table>
 {:/nomarkdown}
 
-
 ### Ohjelmointi
 
 {::nomarkdown}
+
 <table>
   <tbody>
     <tr><td>s [fd 100, lt 90]<td>tee peräkkäin: eteenpäin ja käännös</tr>

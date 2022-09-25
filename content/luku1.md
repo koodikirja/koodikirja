@@ -1,4 +1,4 @@
---- 
+---
 title: Luku 1
 pagetype: book
 ---
@@ -9,15 +9,15 @@ pagetype: book
 
 ## Alkusanat
 
-Tervetuloa Koodikirjaan! 
+Tervetuloa Koodikirjaan!
 
 Koodaus on hauskaa ja siinä oppii paljon. Koodaamalla
 voit rakentaa omia pelejä ja maailmoja, joiden säännöt määräät sinä. Olet varmasti
 tutustunut moniin hienoihin peleihin tietokoneella, puhelimella tai pelikonsolilla, ja haluaisit ehkä itse tehdä
 jotain yhtä hienoa. Se on mahdollista! Ensin täytyy kuitenkin opetella hieman perusasioita. Juuri sitä varten Koodikirja on olemassa.
 
-Koodi on tietokoneiden kieltä. Koodilla voit käskeä tietokonetta 
-tekemään mitä haluat. Koodaus puolestaan on koodin kirjoittamista, ja koodista rakennettujen palasten 
+Koodi on tietokoneiden kieltä. Koodilla voit käskeä tietokonetta
+tekemään mitä haluat. Koodaus puolestaan on koodin kirjoittamista, ja koodista rakennettujen palasten
 yhdistelemistä.
 
 Koodikirjassa kerrotaan koodista ja koodauksesta, mutta pelkästään lukemalla Koodikirjaa et kuitenkaan voi
@@ -41,7 +41,7 @@ vaikuttaa esimerkiksi kirjassa neuvottuihin näppäimistökomentoihin.
 
 <%=render 'partials/os'%>
 
-Jos et tiedä, mikä käyttöjärjestelmä koneessasi on, kysy vaikkapa äidiltäsi! 
+Jos et tiedä, mikä käyttöjärjestelmä koneessasi on, kysy vaikkapa äidiltäsi!
 Voit vaihtaa tätä valintaa myös myöhemmin palaamalla tänne.
 
 ### 1.1 Konna liikkeelle
@@ -55,9 +55,9 @@ näyttää.
 
 Ylempi, vaalea alue on "piirtopaperi", jolle voit piirtää kuvioita sen keskellä sijaitsevan kolmiomaisen
 "kilpikonnan" avulla. Kilpikonnaa ohjataan antamalla sille käskyjä, jotka syötetään alemmalla, tummalla
-alueella sijaitsevan *kursorin* avulla. Kursori on se keltainen vilkkuva neliö.
+alueella sijaitsevan _kursorin_ avulla. Kursori on se keltainen vilkkuva neliö.
 
-Nyt on aika avata Turtle Roy -ohjelma [tästä](http://turtle-roy.herokuapp.com), jolloin se aukeaa uuteen ikkunaan
+Nyt on aika avata Turtle Roy -ohjelma [tästä](https://turtle-roy.fly.dev), jolloin se aukeaa uuteen ikkunaan
 tai täbiin.
 
 <blockquote class="os-specific os-mac browser-specific  browser-firefox">
@@ -95,25 +95,25 @@ Kokeilepa kirjoittaa näin.
 
     fd 100
 
-Kun painat <em class="key">enter</em>-nappia, kilpikonna Roy suorittaa antamasi käskyn. Uskallatko painaa?  Paina vaan!
+Kun painat <em class="key">enter</em>-nappia, kilpikonna Roy suorittaa antamasi käskyn. Uskallatko painaa? Paina vaan!
 
 Hyvä! Liikkuiko konna? Muistithan välilyönnin! Jos meni mönkään, niin ei hätää! Tietokone ilmoittaa virheestä punaisella tekstillä. Yritä uudelleen.
 
 Joko onnistuit?
 
-Onneksi olkoon! 
-Siinä oli ensimmäinen tietokoneohjelmasi, joka teki yhden asian. 
+Onneksi olkoon!
+Siinä oli ensimmäinen tietokoneohjelmasi, joka teki yhden asian.
 Kilpikonna liikkui 100 askelta eteenpäin ja piirsi viivan mennessään.
-Kilpikonnan askeleet ovat hyvin lyhyitä ja niitä sanotaan myös pikseleiksi. 
+Kilpikonnan askeleet ovat hyvin lyhyitä ja niitä sanotaan myös pikseleiksi.
 Mitä muuta Kilpikonna Roy osaa tehdä? Kokeilepa tätä.
 
     lt 90
 
-Ja kas, kilpikonna kääntyi vasemmalle. Vai kääntyikö? Muistithan painaa taas Enteriä.  Ja vielä
+Ja kas, kilpikonna kääntyi vasemmalle. Vai kääntyikö? Muistithan painaa taas Enteriä. Ja vielä
 
     rt 90
 
-Nyt konna kääntyi oikealle. Näillä kolmella käskyllä pääset jo pitkälle. 
+Nyt konna kääntyi oikealle. Näillä kolmella käskyllä pääset jo pitkälle.
 Lisäksi on hyvä osata palauttaa konna keskelle paperia ja tyhjentää paperi. Se käy näin.
 
     clear
@@ -131,6 +131,7 @@ oikealla kädellä. Kun otan kynän käteen, tiedän, kumpi on oikea. Myös engl
 write with your right" auttaa ainakin oikeakätisiä muistamaan sen, että oikea (right) on kirjoituskäsi.
 
 {::nomarkdown}
+
 <table>
   <thead><tr><th>Komento</th><th>Englanniksi</th><th>Suomeksi</th></thead>
   <tbody>
@@ -141,10 +142,10 @@ write with your right" auttaa ainakin oikeakätisiä muistamaan sen, että oikea
 </table>
 {:/nomarkdown}
 
-Nyt voit kokeilla ohjailla konnaa ympäriinsä. Karkasiko konna ruudun ulkopuolelle? Ei hätää - `clear`-komennolla pääset alkuun. 
+Nyt voit kokeilla ohjailla konnaa ympäriinsä. Karkasiko konna ruudun ulkopuolelle? Ei hätää - `clear`-komennolla pääset alkuun.
 Jos haluat palauttaa konnan keskelle pyyhkimättä paperia tyhjäksi, voit kokeilla myös `home` -komentoa
 
-***
+---
 
 **Harjoitus:** saatko käännettyä konnan niin, että se osoittaa alaspäin?
 
@@ -152,7 +153,7 @@ Jos haluat palauttaa konnan keskelle pyyhkimättä paperia tyhjäksi, voit kokei
 
 **Harjoitus:** osaatko liikuttaa kilpikonnaa lyhemmän matkan, vaikkapa 50 pikseliä?
 
-***
+---
 
 <blockquote class="cloud2">
   <strong>Vinkki:</strong> Jos haluat suorittaa edellisen komennon uudelleen, paina <em class="key">↑</em> ja
@@ -173,12 +174,12 @@ Jos haluat palauttaa konnan keskelle pyyhkimättä paperia tyhjäksi, voit kokei
 
 ### 1.2 Lisää konnankoukkuja
 
-Jäitkö miettimään miksi käytimme lukua 90 käännöksissä? 
-No, sehän tarkoittaa tietenkin 90:n asteen käännöstä eli *suoraa kulmaa*.
-Käyttämällä eri lukua, saat konnan kääntymään eri asentoon. 
+Jäitkö miettimään miksi käytimme lukua 90 käännöksissä?
+No, sehän tarkoittaa tietenkin 90:n asteen käännöstä eli _suoraa kulmaa_.
+Käyttämällä eri lukua, saat konnan kääntymään eri asentoon.
 Esimerkiksi jos teet `rt 180` niin konna kääntyy 180 astetta eli täyskäännöksen. Kokeile!
 
-Mitä tapahtuu jos teet `lt 360`? Konna pyörähtää ympäri täydet 360 astetta 
+Mitä tapahtuu jos teet `lt 360`? Konna pyörähtää ympäri täydet 360 astetta
 palaten alkuperäiseen asentoonsa. Alla olevassa kuvassa vielä hieman lisää eri
 asteisia käännöksiä.
 
@@ -209,7 +210,7 @@ alas komennolla `pendown`. Jos haluaisit piirtää kaksi viivaa vierekkäin, se 
 
 **Harjoitus:** Voit myös yrittää kirjoittaa koko nimesi (tarvitset `penup`, `pendown` -komentoja kirjainten välillä!)
 
-***
+---
 
 ### 1.3 Neliö
 
@@ -223,13 +224,13 @@ Jos neliö piirtämisestä tehtäisiin sarjakuva, se näyttäisi suurin piirtein
 
 Ja toistetaan samaa kaavaa kunnes neliö on valmis... Kokeile!
 
-Mutta eikö olekin tylsää jankuttaa tietokoneelle samoja käskyjä monta kertaa? 
+Mutta eikö olekin tylsää jankuttaa tietokoneelle samoja käskyjä monta kertaa?
 Mitä jos voisitkin sanoa sille että
 
-   *"Mene eteenpäin ja käänny oikealle. Toista tämä 4 kertaa."*
+_"Mene eteenpäin ja käänny oikealle. Toista tämä 4 kertaa."_
 
-Tietokone ei valitettavasti ymmärrä tätä, 
-mutta saman asian pystyy kertomaan sille myös ohjelmointikielellä. 
+Tietokone ei valitettavasti ymmärrä tätä,
+mutta saman asian pystyy kertomaan sille myös ohjelmointikielellä.
 Miten?
 
 Seuraavissa kappaleissa teemme neliön, niin kuin koodari sen tekisi.
@@ -239,13 +240,13 @@ aika monimutkaisilta. Mutta ei hätää! Tulemme käsittelemään niitä vielä
 monesti. Jos jokin siis tuntuu liian vaikealta, älä luovuta! Asiat selkiytyvät
 ajan myötä.
 
-***
+---
 
 ### 1.4 Sekvenssit
 
 Mieti miten rakentaisit Lego-palikoista valtavan robotin! Ehkä rakentaisit
 ensin vartalon ja jalat ja yhdistäisit ne. Sitten rakentaisit vielä pään ja
-kädet ja pian robotti olisi valmis. 
+kädet ja pian robotti olisi valmis.
 
 Juuri tällä tavalla koodari ajattelee! Hän keksii, mistä osista koodi koostuu,
 sitten rakentaa osat, ja lopuksi kytkee ne yhteen.
@@ -259,9 +260,9 @@ Ja se käy näin.
 
     s [fd 100, rt 90]
 
-Huh! Aika kummallinen kieli, vai mitä? 
-Tässä `s` (tulee englanninkielisestä sanasta *sequence*) tarkoittaa sitä, 
-että tehdään temppuja peräkkäin. Sitä kutsutaan myös *sekvenssiksi*.
+Huh! Aika kummallinen kieli, vai mitä?
+Tässä `s` (tulee englanninkielisestä sanasta _sequence_) tarkoittaa sitä,
+että tehdään temppuja peräkkäin. Sitä kutsutaan myös _sekvenssiksi_.
 Lista tehtävistä tempuista laitetaan hakasulkujen [ ] sisään ja erotellaan toisistaan pilkuilla.
 
 <div class="os-specific os-mac">
@@ -284,7 +285,7 @@ Se ei ole kovin älykäs, vaan ottaa kaiken kirjaimellisesti.
 Sinun on opetettava sitä kärsivällisesti!
 
 Kun onnistuit, niin teepä samaa vielä muutaman kerran uudestaan.
-Muistathan, että edellisen komennon voi helposti toistaa painamalla <em class="key">↑</em> ja <em class="key">Enter</em>. 
+Muistathan, että edellisen komennon voi helposti toistaa painamalla <em class="key">↑</em> ja <em class="key">Enter</em>.
 Mitä syntyi? Neliöhän siitä tuli, eikö?
 
 Neliön piirtämiseen siis riittää tehdä neljä kertaa peräkkäin sama sekvenssi. Harjoitellaanpa
@@ -295,10 +296,10 @@ vielä hieman sekvenssejä! Kokeilepa tätä:
 Tämän sekvenssin alussa on `clear`, joten tätä temppua tehdessään kilpikonna Roy
 tyhjentää aina aluksi paperin ja aloittaa keskeltä.
 
-**Harjoitus:** Piirrä oman nimesi alkukirjain (tai jokin muu kirjain)  yhdellä sekvenssillä. 
+**Harjoitus:** Piirrä oman nimesi alkukirjain (tai jokin muu kirjain) yhdellä sekvenssillä.
 Aloita sekvenssi `clear` -komennolla.
 
-***
+---
 
 ### 1.5 Funktiot
 
@@ -316,10 +317,10 @@ Jos kirjoitit oikein, niin Roy osaa nyt yhden tempun enemmän kuin äsken. Teep�
 
 Ja uudestaan. Ehkä vielä pari kertaa? Taas neliö!
 
-Nyt siis neliön voi tehdä kirjoittamalla neljä kertaa peräkkäin *mutka*.
+Nyt siis neliön voi tehdä kirjoittamalla neljä kertaa peräkkäin _mutka_.
 
-Kun opetit tietokoneelle tempun nimeltä *mutka*, teit koodarien kielellä
-uuden *funktion*. Roy-ohjelmointikielessä funktioita tehdään sanomalla "let nimi = ohjeet",
+Kun opetit tietokoneelle tempun nimeltä _mutka_, teit koodarien kielellä
+uuden _funktion_. Roy-ohjelmointikielessä funktioita tehdään sanomalla "let nimi = ohjeet",
 missä sanan "nimi" tilalle tulee funktion nimi ja sanan "ohjeet" tilalle tulee
 funktion toteutus eli ohjeet uuden tempun tekoon.
 
@@ -332,7 +333,7 @@ Nyt neliö piirtyikin jo yhdellä koodirivillä!
 **Harjoitus:** Opeta kilpikonnalle funktio, joka piirtää nimesi alkukirjaimen. Vinkki: aloita `let kirjain = `.
 Kun funktio on opetettu, voit piirtää nimesi alkukirjaimen komennolla `kirjain`.
 
-***
+---
 
 ### 1.5 Toistorakenteet
 
@@ -341,7 +342,7 @@ Kokeilepa vielä tätä:
     r 4 mutka
 
 Tuliko neliö? Jes! Käskit juuri tietokonetta tekemään "mutkan" 4 kertaa. Tässä `r`
-(tulee englannin sanasta *repeat*) tarkoittaa sitä, että toistetaan jokin temppu
+(tulee englannin sanasta _repeat_) tarkoittaa sitä, että toistetaan jokin temppu
 monta kertaa.
 
 Toistoa käyttäen voit piirtää vaikkapa tällaiset portaat melko helposti:
@@ -354,26 +355,26 @@ Toistoa käyttäen voit piirtää vaikkapa tällaiset portaat melko helposti:
 
 **Harjoitus:** Opeta Turtle Roylle temppu, jolla saat tehtyä neliön yhdellä sanalla. Piirrä neliöitä eri puolille ruutua.
 
-***
+---
 
 ### Teoksen tallentaminen ja lataaminen
 
 Voit tallentaa Turtle Royssa tekemäsi komennot melko helposti.
 
-1. Kirjoita `login "omanimi"`. Korvaa sana *omanimi* omalla nimelläsi. Muista lainausmerkit!
-2. Kirjoita `save "teos"`. Korvaa sana *teos* nimellä jonka haluat piirrustuksellsei antaa.
+1. Kirjoita `login "omanimi"`. Korvaa sana _omanimi_ omalla nimelläsi. Muista lainausmerkit!
+2. Kirjoita `save "teos"`. Korvaa sana _teos_ nimellä jonka haluat piirrustuksellsei antaa.
 
 Kun palaat Turtle Roy:hin, tee `login "omanimi"` uudestaan ja sitten `open "teos"`, niin kilpikonna
 piirtää piirrustuksesi uudelleen. Komennolla `ls` näet listan tallentamistasi piirrustuksista.
 
 Tässä vielä [listaus](/turtle-roy/) tärkeimmistä Turtle Roy -komennoista suomenkielisine selityksineen.
 
-Tähän päättyy Koodikirjan ensimmäinen luku. Minulla oli hauskaa, kun kirjoitin tämän. 
+Tähän päättyy Koodikirjan ensimmäinen luku. Minulla oli hauskaa, kun kirjoitin tämän.
 Toivottavasti sinullakin oli hauskaa!
 
 Nähdään taas Koodauskirjan [2.luvussa](/luku2/)!
 
-***
+---
 
 P. S. Jos koodauskipinä iski, niin voit tutustua esimerkiksi näihin loistaviin ja ilmaisiin koodauspeleihin ja -ympäristöihin.
 Nämä linkit johtavat englanninkielisille sivuille, joten saatat tarvita vanhemman apua.

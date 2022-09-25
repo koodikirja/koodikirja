@@ -1,4 +1,4 @@
---- 
+---
 title: Luku 2
 pagetype: book-chapter2
 ---
@@ -11,10 +11,10 @@ pagetype: book-chapter2
 
 Ensimmäisessä luvussa opit jo paljon koodauskomentoja:
 
-* Piirustuskomennot: `fd`, `lt`, `rt` sekä `penup` ja `pendown`
-* Sekvenssi: `s [komento1, komento2, ...]`
-* Funktio: `let funktio = s [komento1, komento2, ...]`
-* Toisto: `r 5 funktio`
+- Piirustuskomennot: `fd`, `lt`, `rt` sekä `penup` ja `pendown`
+- Sekvenssi: `s [komento1, komento2, ...]`
+- Funktio: `let funktio = s [komento1, komento2, ...]`
+- Toisto: `r 5 funktio`
 
 Näitä yksinkertaisia komentoja yhdistelemällä, teimme jo monta jännää temppua: neliöitä, kirjaimia ja portaita!
 
@@ -23,7 +23,7 @@ tällaisten yksinkertaisten komentojen yhdistelmiä. Koodari on ihminen, joka yh
 sitten vielä yhdistelee funktioita yhä monimutkaisemmiksi funktioiksi. Mutta monimutkaisinkin tietokoneohjelma
 loppujen lopuksi koostuu hyvin yksinkertaisista komennoista.
 
-Yksinkertaisia peruskomentoja on vielä vähän lisää. Tässä luvussa opimme tärkeän tempun nimeltä *funktion parametrit*.
+Yksinkertaisia peruskomentoja on vielä vähän lisää. Tässä luvussa opimme tärkeän tempun nimeltä _funktion parametrit_.
 
 ### 2.1 Funktion parametrit
 
@@ -35,12 +35,12 @@ Juuri tämän takia ohjelmointikielissä on `r`-komennon tapaisia toistokomentoj
 vähän koodia, koodari voi käskeä tietokonetta tekemään saman asian monta kertaa, mutta koodarin itse ei tarvitse
 kirjoittaa koodia uudestaan ja uudestaan.
 
-Joskus voit haluta tehdä saman asian monta kertaa, mutta *kuitenkin vähän eri tavalla*. Juuri tähän funktioissa
-käytetään *parametrejä*. Parametrien avulla voidaan käyttää samaa funktiota, eli samaa koodia niin, että temppu
+Joskus voit haluta tehdä saman asian monta kertaa, mutta _kuitenkin vähän eri tavalla_. Juuri tähän funktioissa
+käytetään _parametrejä_. Parametrien avulla voidaan käyttää samaa funktiota, eli samaa koodia niin, että temppu
 kuitenkin vähän vaihtelee joka kerta.
 
 Jatketaan nyt siitä mihin ensimmäisessä luvussa jäätiin. Alla on porras-funktio, joka piirtää 10 pikselin korkuisia portaita.
-[Siirry Turtle Roy -ympäristöön](http://turtle-roy.herokuapp.com), ja kirjoita nämä komennot uudestaan, ja paina lopuksi
+[Siirry Turtle Roy -ympäristöön](https://turtle-roy.fly.dev/), ja kirjoita nämä komennot uudestaan, ja paina lopuksi
 enteriä.
 
     clear
@@ -58,7 +58,7 @@ Käyttämällä toistorakennetta `r 5 porras`, voit tehdä myös 5-portaiset por
 
 Entäpä jos haluaisit tehdä eri korkuisia portaita?
 
-Nyt on aika lisätä `porras`-funktioon *parametri*. Muutetaan numero 10 parametriksi niin, että samalla funktiolla
+Nyt on aika lisätä `porras`-funktioon _parametri_. Muutetaan numero 10 parametriksi niin, että samalla funktiolla
 voi piirtää eri korkuisia portaita.
 
 Lisätään funktion nimen perään parametri `korkeus` ja tämän
@@ -98,7 +98,6 @@ lukea funktion nimen ja siihen kuuluvan parametrin yhdessä, pitää funktion ni
   <div class="robot"></div>
 </blockquote>
 
-
 Funktiossa voi olla useampiakin parametreja. Itse asiassa toistokomennostakin voi tehdä funktion, ja silloin voi tehdä toistojen
 määrästä myös parametrin!
 
@@ -110,11 +109,11 @@ Kokeile vaikkapa esimerkiksi `portaikko 3 50` tai `portaikko 50 5`.
 Olet nyt luonut funktion, joka voi tehdä hyvinkin erikokoisia - ja pituisia - portaikkoja helposti vain
 kahta parametriä muuttelemalla!
 
-**Harjoitus:** Muistatko vielä miten Luvussa 1 piirrettiin neliö käyttämällä *mutka*-funktiota? Jos et muista, voit
+**Harjoitus:** Muistatko vielä miten Luvussa 1 piirrettiin neliö käyttämällä _mutka_-funktiota? Jos et muista, voit
 virkistää muistiasi: Hyppää Turtle Roy ikkunan puolelle ja piirrä neliö, ihan samalla tavalla kuin luvussa 1 piirrettiin.
 ... Noniin, muistuiko mieleen? Hyvä! Muuta nyt `mutka`-funktiota niin, että neliön sivun pituus onkin parametri. Eli
-sen sijaan, että funktiossa kirjoitetaan suoraan `fd 100`, kirjoitakin `fd pituus` ja muista kertoa *let* komennolle,
-että *pituus* on funktion parametri.
+sen sijaan, että funktiossa kirjoitetaan suoraan `fd 100`, kirjoitakin `fd pituus` ja muista kertoa _let_ komennolle,
+että _pituus_ on funktion parametri.
 <a class="ratkaisu" href="http://turtle-roy.herokuapp.com/?code=let%20mutka%20pituus%20%20%3D%20s%20%5Bfd%20pituus%20%2C%20rt%2090%5D%0Alet%20neli%C3%B6%20pituus%20%3D%20r%204%20(mutka%20pituus)%0Aneli%C3%B6%2050%0Aneli%C3%B6%20100%0Aneli%C3%B6%20200">
 Ratkaisu</a>
 
@@ -130,13 +129,13 @@ on muutettu parametreiksi:
     let sivu pituus kulma = s [fd pituus, rt kulma]
     let kuvio lukumäärä pituus kulma = s [r lukumäärä (sivu pituus kulma)]
 
-Yllä on siis kaksi funktiota: *sivu* ja *kuvio*, ja yhteensä kolme parametria: *lukumäärä*, *pituus* ja *kulma*.
+Yllä on siis kaksi funktiota: _sivu_ ja _kuvio_, ja yhteensä kolme parametria: _lukumäärä_, _pituus_ ja _kulma_.
 
 Arvasitko jo mitä kukin parametri tarkoittaa?
 
-- *lukumäärä* kertoo kuinka monta sivua on kuviossa.
-- *pituus* on tietenkin sivun pituus ja 
-- *kulma* on kahden sivun välinen kulma.
+- _lukumäärä_ kertoo kuinka monta sivua on kuviossa.
+- _pituus_ on tietenkin sivun pituus ja
+- _kulma_ on kahden sivun välinen kulma.
 
 Voit nyt kokeilla piirtää erilaisia kuvioita vaihtelemalla parametrien arvoja. Mikähän kuvio tästäkin muodostuu?
 
@@ -166,22 +165,20 @@ Kokeile seuraavaksi vaikka näitä, tai voit keksiä omia numeroita. Muista aina
   <div class="robot"></div>
 </blockquote>
 
-
 **Harjoitus:** Piirrä tähti, jossa on seitsemän sakaraa. Voit toki laskea vaikka laskimella, paljonko on 1080 jaettuna
 seitsemällä, mutta helpompaa on antaa Turtle Royn laskea sinun puolestasi. Voit siis käyttää kulmana arvoa `(1080 / 7)`.
-<a class="ratkaisu" href="http://turtle-roy.herokuapp.com/?code=clear%0Alet%20sivu%20pituus%20kulma%20%3D%20s%20%5Bfd%20pituus%2C%20rt%20kulma%5D%0Alet%20kuvio%20lukum%C3%A4%C3%A4r%C3%A4%20pituus%20kulma%20%3D%20s%20%5Br%20lukum%C3%A4%C3%A4r%C3%A4%20(sivu%20pituus%20kulma)%5D%0Akuvio%207%20200%20(1080%20%2F%207)">
+<a class="ratkaisu" href="https://turtle-roy.fly.dev/?code=clear%0Alet%20sivu%20pituus%20kulma%20%3D%20s%20%5Bfd%20pituus%2C%20rt%20kulma%5D%0Alet%20kuvio%20lukum%C3%A4%C3%A4r%C3%A4%20pituus%20kulma%20%3D%20s%20%5Br%20lukum%C3%A4%C3%A4r%C3%A4%20(sivu%20pituus%20kulma)%5D%0Akuvio%207%20200%20(1080%20%2F%207)">
 Ratkaisu</a>
 
 **Harjoitus:** Piirrä ympyrä. Vinkki: tietokoneelle ympyräkin on monitahokas, jossa vain on hirveän monta, hirveän lyhyttä sivua.
-<a class="ratkaisu" href="http://turtle-roy.herokuapp.com/?code=clear%0Alet%20sivu%20pituus%20kulma%20%3D%20s%20%5Bfd%20pituus%2C%20rt%20kulma%5D%0Alet%20kuvio%20lukum%C3%A4%C3%A4r%C3%A4%20pituus%20kulma%20%3D%20s%20%5Br%20lukum%C3%A4%C3%A4r%C3%A4%20(sivu%20pituus%20kulma)%5D%0Akuvio%20360%201%201">
+<a class="ratkaisu" href="https://turtle-roy.fly.dev/?code=clear%0Alet%20sivu%20pituus%20kulma%20%3D%20s%20%5Bfd%20pituus%2C%20rt%20kulma%5D%0Alet%20kuvio%20lukum%C3%A4%C3%A4r%C3%A4%20pituus%20kulma%20%3D%20s%20%5Br%20lukum%C3%A4%C3%A4r%C3%A4%20(sivu%20pituus%20kulma)%5D%0Akuvio%20360%201%201">
 Ratkaisu</a>
 
-***
+---
 
 Hienoa! Olet nyt oppinut käyttämään funktioissa parametrejä. Niiden avulla voit muutella koodia niin, että
 samoilla funktioilla voi tehdä kerrasta toiseen hieman erilaisia temppuja!
 
 Tästä pääset Koodikirjan [3.lukuun](/luku3/)!
-
 
 <%=render('partials/feedback')%>

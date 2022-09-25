@@ -1,0 +1,26 @@
+{
+  "name": "bacon.jquery",
+  "version": "0.4.1",
+  "main": "dist/bacon.jquery.js",
+  "ignore": [
+    "browsertest",
+    "examples",
+    "src",
+    "test",
+    "./*.*",
+    "build",
+    "release",
+    "run-tests",
+    "version"
+  ],
+  "homepage": "https://github.com/baconjs/bacon.jquery",
+  "_release": "0.4.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.4.1",
+    "commit": "393b14fe33a37e322602fc6b19172af1e4989a51"
+  },
+  "_source": "git://github.com/baconjs/bacon.jquery.git",
+  "_target": "0.4.1",
+  "_originalSource": "bacon.jquery"
+}

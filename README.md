@@ -37,6 +37,22 @@ This runs `nanoc` compilation and then starts the server.
 
 Now visit `http://127.0.0.1:3000/` and there you go.
 
+## Deploying to Vercel
+
+Build and deploy dev. Creates a previewable site.
+
+```
+vercel build
+vercel deploy --prebuilt
+```
+
+Build and deploy prod. Deploys to https://koodikirja.vercel.app/
+
+```
+vercel build --prod
+vercel deploy --prebuilt --prod
+```
+
 ## Auto-compiling when you update files
 
 Just

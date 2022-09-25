@@ -1,0 +1,8 @@
+#! /bin/bash -e
+echo Running vercel build
+bundle install
+npm install --ignore-scripts
+node_modules/grunt-cli/bin/grunt build
+./nanoc
+mkdir -p output/images
+cp -r static/images/* output/images/
